@@ -2,10 +2,15 @@ import React from "react";
 import mission from "../../assets/png/solution-mission.png"
 import vision from "../../assets/png/solution-vision.png"
 import value from "../../assets/png/solution-value.png"
+import right_img from "../../assets/png/soluction-right-img.png"
+import dots_img from "../../assets/png/feature-dots-img.png"
 const SoluctionSucces = () => {
   return (
-    <>
-      <div className="lg:pt-[60px] xl:pb-[122px]">
+    <>  
+      <div className="lg:pt-[60px] xl:pb-[122px] relative pt-6 pb-12">
+        <img className="absolute right-0 top-[-10%] hidden md:block lg:top-[-20%] md:w-[25%] lg:w-[20%] xl:w-[25%]" src={right_img} alt="like rainbow img" />
+        <img className="absolute top-[6%] left-[-30px]" src={dots_img} alt="dots img" />
+        <img className="absolute left-[1%] bottom-[0%] xl:bottom-[29%] hidden lg:block" src={dots_img} alt="dots img" />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-center flex-col-reverse lg:flex-row lg:justify-between items-center">
             <div className="lg:w-5/12">
