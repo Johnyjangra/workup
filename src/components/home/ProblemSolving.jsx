@@ -103,9 +103,9 @@ const ProblemSolving = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white h-[44px] sm:h-[52px] max-w-[264px] mx-auto rounded-[100px] ps-[22px] flex items-center linear_border mt-3 sm:mt-2 mb-0">
+          <div className="bg-white h-[44px] sm:h-[52px] max-w-[264px] mx-auto rounded-[100px] ps-[17px] flex items-center border border-solid border-[#4AB6FE] mb-0 mt-14">
                 <input className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]" type="text" placeholder="List Goes On"/>
-                <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]"><img src={arrow} alt="arrow" /></button>
+                <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] py-[18px] px-[27px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]"><img src={arrow} alt="arrow" /></button>
             </div>
         </div>
       </div>
