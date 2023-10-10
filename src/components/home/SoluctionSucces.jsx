@@ -18,9 +18,9 @@ const SoluctionSucces = () => {
             </div>
             <div className="lg:w-[6/12]">
              <div>
-                <img className="mx-auto xl:h-[266px] xl:w-[266px] sm:h-[200px] sm:w-[200px] h-[165px] w-[165px] translate-y-[18%]"src={mission} alt="mission-circle" />
-                <img className="xl:h-[266px] xl:w-[266px] sm:h-[200px] sm:w-[200px] h-[165px] w-[165px] inline-block translate-y-[-15%] translate-x-[10%]" src={vision} alt="vision" />
-                <img className="xl:h-[266px] xl:w-[266px] sm:h-[200px] sm:w-[200px] h-[165px] w-[165px] inline-block translate-y-[-15%] translate-x-[-10%]" src={value} alt="value" />
+                <img className="mx-auto xl:h-[266px] xl:w-[266px] sm:h-[200px] sm:w-[200px] h-[150px] w-[150px] translate-y-[18%]"src={mission} alt="mission-circle" />
+                <img className="xl:h-[266px] xl:w-[266px] sm:h-[200px] sm:w-[200px] h-[150px] w-[150px] inline-block translate-y-[-15%] translate-x-[10%]" src={vision} alt="vision" />
+                <img className="xl:h-[266px] xl:w-[266px] sm:h-[200px] sm:w-[200px] h-[150px] w-[150px] inline-block translate-y-[-15%] translate-x-[-10%]" src={value} alt="value" />
              </div>
             </div>
           </div>
