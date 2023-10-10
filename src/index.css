@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgCircle {
+  background-image: url(./assets/svg/MarketCircle.svg);
+}
+.bgPinkMarket {
+  background-image: url(./assets/svg/millionPink.svg);
+}
+.bgBlueMarket {
+  background-image: url(./assets/svg/marketBlue.svg);
+}
+.BackLayer::after {
+  background-image: url(./assets/svg/MarketLayer.svg);
+}
+.BackLayer::before {
+  background-image: url(./assets/svg/marketLeft.svg);
+}
+.marketShadow {
+  box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.1);
+}

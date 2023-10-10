@@ -13,8 +13,8 @@ module.exports = {
         "2xl": "54px",
       },
       backgroundImage: {
-        'gradientOne': 'linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%)',
-        'gradientTwo': 'linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%)',
+        gradientOne: "linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%)",
+        gradientTwo: "linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%)",
       },
       colors: {
         // text-colors

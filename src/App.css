@@ -41,3 +41,16 @@ body {
 .slick-dots li.slick-active button:before {
   color: #1D80D0 !important;
 }
+
+.slick-dots li button:before {
+  color: #28B3E6 !important;
+  font-size: 10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #1D80D0 !important;
+}
+
+.waitlist_shado {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
