@@ -31,3 +31,13 @@
 .slick-dots li button:before{ color: #28B3E6 !important;
 font-size: 10px !important;}
 .slick-dots li.slick-active button:before{ color: #1D80D0 !important;}
+
+.linear_border {
+  position: relative;
+  background-color: white !important;
+  background-image: linear-gradient(#FF676B, #C641C6, #952FFE),
+    linear-gradient(#2ABAE9,#1B77CC) !important;
+  box-shadow: 1px 1000px 1px #161636 inset;
+  border: solid 1px transparent;
+  border-radius: 10px;
+}
