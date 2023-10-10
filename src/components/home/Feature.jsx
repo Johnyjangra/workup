@@ -41,7 +41,7 @@ const Feature = () => {
                   }`}
                   key={i}
                 >
-                  <div className="flex justify-center items-center flex-col h-[229px] mx-auto xl:w-[267px] bg-white rounded-xl border border-solid hover:border-0 border-[#E5E5E5] feature_card transition duration-300">
+                  <div className="flex justify-center items-center flex-col h-[229px] mx-auto xl:w-[267px] bg-white rounded-xl border border-solid hover:border-0 border-[#E5E5E5] card_Shadow transition duration-300">
                     <span>{MyData.icon}</span>
                     <h4 className="ff_outfit text-lightBlack font-medium text-[18px] sm:text-md leading-[120%] pt-[26px] mb-3 sm:mb-4">
                       {MyData.heading}
