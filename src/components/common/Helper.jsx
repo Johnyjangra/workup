@@ -19,6 +19,10 @@ import {
   ProblemCard9,
   ProblemCard10,
   ProblemCard11,
+  WorkingIcon1,
+  WorkingIcon3,
+  WorkingIcon2,
+  CheckIcon,
 } from "./Icons";
 export const FeatureData = [
   {
@@ -125,3 +129,64 @@ export const ProblemSolvingData = [
     para: "Lacking innovation and care for their customers our mission is to empower business success.",
   },
 ];
+
+// working section data
+export const WorkingData = [
+  {
+    icon: <WorkingIcon1 />,
+    heading: "Sign Up and Confirm",
+    para: "Choose what plugin products and how many business accounts you desire.",
+  },
+  {
+    icon: <WorkingIcon2 />,
+    heading: "Upload Documentation",
+    para: "Upload and edit business registration documents.",
+  },
+  {
+    icon: <WorkingIcon3 />,
+    heading: "Wait for Approval",
+    para: "You will still be able to access our platform and some plugin allow for 3 days for bank account approval.",
+  },
+];
+
+// potential cards data
+export const PotintialPlanData = [
+  {
+    top_heading: "Free Forever",
+    top_para: "Best for sole traders",
+    big_heading: "Free",
+    priceBottomPara: "Forever",
+    blue_check_img: <CheckIcon />,
+    submap: [{ subpara: "Business accounts" }, { subpara: "Cards + Budgets" }],
+    mybutton: "Free Forever",
+  },
+  {
+    top_heading: "Getting Serious",
+    top_para: "Best for small business",
+    big_heading: "$25",
+    priceBottomPara: "Per member Per month",
+    blue_check_img: <CheckIcon />,
+    submap: [
+      { subpara: "Business accounts" },
+      { subpara: "Cards + Budgets" },
+      { subpara: "Auto Rules" },
+    ],
+    mybutton: "Get Started",
+  },
+  {
+    top_heading: "I’m Serious",
+    top_para: "Best for growth businesses",
+    big_heading: "$35",
+    priceBottomPara: "Per member Per month",
+    blue_check_img: <CheckIcon />,
+    submap: [
+      { subpara: "Business accounts" },
+      { subpara: "Cards + Budgets" },
+      { subpara: "Auto Rules" },
+      { subpara: "Auto Taxes " },
+      { subpara: "Access To Plugins " },
+    ],
+    mybutton: "Get Started",
+  },
+];
+export const AccordianData = [{ id: 1, heading: "new", para: "asfcd" }];
