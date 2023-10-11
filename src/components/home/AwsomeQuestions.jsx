@@ -5,6 +5,7 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 import { MinusIconFaq, PlusIconFaq } from "../common/Icons";
+import awsome_img from "../../assets/webp/awsome-question-img.webp"
 
 function Icon({ id, open }) {
   return (
@@ -23,9 +24,10 @@ const AwsomeQuestions = () => {
 
   return (
     <>
-      <div className="container px-4 md:px-5 xl:px-0 xl:max-w-[1120px] 2xl:max-w-[1320px] relative z-10 mt-4 md:mb-12 lg:mb-16 xl:mb-[104px]">
-        
-        <div className="w-6/12">
+      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+        <div className="flex flex-wrap items-center justify-between">
+          <div><img src={awsome_img} alt="people group" /></div>
+        <div className="w-5/12">
           <Fragment>
             <Accordion
               className="faqs_border_bottom "
@@ -41,7 +43,7 @@ const AwsomeQuestions = () => {
                 </p>
               </AccordionHeader>
               <AccordionBody
-                className={`pb-4 pt-0 sm:pt-0 sm:pb-6 pr-3 xl:pr-10 font-helve text-sm sm:text-base font-light leading-6 text-TowerGray opacity-80 transition-all duration-[1s] ease-linear ${
+                className={`pb-4 pt-0 sm:pt-0 sm:pb-6 pr-3 xl:pr-10 text-black ff_inter text-xs sm:text-sm font-normal leading-normal text-TowerGray opacity-70 transition-all duration-[1s] ease-linear ${
                   open === 1 ? " h-full" : " h-0"
                 }`}
               >
@@ -66,7 +68,7 @@ const AwsomeQuestions = () => {
                 </p>
               </AccordionHeader>
               <AccordionBody
-                className={`pb-4 pt-0 sm:pt-0 sm:pb-6 pr-6 xl:pr-10 font-helve text-sm sm:text-base font-light leading-6 text-TowerGray opacity-80  transition-all duration-[1s] ease-linear ${
+                className={`pb-4 pt-0 sm:pt-0 sm:pb-6 pr-3 xl:pr-10 text-black ff_inter text-xs sm:text-sm font-normal leading-normal opacity-70 transition-all duration-[1s] ease-linear ${
                   open === 2 ? " h-full" : " h-0"
                 }`}
               >
@@ -90,7 +92,7 @@ const AwsomeQuestions = () => {
               </AccordionHeader>
 
               <AccordionBody
-                className={`pb-4 pt-0 sm:pt-0 sm:pb-6 pr-6 xl:pr-10 font-helve text-sm sm:text-base font-light leading-6 text-TowerGray opacity-80  transition-all duration-[1s] ease-linear ${
+                className={`pb-4 pt-0 sm:pt-0 sm:pb-6 pr-3 xl:pr-10 text-black ff_inter text-xs sm:text-sm font-normal leading-normal opacity-70 transition-all duration-[1s] ease-linear ${
                   open === 3 ? " h-full" : " h-0"
                 }`}
               >
@@ -113,7 +115,7 @@ const AwsomeQuestions = () => {
                 </p>
               </AccordionHeader>
               <AccordionBody
-                className={`pb-4 pt-0 sm:pt-0 sm:pb-6 pr-6 xl:pr-10 font-helve text-sm sm:text-base font-light leading-6 text-TowerGray opacity-80  transition-all duration-[1s] ease-linear ${
+                className={`pb-4 pt-0 sm:pt-0 sm:pb-6 pr-6 xl:pr-10 text-black ff_inter text-xs sm:text-sm font-normal leading-normal opacity-70 transition-all duration-[1s] ease-linear ${
                   open === 4 ? " h-full" : " h-0"
                 }`}
               >
@@ -137,7 +139,7 @@ const AwsomeQuestions = () => {
               </AccordionHeader>
 
               <AccordionBody
-                className={`pb-4 pt-0 sm:pt-0 sm:pb-6 pr-6 xl:pr-10 font-helve text-sm sm:text-base font-light leading-6 text-TowerGray opacity-80  transition-all duration-[1s] ease-linear ${
+                className={`pb-4 pt-0 sm:pt-0 sm:pb-6 pr-6 xl:pr-10 text-black ff_inter text-xs sm:text-sm font-normal leading-normal opacity-70 transition-all duration-[1s] ease-linear ${
                   open === 5 ? " h-full" : " h-0"
                 }`}
               >
@@ -148,8 +150,8 @@ const AwsomeQuestions = () => {
             </Accordion>
           </Fragment>
         </div>
+        </div>
       </div>
-      <span className="faqs_border_bottom w-1/2 sm:w-1/4 block mx-auto mb-12 md:mb-0 pt-12 md:pt-0"></span>
     </>
   );
 };
