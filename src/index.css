@@ -20,3 +20,25 @@
 .marketShadow {
   box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.1);
 }
+.ProgressSlide .slick-track {
+  display: flex !important;
+}
+.ProgressSlide .slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.ProgressSlide .slick-slide > div {
+  display: flex;
+}
+.ProgressSlide .slick-current {
+  transform: scale(1.5);
+}
+.uniqueBg {
+  background: linear-gradient(91deg, #994fff 0.27%, #4ab6fe 98.57%);
+}
+.UniqueBtn {
+  background: linear-gradient(105deg, #2abae9 0%, #1b77cc 100%);
+}
+.bgHeroBrand {
+  background-image: url(./assets/png/BrandHeroBg.png);
+}

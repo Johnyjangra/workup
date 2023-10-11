@@ -2156,7 +2156,6 @@ export const ProblemCard11 = () => {
     </svg>
   );
 };
-
 export const LeftArrow = () => {
   return (
     <svg
@@ -2191,6 +2190,23 @@ export const RightArrow = () => {
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+export const UniqueArrow = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="17"
+      height="8"
+      className="group-hover:translate-x-4 transition-all duration-200 ease-in-out"
+      viewBox="0 0 17 8"
+      fill="none"
+    >
+      <path
+        d="M16.706 4.30326C16.9012 4.108 16.9012 3.79141 16.706 3.59615L13.524 0.414172C13.3287 0.21891 13.0121 0.21891 12.8169 0.414172C12.6216 0.609434 12.6216 0.926017 12.8169 1.12128L15.6453 3.94971L12.8169 6.77813C12.6216 6.9734 12.6216 7.28998 12.8169 7.48524C13.0121 7.6805 13.3287 7.6805 13.524 7.48524L16.706 4.30326ZM0.59375 4.44971L16.3524 4.44971L16.3524 3.44971L0.59375 3.44971L0.59375 4.44971Z"
+        fill="white"
       />
     </svg>
   );
