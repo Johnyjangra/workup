@@ -58,9 +58,9 @@ const ProblemSolving = () => {
           alt="dots-group"
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <h2 className="text-center ff_railway text-black lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] opacity-80 font-medium leading-normal mb-12 linline-block">
+          <h2 className="text-center ff_outfit text-[#333333] lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]  font-medium leading-normal mb-12 linline-block">
             Problem
-            <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-3%] before:content-[''] before:start-0">
+            <span className="px-2 relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-3%] before:content-[''] before:start-0">
               We are
             </span>
             solving

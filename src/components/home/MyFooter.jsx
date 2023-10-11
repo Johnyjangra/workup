@@ -13,8 +13,8 @@ const MyFooter = () => {
       <div className="h-[160px] max-w-[973px] mx-auto sm:h-[198px] bg-gradientOne rounded-2xl sm:px-12 px-8 flex flex-col items-center justify-center relative overflow-hidden translate-y-[-100%]">
       <img className="absolute top-0 start-0 z-[0]" src={left_img} alt="lines-group" />
             <img className="absolute top-0 end-0 z-[0]" src={right_img} alt="lines-group" />
-            <h2 className="ff_outfit text-white font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5">Join our Demo</h2>
-            <div className="bg-white relative z-[10] h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto waitlist_shado rounded-[100px] ps-[22px] flex items-center border-[2px] border-solid border-[#4BB4FE] mt-3 sm:mt-2 mb-0">
+            <h2 className="ff_outfit text-white font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">Join our Demo</h2>
+            <div className="bg-white relative z-[10] h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); shadow-xl rounded-[100px] ps-[22px] flex items-center border-[2px] border-solid border-[#4BB4FE] mt-3 sm:mt-2 mb-0">
                 <input className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]" type="text" placeholder="Enter your email"/>
                 <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]"><img src={arrow} alt="arrow" /></button>
             </div>
@@ -27,16 +27,16 @@ const MyFooter = () => {
                 by the readable content of a page when looking at its layout.
               </p>
               <div className="flex gap-4">
-                <a href="facebook.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon">
+                <a href="facebook.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon hover:h-[40px] hover:w-[40px] transition duration-300">
                     <FacebookIcon/>
                 </a>
-                <a href="instagram.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon">
+                <a href="instagram.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon hover:h-[40px] hover:w-[40px] transition duration-300">
                     <InstagramIcon/>
                 </a>
-                <a href="Twitter.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon">
+                <a href="Twitter.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon hover:h-[40px] hover:w-[40px] transition duration-300">
                    <TwitterIcon/>
                 </a>
-                <a href="linkdin.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon">
+                <a href="linkdin.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon hover:h-[40px] hover:w-[40px] transition duration-300">
                    <LinkdinIcon/>
                 </a>
               </div>

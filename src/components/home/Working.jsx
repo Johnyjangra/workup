@@ -9,7 +9,7 @@ const Working = () => {
       <div className="bg-[#F7FCFE] lg:pt-[63px] lg:pb-4 py-12 relative">
         <img className="absolute start-0 top-0 hidden sm:block" src={right_img} alt="dots-group" />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-        <h2 className="text-center ff_railway text-black lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] opacity-80 font-medium leading-normal mb-10 linline-block">
+        <h2 className="text-center ff_outfit text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-normal mb-10 linline-block">
         Ho
             <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-3%] before:content-[''] before:start-0">
             w it’s wor
