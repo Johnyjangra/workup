@@ -1,6 +1,7 @@
 import React from "react";
 import WhyDoesImage from "../../assets/png/whatDoImage.png";
 import sideImage from "../../assets/svg/WhatDoSideImg.svg";
+import rightDots from "../../assets/svg/workUpRight.svg";
 const BrandWhatDo = () => {
   return (
     <>
@@ -8,11 +9,16 @@ const BrandWhatDo = () => {
         <img
           src={sideImage}
           alt="sideImage"
-          className="absolute xl:top-[80%] md:bottom-[-9%] bottom-[-7%] start-0 max-w-[100px] w-full md:block hidden pointer-events-none"
+          className="absolute xl:top-[80%] md:bottom-[-9%] bottom-[-7%] start-0 max-w-[100px] w-full lg:block hidden pointer-events-none"
+        />
+        <img
+          src={rightDots}
+          alt="rightDots"
+          className=" absolute end-0 bottom-[-60%] pointer-events-none max-w-[150px] w-full lg:block hidden"
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 sm:mt-32 mt-16">
           <div className="flex flex-wrap items-center lg:flex-row flex-col">
-            <div className="lg:w-6/12 w-full relative z-10">
+            <div className="lg:w-6/12 md:w-10/12 w-full relative z-10">
               <img
                 src={WhyDoesImage}
                 alt="WhyDoesImage"
@@ -36,8 +42,8 @@ const BrandWhatDo = () => {
                   What does WorkUp do?
                 </p>
                 <p className="ff_inter text-xs sm:text-sm font-normal leading-[160%] text-[#4D4D4D] lg:max-w-[440px] lg:mt-5 mt-1">
-                  WorkUp MVP is a
-                  <span className="font-medium">cutting-edge banking</span>
+                  WorkUp MVP is a{" "}
+                  <span className="font-medium">cutting-edge banking</span>{" "}
                   automation & spend management platform that empowers users to
                   effortlessly open business transaction accounts and issue
                   <span className="font-medium">

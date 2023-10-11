@@ -15,23 +15,23 @@ const WorkUpTeam = () => {
         WorkUp Team
       </p>
       <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 lg:mt-20 sm:mt-10 mt-5 mb-48">
-        <div className="flex flex-wrap items-center">
-          <div className="lg:w-5/12 w-full lg:pe-9">
+        <div className="flex flex-wrap items-center lg:justify-between justify-center">
+          <div className="lg:w-6/12 md:w-10/12 w-full lg:pe-16">
             <img
               src={workTeam}
               alt="workTeam"
               className="w-full relative z-10"
             />
           </div>
-          <div className="lg:w-7/12 w-full lg:ps-9 lg:mt-0 sm:mt-10 mt-5 relative z-10">
-            <p className=" sm:text-sm text-[14px] font-normal leading-[160%] text-[#4D4D4D]">
+          <div className="lg:w-6/12 w-full lg:mt-0 mt-5 relative z-10">
+            <p className=" sm:text-sm text-[14px] font-normal leading-[160%] text-[#4D4D4D] ff_inter">
               Workup is spearheaded by our Founder, Luke Howard. With extensive
               experience in the hospitality sector, Luke has successfully owned
               multiple small businesses, employing meticulous financial
               discipline and utilising comprehensive spreadsheet reporting to
               guide these businesses towards success.
             </p>
-            <p className=" sm:text-sm text-[14px] font-normal leading-[160%] text-[#4D4D4D] mt-1">
+            <p className=" sm:text-sm text-[14px] font-normal leading-[160%] text-[#4D4D4D] mt-1 ff_inter">
               Additionally, our team includes ElkTech, a software development
               company specialising in building fintech startups. Our team
               structure consists of a team lead and full-stack developer, two
