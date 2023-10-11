@@ -51,7 +51,7 @@ const Market = () => {
           </div>
           <div className="flex justify-center sm:mt-10 mt-5">
             <div className="bg-white marketShadow py-10 md:px-12 px-4 max-w-[990px] after:contents-[''] after:absolute after:end-0 BackLayer relative after:w-[250px] after:h-[100px] after:top-0 after:bg-no-repeat after:bg-cover after:bg-center before:contents-[''] before:absolute before:w-[200px] before:h-[200px] before:start-0 before:bottom-0 before:bg-[100%_100%] before:bg-no-repeat after:pointer-events-none before:pointer-events-none rounded-xl">
-              <p className="text-black text-center md:sm:text-md text-[15px] sm:text-[18px] text-[15px] ff_inter leading-[160%] font-normal">
+              <p className="text-black text-center md:sm:text-md text-[15px] sm:text-[18px] ff_inter leading-[160%] font-normal">
                 Our target market encompasses more than{" "}
                 <span className="text-[#6790FE] font-medium">
                   2.4 million customers in Australis alone.
