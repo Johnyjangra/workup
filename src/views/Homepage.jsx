@@ -4,18 +4,25 @@ import OurMisson from '../components/home/OurMisson'
 import SoluctionSucces from '../components/home/SoluctionSucces'
 import OurWaitList from '../components/common/OurWaitList'
 import ProblemSolving from '../components/home/ProblemSolving'
-import Header from '../components/common/Header'
+import Working from '../components/home/Working'
+import MyPlan from '../components/home/MyPlan'
+import MyFooter from '../components/home/MyFooter'
+import AwsomeQuestions from '../components/home/AwsomeQuestions'
 
 const Homepage = () => {
   return (
-    <div>
-      <Header/>
+    <>
       <Feature />
       <OurMisson />
       <SoluctionSucces />
-      <OurWaitList/>
+      <div className='pb-12 lg:pb-[134px]'><OurWaitList/></div>
       <ProblemSolving/>
-    </div>
+      <Working/>
+      <div className='lg:pt-[128px] pt-12'><OurWaitList/></div>
+      <MyPlan/>
+      <AwsomeQuestions/>
+      <MyFooter/>
+    </>
   )
 }
 

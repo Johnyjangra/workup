@@ -1,15 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800;900&display=swap");
-
-body {
-  font-family: "inter", "sans";
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800;900&display=swap");
 .ff_railway {
   font-family: "Raleway", "sans";
 }
 
 .ff_outfit {
   font-family: "Outfit", "sans";
+}
+.ff_inter {
+  font-family: "inter", "sans";
+}
+.ff_open_sans {
+  font-family: "Open Sans", "sans";
 }
 
 /* feature */
@@ -23,34 +24,47 @@ body {
 }
 
 .arrows_bg:hover {
-  background: linear-gradient(223deg,
-      #fbc524 -75.58%,
-      #e939d9 2.42%,
-      #2abae9 74.42%);
+  background: linear-gradient(
+    223deg,
+    #fbc524 -75.58%,
+    #e939d9 2.42%,
+    #2abae9 74.42%
+  );
 }
 
 .arrows_bg:hover svg path {
   stroke: white;
 }
-
 .slick-dots li button:before {
-  color: #28B3E6 !important;
+  color: #28b3e6 !important;
   font-size: 10px !important;
 }
-
 .slick-dots li.slick-active button:before {
-  color: #1D80D0 !important;
+  color: #1d80d0 !important;
 }
-
-.slick-dots li button:before {
-  color: #28B3E6 !important;
-  font-size: 10px !important;
-}
-
-.slick-dots li.slick-active button:before {
-  color: #1D80D0 !important;
-}
-
 .waitlist_shado {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* plan cards */
+.plan_card:hover .plan_icon path {
+  fill: white !important;
+}
+.plan_card:hover button {
+  background: white !important;
+}
+.plan_card button {
+  background: var(
+    --Linear-two,
+    linear-gradient(91deg, #994fff 0.27%, #4ab6fe 98.57%)
+  );
+}
+.footer_bg {
+  background: var(
+    --Linear-color,
+    linear-gradient(223deg, #fbc524 -34.99%, #e939d9 21.89%, #2abae9 74.4%)
+  );
+}
+.footer_icon {
+  filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
 }

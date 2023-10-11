@@ -51,7 +51,7 @@ const ProblemSolving = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="py-12 relative">
+      <div className="relative py-12 lg:pt-0 lg:pb-[135px]">
         <img
           className="absolute end-0 hidden xl:block top-[15%] w-[5%]"
           src={right_img}
