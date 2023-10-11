@@ -2211,7 +2211,6 @@ export const UniqueArrow = () => {
     </svg>
   );
 };
-
 // working sections icons
 export const WorkingIcon1 = () => {
   return (
@@ -2556,7 +2555,6 @@ export const SuccesDimand = () => {
     </svg>
   );
 };
-
 // footer icon
 export const  FacebookIcon=()=>{
   return(
@@ -2621,7 +2619,6 @@ export const  LinkdinIcon=()=>{
     
   )
 }
-
 // awsome questions icon
 export const MinusIconFaq = () => {
   return (
