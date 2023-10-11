@@ -4,11 +4,11 @@ import sideImage from "../../assets/svg/WhatDoSideImg.svg";
 const BrandWhatDo = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative w-full">
         <img
           src={sideImage}
           alt="sideImage"
-          className="absolute xl:top-[80%] md:bottom-[-9%] bottom-[-7%] start-0 max-w-[100px] w-full md:block hidden"
+          className="absolute xl:top-[80%] md:bottom-[-9%] bottom-[-7%] start-0 max-w-[100px] w-full md:block hidden pointer-events-none"
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 sm:mt-32 mt-16">
           <div className="flex flex-wrap items-center lg:flex-row flex-col">
@@ -16,7 +16,7 @@ const BrandWhatDo = () => {
               <img
                 src={WhyDoesImage}
                 alt="WhyDoesImage"
-                className="lg:w-full w-11/12"
+                className="lg:w-full w-11/12 pointer-events-none"
               />
               {/* side box" */}
               {/* <div className="sm:absolute rounded-md sm:max-w-[190px] max-w-[250px] bg-white shadow-[0px_8px_12px_0px_rgba(0,0,0,0.10)] xl:end-[-19%] lg:end-[-25%] md:end-[2%] end-[-3%] lg:bottom-[-11%] md:bottom-[2%] bottom-[-3%]">

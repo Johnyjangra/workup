@@ -5,7 +5,7 @@ import AboutBottom from "../../assets/svg/AboutBottomDot.svg";
 const BrandAbout = () => {
   return (
     <>
-      <p className="text-center ff_outfit font-semibold text-xl text-lightBlack leading-[120%] mt-16 relative after:contents-[''] after:absolute after:w-[132px] after:start-50 after:translate-x-[-120%] after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] mb-24">
+      <p className="text-center ff_outfit font-semibold lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-lightBlack leading-[120%] mt-16 relative after:contents-[''] after:absolute after:w-[132px] after:start-[50%] after:translate-x-[-50%] after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] mb-24">
         Pitch Deck
       </p>
       <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">

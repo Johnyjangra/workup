@@ -3,7 +3,7 @@ import linerSide from "../../assets/svg/marketLiner.svg";
 const Market = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative w-full">
         <img
           src={linerSide}
           alt="linerSide"
@@ -16,10 +16,10 @@ const Market = () => {
                 <p className="ff_outfit sm:text-xl text-[30px] text-white text-center font-medium leading-[135%]">
                   2.4
                 </p>
-                <p className="ff_outfit text-center font-semibold text-md leading-[125%] text-white">
+                <p className="ff_outfit text-center font-semibold sm:text-md text-[15px] leading-[125%] text-white">
                   Million
                 </p>
-                <p className="text-center text-white text-md font-light leading-[135%] sm:pb-0 pb-2">
+                <p className="text-center text-white sm:text-md text-[15px] font-light leading-[135%] sm:pb-0 pb-2">
                   Australian customers
                 </p>
               </div>
@@ -40,10 +40,10 @@ const Market = () => {
                 <p className="ff_outfit sm:text-xl text-[30px] text-white text-center font-medium leading-[135%]">
                   400
                 </p>
-                <p className="ff_outfit text-center font-semibold text-md leading-[125%] text-white">
+                <p className="ff_outfit text-center font-semibold sm:text-md text-[15px] leading-[125%] text-white">
                   Million
                 </p>
-                <p className="text-center text-white text-md font-light leading-[135%] sm:pb-0 pb-2">
+                <p className="text-center text-white sm:text-md text-[15px] font-light leading-[135%] sm:pb-0 pb-2">
                   Global customers
                 </p>
               </div>
@@ -51,7 +51,7 @@ const Market = () => {
           </div>
           <div className="flex justify-center sm:mt-10 mt-5">
             <div className="bg-white marketShadow py-10 md:px-12 px-4 max-w-[990px] after:contents-[''] after:absolute after:end-0 BackLayer relative after:w-[250px] after:h-[100px] after:top-0 after:bg-no-repeat after:bg-cover after:bg-center before:contents-[''] before:absolute before:w-[200px] before:h-[200px] before:start-0 before:bottom-0 before:bg-[100%_100%] before:bg-no-repeat after:pointer-events-none before:pointer-events-none">
-              <p className="text-black text-center md:text-md sm:text-[18px] text-[15px] ff_inter leading-[160%] font-normal">
+              <p className="text-black text-center md:sm:text-md text-[15px] sm:text-[18px] text-[15px] ff_inter leading-[160%] font-normal">
                 Our target market encompasses more than{" "}
                 <span className="text-[#688FFE] font-medium">
                   2.4 million customers in Australis alone.
