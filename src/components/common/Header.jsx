@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MobileNav from "./MobileNav.jsx";
 import LogoImg from "../../assets/svg/logo.svg"
+import Hero from "../home/Hero.jsx";
 const Header = () => {
   const [activeNavOverlay, setActiveNavOverlay] = useState(false);
   useEffect(() => {
@@ -13,13 +14,13 @@ const Header = () => {
 
   return (
     <>
-      <div className="relative flex flex-col">
+      <div className="relative flexjustify-between items-center flex-col bg-[url('./assets/png/hero-bg.png')] bg-cover bg-no-repeat">
         <div>
           <MobileNav
             activeNavOverlay={activeNavOverlay}
             setActiveNavOverlay={setActiveNavOverlay}
           />
-          <nav className="w-full pb-4 pt-[20px] sm:pt-[23px]">
+          <nav className="w-full sm:pb-4 pt-[20px] sm:pt-[23px]">
             <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
               <div className="flex items-center justify-between">
                 <div className="flex-1 flex items-center justify-between">
@@ -96,6 +97,7 @@ const Header = () => {
             </div>
           </nav>
         </div>
+        <Hero />
       </div>
     </>
   );
