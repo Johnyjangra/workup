@@ -5,19 +5,19 @@ import { SuccesDimand, SuccesRocketIcon, SuccesVision } from "../common/Icons";
 const SoluctionSucces = () => {
   return (
     <>
-      <div className="lg:pt-[60px] xl:pb-[122px] relative pt-6 pb-12">
+      <div className="lg:pt-[60px] xl:pb-[105px] relative pt-6 pb-12">
         <img
-          className="absolute right-0 top-[-10%] hidden md:block lg:top-[-20%] md:w-[25%] lg:w-[20%] xl:w-[25%]"
+          className="absolute pointer-events-none right-0 top-[-10%] hidden md:block lg:top-[-20%] md:w-[25%] lg:w-[20%] xl:w-[25%]"
           src={right_img}
           alt="like rainbow img"
         />
         <img
-          className="absolute top-[6%] left-[-30px]"
+          className="absolute pointer-events-none top-[6%] left-[-30px]"
           src={dots_img}
           alt="dots img"
         />
         <img
-          className="absolute left-[1%] bottom-[0%] xl:bottom-[29%] hidden lg:block"
+          className="absolute pointer-events-none left-[1%] bottom-[0%] xl:bottom-[29%] hidden lg:block"
           src={dots_img}
           alt="dots img"
         />
@@ -38,9 +38,9 @@ const SoluctionSucces = () => {
               <div>
                 <div className="mx-auto xl:h-[266px] bg-btnGradient opacity-60 flex flex-col justify-center items-center rounded-[100%] xl:w-[266px] sm:h-[200px] sm:w-[200px] h-[150px] w-[150px] translate-y-[18%]">
                   <span>
-                    <SuccesRocketIcon />
+                    <SuccesRocketIcon/>
                   </span>
-                  <h3 className="ff_inter text-white font-medium leading-normal pt-2 sm:pt-[14px] text-xs sm:text-sm lg::text-[21px]">MISSION</h3>
+                  <h3 className="ff_inter text-white font-medium leading-normal pt-2 sm:pt-[14px] text-xs sm:text-sm lg:text-[21px]">MISSION</h3>
                 </div>
                 <div className="inline-block">
                   <div className="xl:h-[266px] xl:w-[266px] bg-btnGradient rounded-[100%] opacity-60  flex flex-col justify-center items-center sm:h-[200px] sm:w-[200px] h-[150px] w-[150px] translate-y-[-15%] translate-x-[10%]">

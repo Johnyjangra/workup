@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <>
       <div className="py-12 xl:pt-[163px] relative">
-      <img className="absolute end-0 bottom-[-3%] lg:bottom-0 hidden md:block md:w-[6%] 2xl:w-[5%]" src={semi_circle} alt="rgb-semircle" />
+      <img className="absolute pointer-events-none end-0 bottom-[-3%] lg:bottom-0 hidden md:block md:w-[6%] 2xl:w-[5%]" src={semi_circle} alt="rgb-semircle" />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <Tab.Group>
             <div className="overflow-x-scroll md:overflow-auto scroll_bar">
@@ -33,7 +33,7 @@ const Dashboard = () => {
               <Tab.Panel>
                 <div className="flex flex-wrap items-center justify-center md:justify-between">
                   <div className="md:w-6/12 w-11/12 sm:w-10/12 pt-3 sm:pt-0 relative">
-                    <img className="absolute top-[-10%] hidden md:block w-[30%] left-[-10%]" src={circle} alt="rgb-circle" />
+                    <img className="absolute pointer-events-none top-[-10%] hidden md:block w-[30%] left-[-10%]" src={circle} alt="rgb-circle" />
                     <img
                       className="drop-shadow-lg"
                       src={dashboard}
