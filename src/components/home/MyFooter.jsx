@@ -9,7 +9,7 @@ const MyFooter = () => {
   return (
     <>
       <div className="footer_bg mt-[150px] pt-12">
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
       <div className="h-[160px] max-w-[973px] mx-auto sm:h-[198px] bg-gradientOne rounded-2xl sm:px-12 px-8 flex flex-col items-center justify-center relative overflow-hidden translate-y-[-100%]">
       <img className="absolute pointer-events-none top-0 start-0 z-[0]" src={left_img} alt="lines-group" />
             <img className="absolute pointer-events-none top-0 end-0 z-[0]" src={right_img} alt="lines-group" />

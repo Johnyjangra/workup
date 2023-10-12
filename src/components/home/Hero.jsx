@@ -35,7 +35,7 @@ const Hero = () => {
           src={heroIconDottedTwo}
           alt="hero-icon-layer-one"
         />
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 text-center xlpt-10 calc_height_custom flex justify-evenly items-center flex-col">
+        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 text-center xlpt-10 calc_height_custom flex justify-evenly items-center flex-col">
           <div>
             <h1 className="text-[28px] sm:text-xl xl:text-2xl ff_outfit font-semibold text-black leading-[110%]">
               Superpower your business finance
