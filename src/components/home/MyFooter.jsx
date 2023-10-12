@@ -27,16 +27,16 @@ const MyFooter = () => {
                 by the readable content of a page when looking at its layout.
               </p>
               <div className="flex gap-4">
-                <a href="facebook.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon hover:h-[40px] hover:w-[40px] transition duration-300">
+                <a href="facebook.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon transition duration-300">
                     <FacebookIcon/>
                 </a>
-                <a href="instagram.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon hover:h-[40px] hover:w-[40px] transition duration-300">
+                <a href="instagram.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon transition duration-300">
                     <InstagramIcon/>
                 </a>
-                <a href="Twitter.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon hover:h-[40px] hover:w-[40px] transition duration-300">
+                <a href="Twitter.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon transition duration-300">
                    <TwitterIcon/>
                 </a>
-                <a href="linkdin.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon hover:h-[40px] hover:w-[40px] transition duration-300">
+                <a href="linkdin.com" className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon transition duration-300">
                    <LinkdinIcon/>
                 </a>
               </div>
