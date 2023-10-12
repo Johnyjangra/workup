@@ -50,7 +50,7 @@ const AwsomeQuestions = () => {
                   >
                     <p
                       className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
-                        open === 1 ? "text-[#2ABAE9]" : ""
+                        open === 1 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
                       Q1 What is WorkUp's visionary approach?
@@ -79,7 +79,7 @@ const AwsomeQuestions = () => {
                   >
                     <p
                       className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
-                        open === 2 ? "text-[#2ABAE9]" : ""
+                        open === 2 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
                       Q2 How does WorkUp tackle financial control challenges
@@ -109,7 +109,7 @@ const AwsomeQuestions = () => {
                   >
                     <p
                       className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
-                        open === 3 ? "text-[#2ABAE9]" : ""
+                        open === 3 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
                       Q3 How does WorkUp's real-time automation set it apart in
@@ -140,7 +140,7 @@ const AwsomeQuestions = () => {
                   >
                     <p
                       className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
-                        open === 4 ? "text-[#2ABAE9]" : ""
+                        open === 4 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
                       Q4 How does WorkUp redefine the role of accounting
@@ -170,7 +170,7 @@ const AwsomeQuestions = () => {
                   >
                     <p
                       className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
-                        open === 5 ? "text-[#2ABAE9]" : ""
+                        open === 5 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
                       Q5 Why is WorkUp the perfect choice for businesses seeking
@@ -201,7 +201,7 @@ const AwsomeQuestions = () => {
                   >
                     <p
                       className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
-                        open === 6 ? "text-[#2ABAE9]" : ""
+                        open === 6 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
                       Q6 How does WorkUp showcase its genuine commitment to
