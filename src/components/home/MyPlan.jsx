@@ -8,7 +8,7 @@ const MyPlan = () => {
      <div className="py-12 lg:pb-163px relative">
       <img className='absolute pointer-events-none top-[45%] start-0 hidden xl:block' src={dots_img} alt="dots-img" />
       <img className='absolute pointer-events-none end-0 hidden md:block top-0 lg:top-[12%]' src={plan_right} alt="dots group" />
-     <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+     <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
      <h2 className="text-center ff_outfit text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] lg:mb-[24px] font-medium leading-normal linline-block">
         Po
             <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
@@ -48,7 +48,7 @@ const MyPlan = () => {
                     </div>
                   </div>
                   <button
-                    className="ff_inter font-medium text-md bg-btnGradient group-hover:text-black  group-hover:bg-gradient-to-t from-white to-white text-white h-[45px] lg:h-[48px] w-[200px] lg:w-[220px] xl:w-[270px] rounded-[122px]"
+                    className="ff_inter mt-[36px] font-medium text-md bg-btnGradient group-hover:text-black  group-hover:bg-gradient-to-t from-white to-white text-white h-[45px] lg:h-[48px] w-[200px] lg:w-[220px] xl:w-[270px] rounded-[122px]"
                   >
                      {MyData.mybutton}
                   </button>

@@ -57,13 +57,13 @@ const ProblemSolving = () => {
           src={right_img}
           alt="dots-group"
         />
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <h2 className="text-center ff_outfit text-[#333333] lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]  font-medium leading-normal mb-6 linline-block">
             Problem
-            <span className="px-2 relative before:absolute before:h-[3px] before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
+            <span className="ps-2 relative before:absolute before:h-[3px] before:w-[105%] before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
               We are
             </span>
-            solving
+            <span className="ps-2">solving</span>
           </h2>
           <div className="relative">
             <Slider {...settings} ref={first}>
@@ -103,14 +103,14 @@ const ProblemSolving = () => {
               </div>
             </div>
           </div>
-            <form className="bg-white h-[44px] sm:h-[52px] w-full max-w-[264px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between  mb-0 mt-5 input_border_gradient">
+            <form className="bg-white group h-[44px] sm:h-[52px] w-full max-w-[264px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between  mb-0 mt-14 input_border_gradient">
               <input
                 required
                 className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"
                 type="text"
-                placeholder="Enter your email"
+                placeholder="List Goes On"
               />
-              <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 group">
+              <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1">
                 <img className="group-hover:translate-x-[7px] transition duration-300" src={arrow} alt="arrow" />
               </button>
             </form>

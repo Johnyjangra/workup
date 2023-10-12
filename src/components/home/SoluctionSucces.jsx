@@ -1,6 +1,7 @@
 import React from "react";
 import right_img from "../../assets/png/soluction-right-img.png";
 import dots_img from "../../assets/png/feature-dots-img.png";
+import top_dots from "../../assets/svg/solution_top_dots.svg"
 import { SuccesDimand, SuccesRocketIcon, SuccesVision } from "../common/Icons";
 const SoluctionSucces = () => {
   return (
@@ -21,9 +22,10 @@ const SoluctionSucces = () => {
           src={dots_img}
           alt="dots img"
         />
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-center flex-col-reverse lg:flex-row lg:justify-between items-center">
-            <div className="lg:w-5/12">
+            <div className="lg:w-5/12 relative">
+              <img className="absolute hidden lg:block  lg:top-[-50%] xl:top-[-85%] lg:start-0 xl:start-[-10%]" src={top_dots} alt="dots-group" />
               <h2 className="ff_railway text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-normal mb-0 lg:mb-[14px] inline-block pt-8 lg:pt-0 relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-3%] before:content-[''] before:start-0">
                 Solution
               </h2>

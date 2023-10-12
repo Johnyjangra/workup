@@ -14,21 +14,11 @@ const MyFooter = () => {
   return (
     <>
       <div className="footer_bg mt-[150px] pt-12">
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <div className="h-[160px] max-w-[973px] mx-auto sm:h-[198px] bg-gradientOne rounded-2xl sm:px-12 px-8 flex flex-col items-center justify-center relative overflow-hidden translate-y-[-100%]">
-            <img
-              className="absolute pointer-events-none top-0 start-0 z-[0]"
-              src={left_img}
-              alt="lines-group"
-            />
-            <img
-              className="absolute pointer-events-none top-0 end-0 z-[0]"
-              src={right_img}
-              alt="lines-group"
-            />
-            <h2 className="ff_outfit text-white font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]  text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">
-              Join our Demo
-            </h2>
+        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+      <div className="h-[160px] max-w-[973px] mx-auto sm:h-[198px] bg-gradientOne rounded-2xl sm:px-12 px-8 flex flex-col items-center justify-center relative overflow-hidden translate-y-[-100%]">
+      <img className="absolute pointer-events-none top-0 start-0 z-[0]" src={left_img} alt="lines-group" />
+            <img className="absolute pointer-events-none top-0 end-0 z-[0]" src={right_img} alt="lines-group" />
+            <h2 className="ff_outfit text-white font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">Join our Demo</h2>
             <form className="bg-white z-[10] relative h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25); shadow-xl rounded-[100px] ps-[22px] flex items-center justify-between mt-3 sm:mt-2 mb-0">
               <input
                 required
