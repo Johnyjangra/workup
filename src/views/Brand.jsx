@@ -7,6 +7,8 @@ import Unique from "../components/brand/Unique";
 import BusnessModal from "../components/brand/BusnessModal";
 import WorkUpTeam from "../components/brand/WorkUpTeam";
 import BrandHero from "../components/brand/BrandHero";
+import MyFooter from "../components/home/MyFooter";
+import ProblemSolving from "../components/home/ProblemSolving";
 const Brand = () => {
   return (
     <div className=" overflow-hidden">
@@ -14,10 +16,12 @@ const Brand = () => {
       <BrandAbout />
       <BrandWhatDo />
       <Market />
-      {/* <BrandProgress /> */}
+      <BrandProgress />
+      <ProblemSolving />
       <Unique />
       <BusnessModal />
       <WorkUpTeam />
+      <MyFooter />
     </div>
   );
 };
