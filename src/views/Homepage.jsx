@@ -20,7 +20,7 @@ const Homepage = () => {
       <ProblemSolving/>
       <Working/>
       <Dashboard/>
-      <div className='lg:pt-[128px] pt-12'><OurWaitList/></div>
+      <div className='lg:pt-[100px] md:py-10 lg:pb-[90px]'><OurWaitList/></div>
       <MyPlan/>
       <AwsomeQuestions/>
       <MyFooter/>

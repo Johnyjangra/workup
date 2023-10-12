@@ -39,6 +39,7 @@
   color: #28b3e6 !important;
   font-size: 10px !important;
 }
+.slick-dots{bottom: -37px !important;}
 .slick-dots li.slick-active button:before {
   color: #1d80d0 !important;
 }
@@ -67,4 +68,24 @@
 }
 .footer_icon {
   filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
+}
+
+.scroll_bar::-webkit-scrollbar { 
+  height: 3px; 
+} 
+
+/* Track */
+.scroll_bar::-webkit-scrollbar-track { 
+  background: #f1f1f1; 
+} 
+
+/* Handle */
+.scroll_bar::-webkit-scrollbar-thumb { 
+  background: #2CB9E9; 
+  border-radius: 5px; 
+} 
+
+/* Handle on hover */
+.scroll_bar::-webkit-scrollbar-thumb:hover { 
+  background: #2CB9E9; 
 }

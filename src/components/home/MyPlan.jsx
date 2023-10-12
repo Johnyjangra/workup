@@ -5,7 +5,7 @@ import dots_img from "../../assets/png/feature-dots-img.png"
 const MyPlan = () => {
   return (
     <> 
-     <div className="lg:pt-[137px] py-12 lg:pb-163px relative">
+     <div className="py-12 lg:pb-163px relative">
       <img className='absolute top-[45%] start-0 hidden xl:block' src={dots_img} alt="dots-img" />
       <img className='absolute end-0 hidden md:block top-0 lg:top-[12%]' src={plan_right} alt="dots group" />
      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
