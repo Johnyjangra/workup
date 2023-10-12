@@ -6,8 +6,8 @@ const OurMisson = () => {
   return (
     <>
       <div className="bg-[#F7FCFE] lg:py-[85px] py-10 relative overflow-hidden">
-        <img className="absolute top-[7%] start-0 sm:w-[10%] md:w-[10%] lg:w-[7%] xxl:w-[unset] hidden sm:block" src={dotsImg} alt="dots-img" />
-        <img className="absolute bottom-[-6%] end-0" src={smallImg} alt="dots-img" />
+        <img className="absolute pointer-events-none top-[7%] start-0 sm:w-[10%] md:w-[10%] lg:w-[7%] xxl:w-[unset] hidden sm:block" src={dotsImg} alt="dots-img" />
+        <img className="absolute pointer-events-none bottom-[-8%] end-0" src={smallImg} alt="dots-img" />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-between items-center">
             <div className="lg:w-6/12 sm:w-9/12 mx-auto lg:mx-[unset]">

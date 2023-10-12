@@ -2502,8 +2502,7 @@ export const CheckIcon = () => {
 export const SuccesRocketIcon = () => {
   return (
     <svg
-      width="70"
-      height="70"
+      className="lg:w-[70px] lg:h-[70px] h-[50px] w-[50px]"
       viewBox="0 0 70 70"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2524,6 +2523,7 @@ export const SuccesVision = () => {
     <svg
       width="91"
       height="92"
+      className="lg:w-[91px] lg:h-[92px] h-[60px] w-[60px]"
       viewBox="0 0 91 92"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2542,8 +2542,7 @@ export const SuccesVision = () => {
 export const SuccesDimand = () => {
   return (
     <svg
-      width="97"
-      height="96"
+      className="lg:w-[96px] lg:h-[96px] h-[62px] w-[62px]"
       viewBox="0 0 97 96"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

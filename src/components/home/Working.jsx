@@ -6,12 +6,12 @@ import semicircle_group from "../../assets/png/working-semocircle-group.png"
 const Working = () => {
   return (
     <>
-      <div className="bg-[#F7FCFE] lg:pt-[63px] lg:pb-4 py-12 relative">
-        <img className="absolute start-0 top-0 hidden sm:block" src={right_img} alt="dots-group" />
+      <div className="bg-[#F7FCFE] lg:pt-[56px] lg:pb-4 py-12 relative">
+        <img className="absolute pointer-events-none start-0 top-0 hidden sm:block" src={right_img} alt="dots-group" />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
         <h2 className="text-center ff_outfit text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-normal mb-10 linline-block">
         Ho
-            <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-3%] before:content-[''] before:start-0">
+            <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
             w it’s wor
             </span>
             king

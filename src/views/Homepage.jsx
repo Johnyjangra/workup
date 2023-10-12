@@ -18,7 +18,7 @@ const Homepage = () => {
       <Feature />
       <OurMisson />
       <SoluctionSucces />
-      <div className='pb-12 lg:pb-[134px]'><OurWaitList/></div>
+      <div className='pb-12 lg:pb-[126px]'><OurWaitList/></div>
       <ProblemSolving/>
       <Working/>
       <Dashboard/>
