@@ -14,7 +14,7 @@ const WorkUpTeam = () => {
       <p className="ff_outfit font-normal lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-Black leading-normal relative after:contents-[''] after:absolute after:w-[160px] after:start-[50%] after:translate-x-[-50%] after:h-[4px]  after:rounded-md after:bg-blue after:top-[-4%] mb-0 text-center">
         WorkUp Team
       </p>
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 lg:mt-20 sm:mt-10 mt-5 mb-48">
+      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 lg:mt-20 sm:mt-10 mt-5 lg:mb-[280px] sm:mb-[200px] mb-[100px]">
         <div className="flex flex-wrap items-center lg:justify-between justify-center">
           <div className="lg:w-6/12 md:w-10/12 w-full lg:pe-16">
             <img
