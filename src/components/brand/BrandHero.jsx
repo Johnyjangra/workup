@@ -24,21 +24,27 @@ const BrandHero = () => {
             <p className=" text-white ff_inter text-base font-normal mb-2">
               Full Name
             </p>
-            <input
-              type="text"
-              className="p-4 bg-[rgba(255,255,255,0.20)] rounded-lg md:w-[350px] max-w-[350px] w-full text-[#EEECFD] text-sm placeholder:text-sm font-normal placeholder:font-normal border-[#CBC7FA] border focus-visible:outline-none placeholder:text-[#EEECFD]"
-              placeholder="Your first name"
-            />
+            <form>
+              <input
+                type="text"
+                required
+                className="p-4 bg-[rgba(255,255,255,0.20)] rounded-lg md:w-[350px] max-w-[350px] w-full text-[#EEECFD] text-sm placeholder:text-sm font-normal placeholder:font-normal border-[#CBC7FA] border focus-visible:outline-none placeholder:text-[#EEECFD]"
+                placeholder="Your first name"
+              />
+            </form>
           </div>
           <div className="sm:ms-6 sm:mt-0 mt-5">
             <p className=" text-white ff_inter text-base font-normal mb-2">
               Email
             </p>
-            <input
-              type="text"
-              className="p-4 bg-[rgba(255,255,255,0.20)] rounded-lg md:w-[350px] max-w-[350px] w-full text-[#EEECFD] text-sm placeholder:text-sm font-normal placeholder:font-normal border-[#CBC7FA] border focus-visible:outline-none placeholder:text-[#EEECFD]"
-              placeholder="Email address"
-            />
+            <form>
+              <input
+                type="text"
+                required
+                className="p-4 bg-[rgba(255,255,255,0.20)] rounded-lg md:w-[350px] max-w-[350px] w-full text-[#EEECFD] text-sm placeholder:text-sm font-normal placeholder:font-normal border-[#CBC7FA] border focus-visible:outline-none placeholder:text-[#EEECFD]"
+                placeholder="Email address"
+              />
+            </form>
           </div>
         </div>
         <div className="flex justify-center pb-[30px]">
