@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="relative flexjustify-between items-center flex-col bg-[url('./assets/png/hero-bg.png')] bg-cover bg-no-repeat">
+      <div className="relative bg-[url('./assets/png/hero-bg.png')] bg-cover bg-no-repeat">
         <div>
           <MobileNav
             activeNavOverlay={activeNavOverlay}
