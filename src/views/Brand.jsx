@@ -14,7 +14,7 @@ const Brand = () => {
       <BrandAbout />
       <BrandWhatDo />
       <Market />
-      {/* <BrandProgress /> */}
+      <BrandProgress />
       <Unique />
       <BusnessModal />
       <WorkUpTeam />

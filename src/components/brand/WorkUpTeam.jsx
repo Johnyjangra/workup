@@ -1,5 +1,5 @@
 import React from "react";
-import workTeam from "../../assets/png/WorkUpTeamImg.png";
+import workTeam from "../../assets/webp/WorkUpTeamImg.webp";
 import TeamLine from "../../assets/svg/workUpTeamLLine.svg";
 import dots from "../../assets/svg/teamDot.svg";
 const WorkUpTeam = () => {

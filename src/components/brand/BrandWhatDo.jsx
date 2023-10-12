@@ -1,5 +1,5 @@
 import React from "react";
-import WhyDoesImage from "../../assets/png/whatDoImage.png";
+import WhyDoesImage from "../../assets/webp/whatDoImage.webp";
 import sideImage from "../../assets/svg/WhatDoSideImg.svg";
 import rightDots from "../../assets/svg/workUpRight.svg";
 const BrandWhatDo = () => {
