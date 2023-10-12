@@ -10,7 +10,7 @@ const BrandHero = () => {
         className=" absolute top-[50%] start-0 translate-y-[-50%] pointer-events-none"
       />
       <Header />
-      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+      <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 mt-3">
         <p className="text-white ff_outfit font-semibold text-[48px] leading-[120%] text-center mt-16">
           Investment
         </p>
