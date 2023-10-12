@@ -13,7 +13,7 @@ const Market = () => {
           <div className="flex flex-wrap xl:flex-row flex-col items-center ">
             <div className="xl:w-[35%] md:w-6/12 w-full flex flex-col justify-center ">
               <div className="bgPinkMarket bg-no-repeat bg-center bg-contain xl:py-2 lg:py-5 pe-16 xl:translate-x-[25px]">
-                <p className="ff_outfit sm:text-xl text-[30px] text-white text-center font-medium leading-[135%]">
+                <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]text-white text-center font-medium leading-[135%]">
                   2.4
                 </p>
                 <p className="ff_outfit text-center font-semibold sm:text-md text-[15px] leading-[125%] text-white">
@@ -26,7 +26,7 @@ const Market = () => {
             </div>
             <div className="xl:w-[30%] md:w-6/12 w-full flex justify-center">
               <div className="bgCircle bg-no-repeat bg-[100%_100%] sm:py-28 py-16 px-20 bg-center bg-contain">
-                <p className="ff_outfit sm:text-xl text-[30px] text-black font-medium max-w-[200px] leading-[135%] text-center] text-center ">
+                <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-black font-medium max-w-[200px] leading-[135%] text-center] text-center ">
                   How big is{" "}
                   <span className="sm:whitespace-normal whitespace-nowrap sm:flex block">
                     the target{" "}
@@ -37,7 +37,7 @@ const Market = () => {
             </div>
             <div className="xl:w-[35%] md:w-6/12 w-full flex flex-col justify-center">
               <div className="bgBlueMarket bg-no-repeat bg-center bg-contain xl:py-2 lg:py-5 ps-16 xl:translate-x-[-25px]">
-                <p className="ff_outfit sm:text-xl text-[30px] text-white text-center font-medium leading-[135%]">
+                <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]text-white text-center font-medium leading-[135%]">
                   400
                 </p>
                 <p className="ff_outfit text-center font-semibold sm:text-md text-[15px] leading-[125%] text-white">

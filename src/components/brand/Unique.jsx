@@ -30,7 +30,7 @@ const Unique = () => {
               <p className=" text-white ff_outfit text-lg font-medium tracking-[-0.24px] leading-[106%] relative after:contents-[''] after:absolute after:w-[116px] after:start-0 after:h-[4px]  after:rounded-md after:bg-white after:top-[-36%]">
                 What are WorkUp's
               </p>
-              <p className="text-white ff_outfit sm:text-xl text-[30px] font-medium leading-[106%] mt-3">
+              <p className="text-white ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-[106%] mt-3">
                 Unique insights?
               </p>
               <p className="text-[#D1DFFF] ff_inter md:text-md sm:text-[18px] text-[15px] font-normal leading-[160%] tracking-[-0.2px] mt-5 lg:max-w-[526px]">

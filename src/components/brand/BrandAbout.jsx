@@ -26,7 +26,7 @@ const BrandAbout = () => {
                 <span className="font-medium">
                   comprehensive banking solution
                 </span>{" "}
-                designed specifically for Australian SMEs and accounting 
+                designed specifically for Australian SMEs and accounting
                 professionals,
                 <span className="font-medium">
                   offering an automated approach to managing business finances.

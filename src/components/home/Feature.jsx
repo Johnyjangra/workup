@@ -10,7 +10,7 @@ const Feature = () => {
         <img className="absolute pointer-events-none left-[-1%] hidden xl:block top-[24%]" src={dots_img} alt="dots-group" />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <h2 className="ff_outfit text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-[120%] text-center mb-8 lg:mb-[57px]">
-            Plugs <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9] before:top-[-15%] before:content-[''] before:start-0">& Play Fea </span>tures
+            Plugs <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9] before:top-[-15%] before:content-[''] before:start-0">& Play Fea</span>tures
           </h2>
           <div className="grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[24px] place-items-center content-center relative">
           <img className="absolute pointer-events-none left-[10%] top-[60%] hidden xl:block" src={dots_img} alt="dots-group" />

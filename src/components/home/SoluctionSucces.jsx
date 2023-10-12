@@ -38,22 +38,28 @@ const SoluctionSucces = () => {
               <div>
                 <div className="mx-auto xl:h-[266px] bg-btnGradient opacity-60 flex flex-col justify-center items-center rounded-[100%] xl:w-[266px] sm:h-[200px] sm:w-[200px] h-[150px] w-[150px] translate-y-[18%]">
                   <span>
-                    <SuccesRocketIcon/>
+                    <SuccesRocketIcon />
                   </span>
-                  <h3 className="ff_inter text-white font-medium leading-normal pt-2 sm:pt-[14px] text-xs sm:text-sm lg:text-[21px]">MISSION</h3>
+                  <h3 className="ff_inter text-white font-medium leading-normal pt-2 sm:pt-[14px] text-xs sm:text-sm lg:text-[21px]">
+                    MISSION
+                  </h3>
                 </div>
                 <div className="inline-block">
                   <div className="xl:h-[266px] xl:w-[266px] bg-btnGradient rounded-[100%] opacity-60  flex flex-col justify-center items-center sm:h-[200px] sm:w-[200px] h-[150px] w-[150px] translate-y-[-15%] translate-x-[10%]">
                     <SuccesVision />
-                    <h3 className="ff_inter text-white  font-medium leading-normal pt-2 sm:pt-[14px] text-xs sm:text-sm lg:text-[21px]">VISION</h3>
+                    <h3 className="ff_inter text-white  font-medium leading-normal pt-2 sm:pt-[14px] text-xs sm:text-sm lg:text-[21px]">
+                      VISION
+                    </h3>
                   </div>
                 </div>
                 <div className="inline-block">
                   <div className="xl:h-[266px] xl:w-[266px] bg-btnGradient rounded-[100%] flex opacity-60 flex-col justify-center items-center sm:h-[200px] sm:w-[200px] h-[150px] w-[150px] translate-y-[-15%] translate-x-[-10%]">
-                    <span >
+                    <span>
                       <SuccesDimand />
                     </span>
-                    <h3 className="ff_inter text-white  font-medium leading-normal pt2 sm:pt-[14px] lg:text-[21px]">VALUES</h3>
+                    <h3 className="ff_inter text-white  font-medium leading-normal pt2 sm:pt-[14px] lg:text-[21px]">
+                      VALUES
+                    </h3>
                   </div>
                 </div>
               </div>
