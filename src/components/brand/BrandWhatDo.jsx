@@ -16,7 +16,7 @@ const BrandWhatDo = () => {
           alt="rightDots"
           className=" absolute end-0 bottom-[-60%] pointer-events-none max-w-[150px] w-full lg:block hidden"
         />
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 sm:mt-32 mt-16">
+        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 md:mt-32 mt-16">
           <div className="flex flex-wrap items-center lg:flex-row flex-col">
             <div className="lg:w-6/12 md:w-10/12 w-full relative z-10">
               <img
