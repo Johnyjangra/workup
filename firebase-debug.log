@@ -1,49 +1,28 @@
-[debug] [2023-10-12T10:30:53.612Z] ----------------------------------------------------------------------
-[debug] [2023-10-12T10:30:53.616Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\OM\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2023-10-12T10:30:53.618Z] CLI Version:   12.6.1
-[debug] [2023-10-12T10:30:53.618Z] Platform:      win32
-[debug] [2023-10-12T10:30:53.619Z] Node Version:  v18.16.0
-[debug] [2023-10-12T10:30:53.624Z] Time:          Thu Oct 12 2023 16:00:53 GMT+0530 (India Standard Time)
-[debug] [2023-10-12T10:30:53.624Z] ----------------------------------------------------------------------
+[debug] [2023-10-12T10:39:18.274Z] ----------------------------------------------------------------------
+[debug] [2023-10-12T10:39:18.276Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\OM\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-12T10:39:18.277Z] CLI Version:   12.7.0
+[debug] [2023-10-12T10:39:18.277Z] Platform:      win32
+[debug] [2023-10-12T10:39:18.277Z] Node Version:  v18.16.0
+[debug] [2023-10-12T10:39:18.278Z] Time:          Thu Oct 12 2023 16:09:18 GMT+0530 (India Standard Time)
+[debug] [2023-10-12T10:39:18.279Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-10-12T10:30:53.636Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
-[debug] [2023-10-12T10:30:53.955Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-10-12T10:30:53.955Z] > authorizing via signed-in user (monudhaka829@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+[debug] [2023-10-12T10:39:18.398Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-12T10:39:18.399Z] > authorizing via signed-in user (monudhaka829@gmail.com)
+[debug] [2023-10-12T10:39:18.399Z] [iam] checking project work-up-react for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-12T10:39:18.402Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/work-up-react:testIamPermissions [none]
+[debug] [2023-10-12T10:39:18.402Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/work-up-react:testIamPermissions x-goog-quota-user=projects/work-up-react
+[debug] [2023-10-12T10:39:18.403Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/work-up-react:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-12T10:39:20.138Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/work-up-react:testIamPermissions 200
+[debug] [2023-10-12T10:39:20.139Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/work-up-react:testIamPermissions {}
+[debug] [2023-10-12T10:39:20.140Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project work-up-react:
 
-You're about to initialize a Firebase project in this directory:
-
-  C:\Users\OM\Desktop\work-up
-
-Before we get started, keep in mind:
-
-  * You are initializing within an existing Firebase project directory
-
-[debug] [2023-10-12T10:30:54.707Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
-[debug] [2023-10-12T10:30:54.708Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2023-10-12T10:32:35.670Z] Using project from CLI flag: work-up-react
-[debug] [2023-10-12T10:32:35.673Z] > refreshing access token with scopes: []
-[debug] [2023-10-12T10:32:35.677Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
-[debug] [2023-10-12T10:32:35.679Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2023-10-12T10:32:36.029Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
-[debug] [2023-10-12T10:32:36.029Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2023-10-12T10:32:36.050Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/work-up-react [none]
-[debug] [2023-10-12T10:32:37.667Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/work-up-react 403
-[debug] [2023-10-12T10:32:37.668Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/work-up-react {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2023-10-12T10:32:37.669Z] HTTP Error: 403, The caller does not have permission
-[debug] [2023-10-12T10:32:38.118Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2023-10-12T10:39:20.142Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/work-up-react [none]
+[debug] [2023-10-12T10:39:20.676Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/work-up-react 403
+[debug] [2023-10-12T10:39:20.677Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/work-up-react {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-10-12T10:39:20.679Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-10-12T10:39:20.877Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\OM\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\Users\OM\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
