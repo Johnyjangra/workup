@@ -8,7 +8,7 @@ const Feature = () => {
       <div className="lg:pb-[126px] lg:pt-[115px] py-10 relative">
         <img className="absolute pointer-events-none end-0 top-[5%] w-[9%] hidden xl:block" src={right_img} alt="dots" />
         <img className="absolute pointer-events-none left-[-1%] hidden xl:block top-[24%]" src={dots_img} alt="dots-group" />
-        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
           <h2 className="ff_outfit text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-[120%] text-center mb-8 lg:mb-[57px]">
             Plugs <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9] before:top-[-15%] before:content-[''] before:start-0">& Play Fea</span>tures
           </h2>
@@ -41,7 +41,7 @@ const Feature = () => {
                   }`}
                   key={i}
                 >
-                  <div className="flex justify-center items-center flex-col h-[229px] mx-auto xl:w-[267px] bg-white rounded-xl border border-solid hover:border-0 border-[#E5E5E5] card_Shadow transition duration-300">
+                  <div className="flex justify-center items-center flex-col h-[229px] mx-auto 2xl:w-full xl:w-[267px] bg-white rounded-xl border border-solid hover:border-0 border-[#E5E5E5] card_Shadow transition duration-300">
                     <span>{MyData.icon}</span>
                     <h4 className="ff_outfit text-lightBlack font-medium text-[18px] sm:text-md leading-[120%] pt-[26px] mb-3 sm:mb-4">
                       {MyData.heading}

@@ -156,6 +156,7 @@ export const PotintialPlanData = [
     top_para: "Best for sole traders",
     big_heading: "Free",
     priceBottomPara: "Forever",
+    doller:"",
     blue_check_img: <CheckIcon />,
     submap: [{ subpara: "3 Business accounts" },
     { subpara: "1 Locked account" },
@@ -165,7 +166,8 @@ export const PotintialPlanData = [
   {
     top_heading: "Getting Serious",
     top_para: "Best for small business",
-    big_heading: "$25",
+    doller:"$",
+    big_heading: "25",
     priceBottomPara: "Per member Per month",
     blue_check_img: <CheckIcon />,
     submap: [
@@ -179,7 +181,8 @@ export const PotintialPlanData = [
   {
     top_heading: "I’m Serious",
     top_para: "Best for growth businesses",
-    big_heading: "s35",
+    doller:"$",
+    big_heading: "35",
     priceBottomPara: "Per member Per month",
     blue_check_img: <CheckIcon />,
     submap: [
@@ -194,4 +197,3 @@ export const PotintialPlanData = [
     mybutton: "Get Started",
   },
 ];
-export const AccordianData = [{ id: 1, heading: "new", para: "asfcd" }];

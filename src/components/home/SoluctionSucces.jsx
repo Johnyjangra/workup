@@ -22,7 +22,7 @@ const SoluctionSucces = () => {
           src={dots_img}
           alt="dots img"
         />
-        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px]  mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-center flex-col-reverse lg:flex-row lg:justify-between items-center">
             <div className="lg:w-5/12 relative">
               <img className="absolute hidden lg:block  lg:top-[-50%] xl:top-[-85%] lg:start-0 xl:start-[-10%]" src={top_dots} alt="dots-group" />

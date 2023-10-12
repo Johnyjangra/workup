@@ -57,10 +57,10 @@ const ProblemSolving = () => {
           src={right_img}
           alt="dots-group"
         />
-        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px]  mx-auto px-5 xl:px-0">
           <h2 className="text-center ff_outfit text-[#333333] lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]  font-medium leading-normal mb-6 linline-block">
             Problem
-            <span className="ps-2 relative before:absolute before:h-[3px] before:w-[105%] before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
+            <span className="ps-2 relative before:absolute before:h-[3px] before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
               We are
             </span>
             <span className="ps-2">solving</span>
@@ -72,7 +72,7 @@ const ProblemSolving = () => {
                   <div className="lg:py-6 px-3">
                     <div
                       key={i}
-                      className="px-[29px] py-[38px] card_bg min-h-[293px] sm:min-h-[317px] bg-white rounded-xl border border-solid border-[#E5E5E5]"
+                      className="px-[29px] py-[38px]  card_bg min-h-[293px] sm:min-h-[317px] bg-white rounded-xl border border-solid border-[#E5E5E5]"
                     >
                       <span>{ProblemData.icon}</span>
                       <h3 className="ff_outfit text-black text-md font-medium leading-[160%] pt-4 pb-[10px]">

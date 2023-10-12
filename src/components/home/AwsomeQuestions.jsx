@@ -26,13 +26,13 @@ const AwsomeQuestions = () => {
     <>
       <div className=" lg:pt-[116px] py-12 lg:pb-[97px] relative">
         <img className="absolute pointer-events-none right-0 top-[8%] hidden lg:block" src={awsome_right} alt="right-rgb" />
-        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
           <h2 className="text-center ff_outfit text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]  font-medium leading-normal linline-block">
             Frequently 
-            <span className="px-2 relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
+            <span className="ps-2 relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
                Awesome
             </span>
-             Questions
+             <span className="ps-2">Questions</span>
           </h2>
           <div className="flex flex-wrap items-center justify-between">
             <div className="lg:w-6/12 lg:pe-4 xl:pe-0">

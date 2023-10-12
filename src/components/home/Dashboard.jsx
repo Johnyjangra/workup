@@ -8,7 +8,7 @@ const Dashboard = () => {
     <>
       <div className="py-12 xl:pt-[163px] relative">
       <img className="absolute pointer-events-none end-0 bottom-[-3%] lg:bottom-0 hidden md:block md:w-[6%] 2xl:w-[5%]" src={semi_circle} alt="rgb-semircle" />
-        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
+        <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
           <Tab.Group>
             <div className="overflow-x-scroll md:overflow-auto scroll_bar">
               <Tab.List className="flex justify-center flex-wrap pb-0 mb-1 lg:mb-[116px] w-[510px] sm:w-[710px] md:mb-10 md:w-full mx-auto  max-w-[685px] relative before:absolute before:content-[''] md:before:h-[4px] before:w-full before:bottom-0 before:rounded-[26px] md:before:bg-[#F0F0F0]">
@@ -35,7 +35,7 @@ const Dashboard = () => {
                   <div className="md:w-6/12 w-11/12 sm:w-10/12 pt-3 sm:pt-0 relative">
                     <img className="absolute pointer-events-none top-[-10%] hidden md:block w-[30%] left-[-10%]" src={circle} alt="rgb-circle" />
                     <img
-                      className="drop-shadow-lg"
+                      className="drop-shadow-lg w-full xl:h-[447px] xl:w-[570px]"
                       src={dashboard}
                       alt="dashboard-img"
                     />
@@ -58,7 +58,7 @@ const Dashboard = () => {
                   <div className="md:w-6/12 w-11/12 sm:w-10/12 pt-3 sm:pt-0 relative">
                   <img className="absolute top-[-10%] hidden md:block w-[30%] left-[-10%]" src={circle} alt="rgb-circle" />
                     <img
-                      className="drop-shadow-lg"
+                      className="drop-shadow-lg w-full xl:h-[447px] xl:w-[570px]"
                       src={dashboard}
                       alt="dashboard-img"
                     />
@@ -81,7 +81,7 @@ const Dashboard = () => {
                   <div className="md:w-6/12 w-11/12 sm:w-10/12 pt-3 sm:pt-0 relative">
                   <img className="absolute top-[-10%] hidden md:block w-[30%] left-[-10%]" src={circle} alt="rgb-circle" />
                     <img
-                      className="drop-shadow-lg"
+                      className="drop-shadow-lg w-full xl:h-[447px] xl:w-[570px]"
                       src={dashboard}
                       alt="dashboard-img"
                     />
