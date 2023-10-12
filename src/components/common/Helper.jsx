@@ -169,7 +169,6 @@ export const PotintialPlanData = [
     priceBottomPara: "Per member Per month",
     blue_check_img: <CheckIcon />,
     submap: [
-      
       { subpara: "3 Business accounts" },
       { subpara: "3 Locked account" },
       { subpara: "3 Linked account" },
@@ -180,7 +179,7 @@ export const PotintialPlanData = [
   {
     top_heading: "I’m Serious",
     top_para: "Best for growth businesses",
-    big_heading: "$35",
+    big_heading: "s35",
     priceBottomPara: "Per member Per month",
     blue_check_img: <CheckIcon />,
     submap: [
@@ -191,7 +190,6 @@ export const PotintialPlanData = [
       { subpara: "Auto pay rules" },
       { subpara: "Auto reconciled rules" },
       { subpara: "24/7 support" },
-      
     ],
     mybutton: "Get Started",
   },
