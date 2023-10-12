@@ -16,7 +16,7 @@ const MyFooter = () => {
             <h2 className="ff_outfit text-white font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">Join our Demo</h2>
             <div className="bg-white relative z-[10] h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); shadow-xl rounded-[100px] ps-[22px] flex items-center border-[2px] border-solid border-[#4BB4FE] mt-3 sm:mt-2 mb-0">
                 <input className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]" type="text" placeholder="Enter your email"/>
-                <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]"><img src={arrow} alt="arrow" /></button>
+                <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px] group"><img className="tranisition duration-300 group-hover:translate-x-[5px]" src={arrow} alt="arrow" /></button>
             </div>
           </div>
           <div className="flex flex-wrap justify-between items-start mt-[-140px] sm:mt-[-160px]">

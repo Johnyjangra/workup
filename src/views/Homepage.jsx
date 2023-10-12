@@ -21,8 +21,8 @@ const Homepage = () => {
       <div className='pb-12 lg:pb-[134px]'><OurWaitList/></div>
       <ProblemSolving/>
       <Working/>
-      {/* <Dashboard/> */}
-      <div className='lg:pt-[128px] pt-12'><OurWaitList/></div>
+      <Dashboard/>
+      <div className='lg:pt-[100px] md:py-10 lg:pb-[90px]'><OurWaitList/></div>
       <MyPlan/>
       <AwsomeQuestions/>
       <MyFooter/>
