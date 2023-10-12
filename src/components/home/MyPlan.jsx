@@ -35,8 +35,8 @@ const MyPlan = () => {
                     </h3>
                     <p className='text-center mb-[6px] ff_inter text-sm text-black font-normal leading-normal  opacity-50 group-hover:text-white group-hover:opacity-[1]'>{MyData.priceBottomPara}</p>
                     <div>
-                      {MyData.submap.map((i , data) => (
-                        <div key={i}>
+                      {MyData.submap.map((i ,data) => (
+                        <div key={data}>
                           <div className="flex items-center pt-4">
                             <span className='plan_icon'>{MyData.blue_check_img}</span>
                             <p className="ff_inter text-sm text-black font-normal leading-normal opacity-70 ps-[6px] group-hover:text-white">
