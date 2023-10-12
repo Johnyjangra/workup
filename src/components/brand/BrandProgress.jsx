@@ -7,6 +7,7 @@ import sliderImage2 from "../../assets/webp/progress2.webp";
 import sliderImage3 from "../../assets/webp/Progress3.webp";
 import leftbtn from "../../assets/svg/ProgressLeftBtn.svg";
 import rightbtn from "../../assets/svg/progressRightBtn.svg";
+import { LeftArrow, RightArrow } from "../common/Icons";
 const BrandProgress = () => {
   const ProgressSlider = {
     centerMode: true, // Enable center mode
@@ -121,7 +122,7 @@ const BrandProgress = () => {
             />
           </div>
         </Slider>
-        <div className="flex items-center justify-center gap-6 sm:mt-11 mt-5">
+        {/* <div className="flex items-center justify-center gap-6 sm:mt-11 mt-5">
           <img
             src={leftbtn}
             alt="leftbtn"
@@ -135,6 +136,22 @@ const BrandProgress = () => {
             className=" cursor-pointer"
             onClick={() => first.current.slickNext()}
           />
+        </div> */}
+        <div className="flex items-center justify-center gap-6 sm:mt-16">
+          <div
+            className="sm:h-[38px] sm:w-[38px] group h-[30px] w-[30px]  transition duration-300 flex justify-center items-center rounded-full border border-solid border-[#4D4D4D] arrows_bg hover:border-hidden cursor-pointer"
+            onClick={() => first.current.slickNext()}
+          >
+            <span>
+              <LeftArrow />
+            </span>
+          </div>
+          <div
+            className=" sm:h-[38px] sm:w-[38px] h-[30px] w-[30px] flex justify-center transition duration-300 items-center rounded-full border border-solid border-[#4D4D4D] arrows_bg hover:border-hidden cursor-pointer"
+            onClick={() => first.current.slickPrev()}
+          >
+            <RightArrow />
+          </div>
         </div>
       </div>
     </>

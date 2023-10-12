@@ -44,7 +44,7 @@ const Unique = () => {
                 </span>{" "}
                 payments and transfers.
               </p>
-              <form className="mt-9 border-[1px_solid_#7282FF] bg-white rounded-full overflow-hidden flex justify-between pe-2 py-2 max-w-[400px] ps-4">
+              <form className="mt-9 border input_border_gradient bg-white rounded-full overflow-hidden flex justify-between pe-2 py-2 max-w-[400px] ps-4">
                 <input
                   type="text"
                   required

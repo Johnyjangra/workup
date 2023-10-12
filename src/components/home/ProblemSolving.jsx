@@ -4,7 +4,7 @@ import { ProblemSolvingData } from "../common/Helper";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { LeftArrow, RightArrow } from "../common/Icons";
-import arrow from "../../assets/svg/waitlist-arrow.svg"
+import arrow from "../../assets/svg/waitlist-arrow.svg";
 import right_img from "../../assets/png/problome-solving-right.png";
 const ProblemSolving = () => {
   const settings = {
@@ -69,11 +69,8 @@ const ProblemSolving = () => {
             <Slider {...settings} ref={first}>
               {ProblemSolvingData.map((ProblemData, i) => {
                 return (
-                  <div className="lg:py-6 px-3">
-                    <div
-                      key={i}
-                      className="px-[29px]  py-[38px] card_bg min-h-[293px] sm:min-h-[317px] bg-white rounded-xl border border-solid border-[#E5E5E5]"
-                    >
+                  <div key={i} className="lg:py-6 px-3">
+                    <div className="px-[29px]  py-[38px] card_bg min-h-[293px] sm:min-h-[317px] bg-white rounded-xl border border-solid border-[#E5E5E5]">
                       <span>{ProblemData.icon}</span>
                       <h3 className="ff_outfit text-black text-md font-medium leading-normal pt-4 pb-[10px]">
                         {ProblemData.heading}
@@ -104,9 +101,15 @@ const ProblemSolving = () => {
             </div>
           </div>
           <div className="bg-white h-[44px] sm:h-[52px] max-w-[264px] mx-auto rounded-[100px] ps-[17px] flex items-center border border-solid border-[#4AB6FE] mb-0 mt-14">
-                <input className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]" type="text" placeholder="List Goes On"/>
-                <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] py-[18px] px-[27px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]"><img src={arrow} alt="arrow" /></button>
-            </div>
+            <input
+              className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"
+              type="text"
+              placeholder="List Goes On"
+            />
+            <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] py-[18px] px-[27px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
+              <img src={arrow} alt="arrow" />
+            </button>
+          </div>
         </div>
       </div>
     </>

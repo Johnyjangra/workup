@@ -27,10 +27,12 @@
 }
 
 .arrows_bg:hover {
-  background: linear-gradient(223deg,
-      #fbc524 -75.58%,
-      #e939d9 2.42%,
-      #2abae9 74.42%);
+  background: linear-gradient(
+    223deg,
+    #fbc524 -75.58%,
+    #e939d9 2.42%,
+    #2abae9 74.42%
+  );
 }
 
 .arrows_bg:hover svg path {
@@ -41,11 +43,10 @@
   color: #28b3e6 !important;
   font-size: 10px !important;
 }
-<<<<<<< HEAD
 
-=======
-.slick-dots{bottom: -37px !important;}
->>>>>>> fc96f2bf8956ff801bd18164dd906d77d0b346d2
+.slick-dots {
+  bottom: -37px !important;
+}
 .slick-dots li.slick-active button:before {
   color: #1d80d0 !important;
 }
@@ -64,13 +65,17 @@
 }
 
 .plan_card button {
-  background: var(--Linear-two,
-      linear-gradient(91deg, #994fff 0.27%, #4ab6fe 98.57%));
+  background: var(
+    --Linear-two,
+    linear-gradient(91deg, #994fff 0.27%, #4ab6fe 98.57%)
+  );
 }
 
 .footer_bg {
-  background: var(--Linear-color,
-      linear-gradient(223deg, #fbc524 -34.99%, #e939d9 21.89%, #2abae9 74.4%));
+  background: var(
+    --Linear-color,
+    linear-gradient(223deg, #fbc524 -34.99%, #e939d9 21.89%, #2abae9 74.4%)
+  );
 }
 
 .footer_icon {
@@ -79,7 +84,7 @@
 
 .input_border_gradient {
   background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, #994FFF, #2ABAE9) border-box;
+    linear-gradient(to right, #994fff, #2abae9) border-box;
   border: 2px solid transparent;
   position: relative;
 }
@@ -90,31 +95,49 @@
   inset: -5px;
   transform: translate(10px, 8px);
   z-index: -1;
-  background: conic-gradient(from 90deg at 40% 0%, #2ABAE9, #2ABAE9, #994FFF, #994FFF, #994FFF, #994FFF, #994FFF, #994FFF, #994FFF, #994FFF, #994FFF, #994FFF, #2ABAE9, #2ABAE9, #2ABAE9, #2ABAE9);
+  background: conic-gradient(
+    from 90deg at 40% 0%,
+    #2abae9,
+    #2abae9,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #2abae9,
+    #2abae9,
+    #2abae9,
+    #2abae9
+  );
   filter: blur(30px);
 }
 
 /* @media (min-width:992px) { */
-  .calc_height_custom {
-    min-height: calc(100vh - 82px);
-  }
+.calc_height_custom {
+  min-height: calc(100vh - 82px);
+}
 /* } */
-.scroll_bar::-webkit-scrollbar { 
-  height: 3px; 
-} 
+.scroll_bar::-webkit-scrollbar {
+  height: 3px;
+}
 
 /* Track */
-.scroll_bar::-webkit-scrollbar-track { 
-  background: #f1f1f1; 
-} 
+.scroll_bar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
 
 /* Handle */
-.scroll_bar::-webkit-scrollbar-thumb { 
-  background: #2CB9E9; 
-  border-radius: 5px; 
-} 
+.scroll_bar::-webkit-scrollbar-thumb {
+  background: #2cb9e9;
+  border-radius: 5px;
+}
 
 /* Handle on hover */
-.scroll_bar::-webkit-scrollbar-thumb:hover { 
-  background: #2CB9E9; 
+.scroll_bar::-webkit-scrollbar-thumb:hover {
+  background: #2cb9e9;
 }

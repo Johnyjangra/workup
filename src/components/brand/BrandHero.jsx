@@ -48,7 +48,7 @@ const BrandHero = () => {
           </div>
         </div>
         <div className="flex justify-center pb-[30px]">
-          <button className="text-[#666666] text-sm font-normal ff_inter border border-[#994FFF] rounded-full bg-white py-[14px] w-[182px]">
+          <button className="text-[#666666] text-sm font-normal ff_inter border rounded-full bg-white py-[14px] w-[182px] input_border_gradient">
             join waitlist
           </button>
         </div>

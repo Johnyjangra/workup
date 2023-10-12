@@ -9,10 +9,12 @@ import WorkUpTeam from "../components/brand/WorkUpTeam";
 import BrandHero from "../components/brand/BrandHero";
 import MyFooter from "../components/home/MyFooter";
 import ProblemSolving from "../components/home/ProblemSolving";
+import WorkUpSeek from "../components/brand/WorkUpSeek";
 const Brand = () => {
   return (
     <div className=" overflow-hidden">
       <BrandHero />
+      {/* <WorkUpSeek /> */}
       <BrandAbout />
       <BrandWhatDo />
       <Market />
