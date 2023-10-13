@@ -11,7 +11,7 @@ const BrandHero = () => {
       />
       <Header />
       <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 mt-3">
-        <p className="text-white ff_outfit font-semibold text-[48px] leading-[120%] text-center mt-16">
+        <p className="text-white ff_outfit font-semibold text-[48px] leading-[120%] text-center mt-10">
           Investment
         </p>
         <p className="text-[#DFDDFD] text-center ff_inter text-sm font-normal mt-2 mb-7">
@@ -28,7 +28,7 @@ const BrandHero = () => {
               <input
                 type="text"
                 required
-                className="p-4 bg-[rgba(255,255,255,0.20)] rounded-lg md:w-[350px] max-w-[350px] w-full text-[#EEECFD] text-sm placeholder:text-sm font-normal placeholder:font-normal border-[#CBC7FA] border focus-visible:outline-none placeholder:text-[#EEECFD]"
+                className="p-4 bg-[rgba(255,255,255,0.20)] rounded-lg md:w-[350px] max-w-[350px] w-full text-[#EEECFD] text-sm placeholder:text-sm font-normal placeholder:font-normal border-[#CBC7FA] border focus-visible:outline-none placeholder:text-[#EEECFD] h-[52px]"
                 placeholder="Your first name"
               />
             </form>
@@ -41,14 +41,14 @@ const BrandHero = () => {
               <input
                 type="text"
                 required
-                className="p-4 bg-[rgba(255,255,255,0.20)] rounded-lg md:w-[350px] max-w-[350px] w-full text-[#EEECFD] text-sm placeholder:text-sm font-normal placeholder:font-normal border-[#CBC7FA] border focus-visible:outline-none placeholder:text-[#EEECFD]"
+                className="p-4 bg-[rgba(255,255,255,0.20)] rounded-lg md:w-[350px] max-w-[350px] w-full text-[#EEECFD] text-sm placeholder:text-sm font-normal placeholder:font-normal border-[#CBC7FA] border focus-visible:outline-none placeholder:text-[#EEECFD] h-[52px]"
                 placeholder="Email address"
               />
             </form>
           </div>
         </div>
         <div className="flex justify-center pb-[30px]">
-          <button className="text-[#666666] text-sm font-normal ff_inter border rounded-full bg-white py-[14px] w-[182px] input_border_gradient">
+          <button className="text-[#666666] text-sm font-normal ff_inter border rounded-full bg-white py-[14px] w-[182px] input_border_gradient h-[47px] flex justify-center items-center">
             join waitlist
           </button>
         </div>
