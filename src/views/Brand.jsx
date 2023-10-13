@@ -14,7 +14,7 @@ const Brand = () => {
   return (
     <div className=" overflow-hidden">
       <BrandHero />
-      {/* <WorkUpSeek /> */}
+      <WorkUpSeek />
       <BrandAbout />
       <BrandWhatDo />
       <Market />
