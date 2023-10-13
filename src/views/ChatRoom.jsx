@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import ChatTyping from "../components/chatroom/ChatTyping";
 
 const ChatRoom = () => {
   return (
-    <div>ChatRoom</div>
-  )
-}
+    <div>
+      <ChatTyping/>
+    </div>
+  );
+};
 
-export default ChatRoom
+export default ChatRoom;
