@@ -7,7 +7,7 @@ import Unique from "../components/brand/Unique";
 import BusnessModal from "../components/brand/BusnessModal";
 import WorkUpTeam from "../components/brand/WorkUpTeam";
 import BrandHero from "../components/brand/BrandHero";
-import MyFooter from "../components/home/MyFooter";
+import Footer from "../components/common/Footer";
 import ProblemSolving from "../components/home/ProblemSolving";
 import WorkUpSeek from "../components/brand/WorkUpSeek";
 const Brand = () => {
@@ -23,7 +23,7 @@ const Brand = () => {
       <Unique />
       <BusnessModal />
       <WorkUpTeam />
-      <MyFooter />
+      <Footer />
     </div>
   );
 };
