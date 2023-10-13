@@ -43,6 +43,9 @@
 .bgHeroBrand {
   background-image: url(./assets/webp/BrandHeroBg.webp);
 }
+.bgHerochat {
+  background-image: url(./assets/png/ChatroomHeroImg.png);
+}
 @media (min-width: 1400px) {
   .ProgressSlide .slick-current {
     transform: scale(1.3);

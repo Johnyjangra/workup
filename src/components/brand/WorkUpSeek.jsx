@@ -3,12 +3,12 @@ import arrow from "../../assets/svg/waitlist-arrow.svg";
 const WorkUpSeek = () => {
   return (
     <>
-      <div className="bg-[#F7FCFE] py-32 mt-5 mb-20 md:mb-32 sm:mb-30">
+      <div className="bg-[#F7FCFE] md:py-32 sm:py-28 py-12 overflow-hidden mt-5 mb-20 md:mb-32 sm:mb-30">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p className="text-center text-lightBlack ff_outfit font-medium leading-[106%] tracking-[-0.24px] text-lg relative after:contents-[''] after:absolute after:w-[114px] after:start-[50%] after:translate-x-[-50%] after:h-[4px]  after:rounded-md after:bg-[#1C1D1D] after:top-[-26%]">
             What does
           </p>
-          <p className=" text-center mt-[6px] text-lightBlack font-medium leading-[106%] tracking-[-0.4px] ff_outfit text-xl">
+          <p className=" text-center mt-[6px] text-lightBlack font-medium leading-[106%] tracking-[-0.4px] ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] ">
             WorkUp Seek?
           </p>
           <div className="flex justify-center mt-4 pt-2">
