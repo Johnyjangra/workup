@@ -1,8 +1,11 @@
 import React from 'react'
+import RegisterNow from '../components/founder/RegisterNow'
 
 const Founder = () => {
   return (
-    <div>Founder</div>
+    <>
+    <RegisterNow/>
+    </>
   )
 }
 
