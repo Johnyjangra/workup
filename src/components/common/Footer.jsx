@@ -11,6 +11,7 @@ import {
   TwitterIcon,
 } from "./Icons";
 const Footer = () => {
+  const Today = new Date().getFullYear();
   return (
     <>
       <div className="footer_bg mt-[150px] pt-12">
@@ -19,14 +20,14 @@ const Footer = () => {
       <img className="absolute pointer-events-none top-0 start-0 z-[0]" src={left_img} alt="lines-group" />
             <img className="absolute pointer-events-none top-0 end-0 z-[0]" src={right_img} alt="lines-group" />
             <h2 className="ff_outfit text-white font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">Join our Demo</h2>
-            <form className="bg-white z-[10] relative h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25); shadow-xl rounded-[100px] ps-[22px] flex items-center justify-between mt-3 sm:mt-2 mb-0">
+            <form className="bg-white z-[10] relative h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto group box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25); shadow-xl rounded-[100px] ps-[22px] flex items-center justify-between mt-3 sm:mt-2 mb-0">
               <input
                 required
                 className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"
                 type="email"
                 placeholder="Enter your email"
               />
-              <button className="bg-gradientOne h-[32px] sm:h-[36px] min-w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px] group">
+              <button className="bg-gradientOne h-[32px] sm:h-[36px] min-w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
                 <img
                   className=" group-hover:translate-x-[7px] transition duration-300"
                   src={arrow}
@@ -108,7 +109,7 @@ const Footer = () => {
                   Contact us
                 </a>
                 <a
-                  href="#"
+                  href="#faq"
                   className="ff_inter text-white text-xs font-medium leading-normal mt-[14px]"
                 >
                   FAQ
@@ -131,7 +132,7 @@ const Footer = () => {
         </div>
         <div className="border-b border-solid border-[#FFFFFF1A] pt-8 md:pt-16 xl:pt-[97px]"></div>
         <p className="text-center ff_open_sans text-[#96DBF4] text-xs px-[20px] sm:text-base font-semibold leading-[32px] sm:pt-4 pb-5 sm:pb-[22px]">
-          Copyright 2023 JesMor Enterprises, All Rights Reserved.
+          Copyright {Today} JesMor Enterprises, All Rights Reserved.
         </p>
       </div>
     </>

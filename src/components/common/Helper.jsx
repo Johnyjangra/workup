@@ -206,7 +206,6 @@ export const PotintialPlanData = [
     mybutton: "Get Started",
   },
 ];
-<<<<<<< HEAD
 
 // form cards data
 export const FormCard = [
@@ -227,6 +226,4 @@ export const FormCard = [
     heading:"Experience in building fintech startup",
   },
 ];
-=======
 export const ChatRoomData = [{ image: jhone1 }, { image: jhone2 }, { image: jhone3 }];
->>>>>>> 6eb187b0672bc6b3f6cc04a1f7b3a6639c527ecd

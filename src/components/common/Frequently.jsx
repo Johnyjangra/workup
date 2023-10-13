@@ -24,10 +24,10 @@ const Frequently = () => {
 
   return (
     <>
-      <div className=" lg:pt-[116px] py-12 lg:pb-[97px] relative">
+      <div className=" lg:pt-[116px] py-12 lg:pb-[97px] relative" id="faq">
         <img className="absolute pointer-events-none right-0 top-[8%] hidden lg:block" src={awsome_right} alt="right-rgb" />
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
-          <h2 className="text-center ff_outfit text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]  font-medium leading-normal linline-block">
+          <h2 className="text-center ff_outfit text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]  font-medium leading-[150%] linline-block">
             Frequently 
             <span className="ps-2 relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
                Awesome
@@ -38,7 +38,7 @@ const Frequently = () => {
             <div className="lg:w-6/12 lg:pe-4 xl:pe-0">
               <img src={awsome_img} alt="people group" />
             </div>
-            <div className="lg:w-6/12">
+            <div className="lg:w-6/12 min-h-[656px] lg:pt-[50px]">
               <Fragment>
                 <Accordion
                   className="border-b-[1px] border-[#EBEBEB] border-solid"
@@ -50,7 +50,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px]  border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
+                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm pe-8 ${
                         open === 1 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -58,7 +58,7 @@ const Frequently = () => {
                     </p>
                   </AccordionHeader>
                   <AccordionBody
-                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6 text-black ff_inter text-xs sm:text-sm font-normal leading-normal opacity-70 transition-all duration-[1s] ease-linear ${
+                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6 text-black ff_inter text-xs sm:text-sm font-normal leading-[150%] opacity-70 transition-all duration-[1s] ease-linear ${
                       open === 1 ? " h-full" : " h-0"
                     }`}
                   >
@@ -79,7 +79,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px] border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
+                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm pe-8 ${
                         open === 2 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -88,7 +88,7 @@ const Frequently = () => {
                     </p>
                   </AccordionHeader>
                   <AccordionBody
-                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6 text-black ff_inter text-xs sm:text-sm font-normal leading-normal opacity-70 transition-all duration-[1s] ease-linear ${
+                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6 text-black ff_inter text-xs sm:text-sm font-normal leading-[150%] opacity-70 transition-all duration-[1s] ease-linear ${
                       open === 2 ? " h-full" : " h-0"
                     }`}
                   >
@@ -109,7 +109,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px]  border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
+                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm pe-8 ${
                         open === 3 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -119,7 +119,7 @@ const Frequently = () => {
                   </AccordionHeader>
 
                   <AccordionBody
-                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6  text-black ff_inter text-xs sm:text-sm font-normal leading-normal opacity-70 transition-all duration-[1s] ease-linear ${
+                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6  text-black ff_inter text-xs sm:text-sm font-normal leading-[150%] opacity-70 transition-all duration-[1s] ease-linear ${
                       open === 3 ? " h-full" : " h-0"
                     }`}
                   >
@@ -140,7 +140,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px] border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
+                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm pe-8 ${
                         open === 4 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -149,7 +149,7 @@ const Frequently = () => {
                     </p>
                   </AccordionHeader>
                   <AccordionBody
-                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6 text-black ff_inter text-xs sm:text-sm font-normal leading-normal opacity-70 transition-all duration-[1s] ease-linear ${
+                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6 text-black ff_inter text-xs sm:text-sm font-normal leading-[150%] opacity-70 transition-all duration-[1s] ease-linear ${
                       open === 4 ? " h-full" : " h-0"
                     }`}
                   >
@@ -170,7 +170,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px] border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
+                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm pe-8 ${
                         open === 5 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -180,7 +180,7 @@ const Frequently = () => {
                   </AccordionHeader>
 
                   <AccordionBody
-                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6 text-black ff_inter text-xs sm:text-sm font-normal leading-normal opacity-70 transition-all duration-[1s] ease-linear ${
+                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6 text-black ff_inter text-xs sm:text-sm font-normal leading-[150%] opacity-70 transition-all duration-[1s] ease-linear ${
                       open === 5 ? " h-full" : " h-0"
                     }`}
                   >
@@ -201,7 +201,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px] border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-normal text-start text-sm pe-8 ${
+                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm pe-8 ${
                         open === 6 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -211,7 +211,7 @@ const Frequently = () => {
                   </AccordionHeader>
 
                   <AccordionBody
-                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6 text-black ff_inter text-xs sm:text-sm font-normal leading-normal opacity-70 transition-all duration-[1s] ease-linear ${
+                    className={`pb-4 pt-0 sm:pt-0 sm:pb-6 text-black ff_inter text-xs sm:text-sm font-normal leading-[150%] opacity-70 transition-all duration-[1s] ease-linear ${
                       open === 6 ? " h-full" : " h-0"
                     }`}
                   >
