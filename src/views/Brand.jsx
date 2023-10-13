@@ -14,7 +14,6 @@ const Brand = () => {
   return (
     <div className=" overflow-hidden">
       <BrandHero />
-      <WorkUpSeek />
       <BrandAbout />
       <BrandWhatDo />
       <Market />
@@ -22,6 +21,7 @@ const Brand = () => {
       <ProblemSolving />
       <Unique />
       <BusnessModal />
+      <WorkUpSeek />
       <WorkUpTeam />
       <Footer />
     </div>

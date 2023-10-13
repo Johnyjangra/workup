@@ -28,6 +28,9 @@ import {
   Formcard3,
   Formcard4,
 } from "./Icons";
+import jhone1 from "../../assets/png/TypingImg1.png";
+import jhone2 from "../../assets/png/jhone2.png";
+import jhone3 from "../../assets/png/jhone3.png";
 export const FeatureData = [
   {
     icon: <CardLoader />,
@@ -203,6 +206,7 @@ export const PotintialPlanData = [
     mybutton: "Get Started",
   },
 ];
+<<<<<<< HEAD
 
 // form cards data
 export const FormCard = [
@@ -223,3 +227,6 @@ export const FormCard = [
     heading:"Experience in building fintech startup",
   },
 ];
+=======
+export const ChatRoomData = [{ image: jhone1 }, { image: jhone2 }, { image: jhone3 }];
+>>>>>>> 6eb187b0672bc6b3f6cc04a1f7b3a6639c527ecd

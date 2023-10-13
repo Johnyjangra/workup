@@ -6,7 +6,7 @@ import sideDots from "../../assets/svg/PitchDots.svg";
 const BrandAbout = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative pt-3">
         <img
           src={sideDots}
           alt="sideDots"
