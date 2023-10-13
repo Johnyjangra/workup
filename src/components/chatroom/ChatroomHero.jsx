@@ -1,7 +1,11 @@
 import React from "react";
-
+import Header from "../common/Header";
 const ChatroomHero = () => {
-  return <div>ChatroomHero</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default ChatroomHero;

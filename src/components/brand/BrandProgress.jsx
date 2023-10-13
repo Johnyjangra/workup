@@ -63,7 +63,7 @@ const BrandProgress = () => {
             What’s Our Progress?
           </p>
           <div className="flex justify-center mt-4 mb-12">
-            <p className="text-center ff_inter text-md text-[#4A4C4C] font-normal max-w-[940px] mb-10">
+            <p className="text-center ff_inter sm:text-md text-[18px] text-[#4A4C4C] font-normal max-w-[940px] mb-10">
               We have made substantial progress in our development journey. We
               initiated the design phase for our prototype, and we are now ready
               to commence development and fulfil the banking partnership

@@ -12,7 +12,7 @@ const WorkUpSeek = () => {
             WorkUp Seek?
           </p>
           <div className="flex justify-center mt-4 pt-2">
-            <p className=" text-[#4A4C4C] text-center ff_inter text-md font-normal leading-[160%] max-w-[641px]">
+            <p className=" text-[#4A4C4C] text-center ff_inter sm:text-md text-[16px] font-normal leading-[160%] max-w-[641px]">
               We are seeking an aligned and powerful partnership
               with...........who shares our vision for empowering the world of
               business. Together, we aim to revolutionise the way businesses
