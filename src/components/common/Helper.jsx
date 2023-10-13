@@ -23,6 +23,10 @@ import {
   WorkingIcon3,
   WorkingIcon2,
   CheckIcon,
+  FormCard1,
+  FormCard2,
+  Formcard3,
+  Formcard4,
 } from "./Icons";
 export const FeatureData = [
   {
@@ -156,17 +160,19 @@ export const PotintialPlanData = [
     top_para: "Best for sole traders",
     big_heading: "Free",
     priceBottomPara: "Forever",
-    doller:"",
+    doller: "",
     blue_check_img: <CheckIcon />,
-    submap: [{ subpara: "3 Business accounts" },
-    { subpara: "1 Locked account" },
-    { subpara: "1 Linked account" },],
+    submap: [
+      { subpara: "3 Business accounts" },
+      { subpara: "1 Locked account" },
+      { subpara: "1 Linked account" },
+    ],
     mybutton: "Free Forever",
   },
   {
     top_heading: "Getting Serious",
     top_para: "Best for small business",
-    doller:"$",
+    doller: "$",
     big_heading: "25",
     priceBottomPara: "Per member Per month",
     blue_check_img: <CheckIcon />,
@@ -181,7 +187,7 @@ export const PotintialPlanData = [
   {
     top_heading: "I’m Serious",
     top_para: "Best for growth businesses",
-    doller:"$",
+    doller: "$",
     big_heading: "35",
     priceBottomPara: "Per member Per month",
     blue_check_img: <CheckIcon />,
@@ -195,5 +201,25 @@ export const PotintialPlanData = [
       { subpara: "24/7 support" },
     ],
     mybutton: "Get Started",
+  },
+];
+
+// form cards data
+export const FormCard = [
+  {
+    icon: <FormCard1 />,
+    heading:"Previously build a fintech startup",
+  },
+  {
+    icon: <FormCard2 />,
+    heading:"Banking Executive",
+  },
+  {
+    icon: <Formcard3 />,
+    heading:"Technical + coding experience",
+  },
+  {
+    icon: <Formcard4 />,
+    heading:"Experience in building fintech startup",
   },
 ];
