@@ -3,7 +3,7 @@ import arrow from "../../assets/svg/waitlist-arrow.svg";
 const WorkUpSeek = () => {
   return (
     <>
-      <div className="bg-[#F7FCFE] py-32 mt-5 mb-10 md:mb-32 sm:mb-30">
+      <div className="bg-[#F7FCFE] py-32 mt-5 mb-20 md:mb-32 sm:mb-30">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p className="text-center text-lightBlack ff_outfit font-medium leading-[106%] tracking-[-0.24px] text-lg relative after:contents-[''] after:absolute after:w-[114px] after:start-[50%] after:translate-x-[-50%] after:h-[4px]  after:rounded-md after:bg-[#1C1D1D] after:top-[-26%]">
             What does
