@@ -49,7 +49,7 @@ const Hero = () => {
                 className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"
                 type="text"
                 placeholder="Enter email to join waitlist"
-              />
+              />    
               <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
                 <img
                   className="group-hover:translate-x-[7px] transition duration-300"
@@ -59,7 +59,7 @@ const Hero = () => {
               </button>
             </form>
           </div>
-          <div className="pt-8 lg:pt-4 relative">
+          <div className="sm:pt-8 lg:pt-4 relative">
             <img src={heroImg} alt="hero" />
           </div>
         </div>
