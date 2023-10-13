@@ -77,7 +77,7 @@ const RegisterNow = () => {
                 );
               })}
             </div>
-            <button className="ff_inter text-xs sm:text-base text-white font-medium tranisition duration-300 h-[46px] w-[149px] bg-btnGradient rounded-[100px] lg:mt-[45px] mt-1 sm:mt-4">
+            <button className="ff_inter text-xs sm:text-base text-white transition hover:bg-gradient-to-t from-[#4AB6FE] to-[#994FFF] font-medium tranisition duration-300 h-[46px] w-[149px] bg-btnGradient rounded-[100px] lg:mt-[45px] mt-1 sm:mt-4">
               Submit
             </button>
           </form>

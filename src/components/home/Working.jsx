@@ -6,14 +6,14 @@ import semicircle_group from "../../assets/png/working-semocircle-group.png";
 const Working = () => {
   return (
     <>
-      <div className="bg-[#F7FCFE] lg:pt-[56px] lg:pb-4 py-12 relative">
+      <div className="bg-[#F7FCFE] lg:pt-[56px] lg:pb-4 py-12 relative" id="cofounder">
         <img
           className="absolute pointer-events-none start-0 top-0 hidden sm:block"
           src={right_img}
           alt="dots-group"
         />
         <div className="container xl:max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-          <h2 className="text-center ff_outfit text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-normal mb-10 linline-block">
+          <h2 className="text-center ff_outfit text-lightBlack lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-normal mb-10 linline-block">
             Ho
             <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
               w it’s wor
@@ -36,14 +36,14 @@ const Working = () => {
               />
               {WorkingData.map((MyData, i) => {
                 return (
-                  <div className="mb-4 border-b-[2px] xl:w-[500px] border-[#E5E5E5] border-opacity-[10] rounded-xl hover:border-transparent">
-                    <div className="flex bg-white px-4 sm:px-[22px] py-3 xl:py-4 rounded-xl box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.05); border border-transparent hover:border-[#fafafa] border-solid shadow-lg border-b-[2px] hover:shadow-none transition duration-300">
+                  <div className="mb-4 border-b-[2px] xl:w-[500px] border-[#e5e5e5]  rounded-xl hover:border-transparent">
+                    <div className="flex bg-white px-4 sm:px-[22px] py-3 xl:py-4 rounded-xl hover:box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.05); border border-transparent hover:border-[#fafafa] border-solid hover:shadow-lg border-b-[2px] transition duration-300">
                       <span>{MyData.icon}</span>
                       <div className="sm:ps-5 ps-3">
-                        <h4 className="text-lightBlack ff_outfit font-medium leading-normal text-base sm:text-md mb-1">
+                        <h4 className="text-lightBlack 2xl:text-lg ff_outfit font-medium leading-normal text-base sm:text-md mb-1">
                           {MyData.heading}
                         </h4>
-                        <p className=" ff_inter text-black text-xs sm:text-sm font-normal leading-[160%] opacity-70">
+                        <p className="ff_inter text-black text-xs sm:text-sm font-normal leading-[160%] opacity-70">
                           {MyData.para}
                         </p>
                       </div>

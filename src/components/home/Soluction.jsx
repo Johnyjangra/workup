@@ -3,7 +3,7 @@ import right_img from "../../assets/png/soluction-right-img.png";
 import dots_img from "../../assets/png/feature-dots-img.png";
 import top_dots from "../../assets/svg/solution_top_dots.svg"
 import { SuccesDimand, SuccesRocketIcon, SuccesVision } from "../common/Icons";
-const SoluctionSucces = () => {
+const Soluction = () => {
   return (
     <>
       <div className="lg:pt-[60px] xl:pb-[105px] relative pt-6 pb-12">
@@ -26,10 +26,10 @@ const SoluctionSucces = () => {
           <div className="flex flex-wrap justify-center flex-col-reverse lg:flex-row lg:justify-between items-center">
             <div className="lg:w-5/12 relative">
               <img className="absolute hidden lg:block  lg:top-[-50%] xl:top-[-85%] lg:start-0 xl:start-[-10%]" src={top_dots} alt="dots-group" />
-              <h2 className="ff_railway text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-normal mb-0 lg:mb-[14px] inline-block pt-8 lg:pt-0 relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-3%] before:content-[''] before:start-0">
+              <h2 className="ff_railway 2xl:text-[44px] text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-normal mb-0 lg:mb-[14px] inline-block pt-8 lg:pt-0 relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-3%] before:content-[''] before:start-0">
                 Solution
               </h2>
-              <p className="ff_inter text-xs sm:text-sm text-black opacity-70 font-normal mb-0 leading-[160%]">
+              <p className="ff_inter text-xs sm:text-sm text-black 2xl:text-base opacity-70 font-normal mb-0 leading-[160%]">
                 We grasp the struggles of business finance management and the
                 risks of losing control. WorkUp's AI automation solution
                 restores control, automating tax payments, securing profits, and
@@ -73,4 +73,4 @@ const SoluctionSucces = () => {
   );
 };
 
-export default SoluctionSucces;
+export default Soluction;

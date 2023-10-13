@@ -41,10 +41,10 @@ const Dashboard = () => {
                     />
                   </div>
                   <div className="md:w-5/12">
-                    <h3 className="ff_outfit text-[20px] sm:text-lg font-semibold leading-normal text-[#111223] pt-4 sm:pt-5 pt-md-0">
+                    <h3 className="ff_outfit text-[20px] sm:text-lg font-semibold leading-normal text-[#111223] 2xl:text-[26px] pt-4 sm:pt-5 pt-md-0">
                       Updated with your Dashboard
                     </h3>
-                    <p className="ff_inter text-black opacity-70 text-xs sm:text-sm font-normal leading-[155%] lg:pe-10">
+                    <p className="ff_inter text-black opacity-70 text-xs sm:text-sm 2xl:text-base font-normal leading-[155%] lg:pe-10">
                       Et tempor justo aliquam orci augue vitae fringilla purus
                       eget. Id vitae odio consequat aliquet volutpat convallis
                       mi tortor. Eget mattis malesuada commodo urnavolutpat nisi
@@ -64,10 +64,10 @@ const Dashboard = () => {
                     />
                   </div>
                   <div className="md:w-5/12">
-                    <h3 className="ff_outfit text-[20px] sm:text-lg font-semibold leading-normal text-[#111223] pt-4 sm:pt-5 pt-md-0">
+                    <h3 className="ff_outfit text-[20px] sm:text-lg font-semibold leading-normal text-[#111223] 2xl:text-[26px] pt-4 sm:pt-5 pt-md-0">
                     Accounts
                     </h3>
-                    <p className="ff_inter text-black opacity-70 text-xs sm:text-sm font-normal leading-[155%] lg:pe-10">
+                    <p className="ff_inter text-black opacity-70 text-xs sm:text-sm 2xl:text-base font-normal leading-[155%] lg:pe-10">
                       Et tempor justo aliquam orci augue vitae fringilla purus
                       eget. Id vitae odio consequat aliquet volutpat convallis
                       mi tortor. Eget mattis malesuada commodo urnavolutpat nisi
@@ -87,10 +87,10 @@ const Dashboard = () => {
                     />
                   </div>
                   <div className="md:w-5/12">
-                    <h3 className="ff_outfit text-[20px] sm:text-lg font-semibold leading-normal text-[#111223] pt-4 sm:pt-5 pt-md-0">
+                    <h3 className="ff_outfit text-[20px] sm:text-lg font-semibold 2xl:text-[26px] leading-normal text-[#111223] pt-4 sm:pt-5 pt-md-0">
                     Cards
                     </h3>
-                    <p className="ff_inter text-black opacity-70 text-xs sm:text-sm font-normal leading-[155%] lg:pe-10">
+                    <p className="ff_inter text-black opacity-70 text-xs sm:text-sm 2xl:text-base font-normal leading-[155%] lg:pe-10">
                       Et tempor justo aliquam orci augue vitae fringilla purus
                       eget. Id vitae odio consequat aliquet volutpat convallis
                       mi tortor. Eget mattis malesuada commodo urnavolutpat nisi

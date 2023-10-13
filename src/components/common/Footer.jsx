@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="h-[160px] max-w-[973px] mx-auto sm:h-[198px] bg-gradientOne rounded-2xl sm:px-12 px-8 flex flex-col items-center justify-center relative overflow-hidden translate-y-[-100%]">
       <img className="absolute pointer-events-none top-0 start-0 z-[0]" src={left_img} alt="lines-group" />
             <img className="absolute pointer-events-none top-0 end-0 z-[0]" src={right_img} alt="lines-group" />
-            <h2 className="ff_outfit text-white font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">Join Free Demo</h2>
+            <h2 className="ff_outfit text-white font-medium lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">Join Free Demo</h2>
             <form className="bg-white z-[10] relative h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25); shadow-xl rounded-[100px] ps-[22px] flex items-center justify-between mt-3 sm:mt-2 mb-0">
               <input
                 required
@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="flex flex-wrap justify-between items-start mt-[-140px] sm:mt-[-160px]">
             <div className="md:w-5/12">
               <a href="/"><img src={logo} alt="workup logo" /></a>
-              <p className="ff_inter text-white opacity-70 text-xs font-medium leading-normal pt-3 mb-3 max-w-[500px]">
+              <p className="ff_inter text-white opacity-70 text-xs font-medium leading-normal 2xl:text-sm pt-3 mb-3 max-w-[500px]">
                 The is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
               </p>
@@ -73,62 +73,62 @@ const Footer = () => {
             </div>
             <div className="xl:w-4/12 md:w-6/12 lg:w-5/12 w-full flex justify-between mt-5 lg:mt-0">
               <div className="flex flex-col w-6/12">
-                <h3 className="ff_open_sans text-white text-md font-semibold leading-normal mb-[10px]">
+                <h3 className="ff_open_sans text-white 2xl:text-[22px] text-md font-semibold leading-normal mb-[10px]">
                   Home
                 </h3>
                 <a
-                  href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal inline-block transition duration-300 hover:opacity-80"
+                  href="/"
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal inline-block transition duration-300 hover:opacity-80"
                 >
                   Chatroom
                 </a>
                 <a
-                  href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px] transition duration-300 hover:opacity-80 inline-block"
+                  href="#invest"
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] transition duration-300 hover:opacity-80 inline-block"
                 >
                   Invest
                 </a>
                 <a
-                  href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
+                  href="#cofounder"
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   Become a cofounder
                 </a>
               </div>
               <div className="flex flex-col w-6/12">
-                <h3 className="ff_open_sans text-white text-md font-semibold leading-normal mb-[10px]">
+                <h3 className="ff_open_sans text-white 2xl:text-[22px] text-md font-semibold leading-normal mb-[10px]">
                   Links
                 </h3>
                 <a
-                  href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal inline-block transition duration-300 hover:opacity-80"
+                  href="/"
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal inline-block transition duration-300 hover:opacity-80"
                 >
                   Contact us
                 </a>
                 <a
                   href="#faq"
-                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   FAQ
                 </a>
-                <a
-                  href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
+                <span
+                  href="/"
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   Privacy
-                </a>
-                <a
-                  href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
+                </span>
+                <span
+                  href="/"
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   Terms & conditions
-                </a>
+                </span>
               </div>
             </div>
           </div>
         </div>
         <div className="border-b border-solid border-[#FFFFFF1A] pt-8 md:pt-16 xl:pt-[97px]"></div>
-        <p className="text-center ff_open_sans text-[#96DBF4] text-xs px-[20px] sm:text-base font-semibold sm:leading-[32px] pt-4 pb-5 sm:pb-[22px]">
+        <p className="text-center ff_open_sans text-[#96DBF4] text-xs 2xl:text-md px-[20px] sm:text-base font-semibold sm:leading-[32px] pt-4 pb-5 sm:pb-[22px]">
           Copyright {Today} JesMor Enterprises, All Rights Reserved.
         </p>
       </div>

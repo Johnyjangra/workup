@@ -9,7 +9,7 @@ const FounderHero = () => {
         <h2 className="text-white ff_outfit font-semibold text-[32px] sm:text-[38px] md:text-10 lg:text-[48px] 2xl:text-[60px] leading-[120%] text-center mt-16">
         Become a Co-founder
         </h2>
-        <p className="text-[#DFDDFD] text-center ff_inter text-xs sm:text-sm 2xl:text-[20px] font-normal mt-2 max-w-[553px] mx-auto">
+        <p className="text-[#DFDDFD] text-center ff_inter text-xs sm:text-sm 2xl:text-[20px] font-normal mt-2 max-w-[553px] 2xl:max-w-[600px] mx-auto">
         The is a long established fact that a reader will be distracted by the readable content of a page.
         </p>
         <form className="bg-white group h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between mt-4 input_border_gradient">
