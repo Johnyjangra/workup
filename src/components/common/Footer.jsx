@@ -4,12 +4,10 @@ import "font-awesome/css/font-awesome.min.css";
 import left_img from "../../assets/svg/joinBgLiner.svg";
 import right_img from "../../assets/svg/joinBgLinerRight.svg";
 import arrow from "../../assets/svg/waitlist-arrow.svg";
-import {
-  FacebookIcon,
-  InstagramIcon,
-  LinkdinIcon,
-  TwitterIcon,
-} from "./Icons";
+import facebook from "../../assets/svg/footer-fb-logo.svg"
+import instagram from "../../assets/svg/footer-insta-logo.svg"
+import linkdin from "../../assets/svg/footer-linkdin-logo.svg"
+import twitter from "../../assets/svg/footer-twitter-logo.svg"
 const Footer = () => {
   const Today = new Date().getFullYear();
   return (
@@ -19,15 +17,15 @@ const Footer = () => {
       <div className="h-[160px] max-w-[973px] mx-auto sm:h-[198px] bg-gradientOne rounded-2xl sm:px-12 px-8 flex flex-col items-center justify-center relative overflow-hidden translate-y-[-100%]">
       <img className="absolute pointer-events-none top-0 start-0 z-[0]" src={left_img} alt="lines-group" />
             <img className="absolute pointer-events-none top-0 end-0 z-[0]" src={right_img} alt="lines-group" />
-            <h2 className="ff_outfit text-white font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">Join our Demo</h2>
-            <form className="bg-white z-[10] relative h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto group box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25); shadow-xl rounded-[100px] ps-[22px] flex items-center justify-between mt-3 sm:mt-2 mb-0">
+            <h2 className="ff_outfit text-white font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">Join Free Demo</h2>
+            <form className="bg-white z-[10] relative h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25); shadow-xl rounded-[100px] ps-[22px] flex items-center justify-between mt-3 sm:mt-2 mb-0">
               <input
                 required
                 className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"
                 type="email"
                 placeholder="Enter your email"
               />
-              <button className="bg-gradientOne h-[32px] sm:h-[36px] min-w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
+              <button className="bg-gradientOne h-[32px] sm:h-[36px] min-w-[70px] group rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
                 <img
                   className=" group-hover:translate-x-[7px] transition duration-300"
                   src={arrow}
@@ -38,8 +36,8 @@ const Footer = () => {
           </div>
           <div className="flex flex-wrap justify-between items-start mt-[-140px] sm:mt-[-160px]">
             <div className="md:w-5/12">
-              <img src={logo} alt="workup logo" />
-              <p className=" ff_inter text-white opacity-70 text-xs font-medium leading-normal pt-3 mb-3 max-w-[500px]">
+              <a href="/"><img src={logo} alt="workup logo" /></a>
+              <p className="ff_inter text-white opacity-70 text-xs font-medium leading-normal pt-3 mb-3 max-w-[500px]">
                 The is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
               </p>
@@ -47,30 +45,30 @@ const Footer = () => {
                 <a
                   href="https://www.facebook.com/"
                   target="blank"
-                  className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon transition duration-300 hover:scale-[1.1]"
+                  className="transition duration-300 hover:scale-[1.1]"
                 >
-                  <FacebookIcon />
+                <img src={facebook} alt="facebook" />
                 </a>
                 <a
                   target="blank"
                   href="https://www.instagram.com/"
-                  className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon transition duration-300 hover:scale-[1.1]"
+                  className="h-[34px] w-[34px] transition duration-300 hover:scale-[1.1]"
                 >
-                  <InstagramIcon />
+                <img src={instagram} alt="instagram" />
                 </a>
                 <a
                   target="blank"
                   href="https://twitter.com/"
-                  className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon transition duration-300 hover:scale-[1.1]"
+                  className="h-[34px] w-[34px] transition duration-300 hover:scale-[1.1]"
                 >
-                  <TwitterIcon />
+                 <img src={twitter} alt="twitter" />
                 </a>
                 <a
                   target="blank"
                   href="https://www.linkedin.com/"
-                  className="h-[34px] w-[34px] rounded-[100%] bg-white flex justify-center items-center footer_icon transition duration-300 hover:scale-[1.1]"
+                  className="h-[34px] w-[34px] transition duration-300 hover:scale-[1.1]"
                 >
-                  <LinkdinIcon />
+                 <img src={linkdin} alt="linkdin" />
                 </a>
               </div>
             </div>
