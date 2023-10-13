@@ -4,7 +4,6 @@ import Homepage from "./views/Homepage";
 import ChatRoom from "./views/ChatRoom";
 import Founder from "./views/Founder";
 import Brand from "./views/Brand";
-
 function App() {
   return (
     <>

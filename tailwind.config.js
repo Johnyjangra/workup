@@ -13,8 +13,11 @@ module.exports = {
         "2xl": "54px",
       },
       backgroundImage: {
-        'gradientOne': 'linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%)',
-        'gradientTwo': 'linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%)',
+        gradientOne: "linear-gradient(105deg, #2ABAE9 0%, #1B77CC 100%)",
+        gradientTwo: "linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%)",
+        btnGradient: "linear-gradient(91deg, #994FFF 0.27%, #4AB6FE 98.57%)",
+        planCard:
+          "linear-gradient(225deg, #E939D9 2.18%, #2ABAE9 111.89%), linear-gradient(91deg, #994FFF 0.27%, #4AB6FE 98.57%);",
       },
       colors: {
         // text-colors
@@ -23,6 +26,7 @@ module.exports = {
         darkBlue: "#111223",
         // background-color
         lightpurple: "#1F0E35",
+        sky: "#2CB9E9",
       },
     },
   },

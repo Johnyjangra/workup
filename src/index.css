@@ -1,3 +1,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgCircle {
+  background-image: url(./assets/svg/MarketCircle.svg);
+}
+.bgPinkMarket {
+  background-image: url(./assets/svg/millionPink.svg);
+}
+.bgBlueMarket {
+  background-image: url(./assets/svg/marketBlue.svg);
+}
+.BackLayer::after {
+  background-image: url(./assets/svg/MarketLayer.svg);
+}
+.BackLayer::before {
+  background-image: url(./assets/svg/marketLeft.svg);
+}
+.marketShadow {
+  box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.1);
+}
+.ProgressSlide .slick-track {
+  display: flex !important;
+}
+.ProgressSlide .slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.ProgressSlide .slick-slide > div {
+  display: flex;
+  width: 100%;
+}
+.ProgressSlide .slick-list {
+  overflow: visible !important;
+}
+.uniqueBg {
+  background: linear-gradient(91deg, #994fff 0.27%, #4ab6fe 98.57%);
+}
+.UniqueBtn {
+  background: linear-gradient(105deg, #2abae9 0%, #1b77cc 100%);
+}
+.bgHeroBrand {
+  background-image: url(./assets/webp/BrandHeroBg.webp);
+}
+@media (min-width: 1400px) {
+  .ProgressSlide .slick-current {
+    transform: scale(1.3);
+    margin-left: 60px !important;
+    margin-right: 60px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .ProgressSlide .slick-current {
+    transform: scale(1.3);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
