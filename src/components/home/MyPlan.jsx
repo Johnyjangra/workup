@@ -22,7 +22,7 @@ const MyPlan = () => {
               <div
                 key={i}
                 className="md:px-5 px-3 w-[350px] sm:w-6/12 lg:w-4/12 md:mt-[40px] mt-[24px]">
-                <div className='border pt-[30px] pb-[28px] border-[#E5E5E5] rounded-[14px] plan_card group hover:bg-planCard h-full flex items-center flex-col justify-between min-h-[480px] lg:min-h-[570px]'>
+                <div className='border pt-[30px] cursor-pointer pb-[28px] border-[#E5E5E5] rounded-[14px] plan_card group hover:bg-planCard h-full flex items-center flex-col justify-between min-h-[480px] lg:min-h-[570px]'>
                   <div>
                     <h4 className="ff_outfit text-lightBlack  text-md font-medium leading-normal text-center group-hover:text-white">
                       {MyData.top_heading}
@@ -31,7 +31,7 @@ const MyPlan = () => {
                       {MyData.top_para}
                     </p>
                     <h3 className="ff_open_sans mb-[12px] relative text-center font-semibold leading-[100%] text-transparent text-[48px] bg-clip-text bg-gradient-to-r from-[#994FFF] to-[#4AB6FE] group-hover:text-white">
-                    <sup className='ff_poppins font-semibold absolute top-[2%] start-[30%] leading-normal text-[18px] sm:text-[20px] text-transparent bg-clip-text bg-gradient-to-r from-[#994FFF] to-[#4AB6FE] group-hover:text-white'>{MyData.doller}</sup>{MyData.big_heading}
+                    <sup className='ff_poppins font-semibold absolute top-[2%] start-[28%] leading-normal text-[18px] sm:text-[20px] text-transparent bg-clip-text bg-gradient-to-r from-[#994FFF] to-[#4AB6FE] group-hover:text-white'>{MyData.doller}</sup>{MyData.big_heading}
                     </h3>
                     <p className='text-center mb-[6px] ff_inter text-sm text-black font-normal leading-normal  opacity-50 group-hover:text-white group-hover:opacity-[1]'>{MyData.priceBottomPara}</p>
                     <div>

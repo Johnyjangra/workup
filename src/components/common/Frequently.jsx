@@ -9,7 +9,7 @@ import awsome_img from "../../assets/webp/awsome-question-img.webp";
 import awsome_right from "../../assets/png/awsome-question-left-rgb.png"
 function Icon({ id, open }) {
   return (
-    <div className="h-5 w-5  absolute right-0 transform origin-center top-[28%] lg:top-[37%] transition-transform ease-in-out duration-300 cursor-pointer rotate-0">
+    <div className="h-5 w-5  absolute right-0 transform origin-center top-[50%] lg:top-[50%] translate-y-[-50%] transition-transform ease-in-out duration-300 cursor-pointer rotate-0">
       {id === open ? <MinusIconFaq /> : <PlusIconFaq />}
     </div>
   );
@@ -38,7 +38,7 @@ const Frequently = () => {
             <div className="lg:w-6/12 lg:pe-4 xl:pe-0">
               <img src={awsome_img} alt="people group" />
             </div>
-            <div className="lg:w-6/12 min-h-[656px] lg:pt-[50px]">
+            <div className="lg:w-6/12 lg:min-h-[656px] lg:pt-[50px]">
               <Fragment>
                 <Accordion
                   className="border-b-[1px] border-[#EBEBEB] border-solid"

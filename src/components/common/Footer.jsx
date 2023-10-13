@@ -45,28 +45,27 @@ const Footer = () => {
                 <a
                   href="https://www.facebook.com/"
                   target="blank"
-                  className="transition duration-300 hover:scale-[1.1]"
                 >
-                <img src={facebook} alt="facebook" />
+                <img className="min-h-[32px] min-w-[34px] transition duration-300 hover:translate-y-[-4px] " src={facebook} alt="facebook" />
                 </a>
                 <a
                   target="blank"
                   href="https://www.instagram.com/"
-                  className="h-[34px] w-[34px] transition duration-300 hover:scale-[1.1]"
+                  className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
                 >
                 <img src={instagram} alt="instagram" />
                 </a>
                 <a
                   target="blank"
                   href="https://twitter.com/"
-                  className="h-[34px] w-[34px] transition duration-300 hover:scale-[1.1]"
+                  className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
                 >
                  <img src={twitter} alt="twitter" />
                 </a>
                 <a
                   target="blank"
                   href="https://www.linkedin.com/"
-                  className="h-[34px] w-[34px] transition duration-300 hover:scale-[1.1]"
+                  className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
                 >
                  <img src={linkdin} alt="linkdin" />
                 </a>
@@ -79,19 +78,19 @@ const Footer = () => {
                 </h3>
                 <a
                   href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal"
+                  className="ff_inter text-white text-xs font-medium leading-normal inline-block transition duration-300 hover:opacity-80"
                 >
                   Chatroom
                 </a>
                 <a
                   href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px]"
+                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px] transition duration-300 hover:opacity-80 inline-block"
                 >
                   Invest
                 </a>
                 <a
                   href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px]"
+                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   Become a cofounder
                 </a>
@@ -102,25 +101,25 @@ const Footer = () => {
                 </h3>
                 <a
                   href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal"
+                  className="ff_inter text-white text-xs font-medium leading-normal inline-block transition duration-300 hover:opacity-80"
                 >
                   Contact us
                 </a>
                 <a
                   href="#faq"
-                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px]"
+                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   FAQ
                 </a>
                 <a
                   href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px]"
+                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   Privacy
                 </a>
                 <a
                   href="#"
-                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px]"
+                  className="ff_inter text-white text-xs font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   Terms & conditions
                 </a>
@@ -129,7 +128,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-b border-solid border-[#FFFFFF1A] pt-8 md:pt-16 xl:pt-[97px]"></div>
-        <p className="text-center ff_open_sans text-[#96DBF4] text-xs px-[20px] sm:text-base font-semibold leading-[32px] sm:pt-4 pb-5 sm:pb-[22px]">
+        <p className="text-center ff_open_sans text-[#96DBF4] text-xs px-[20px] sm:text-base font-semibold sm:leading-[32px] pt-4 pb-5 sm:pb-[22px]">
           Copyright {Today} JesMor Enterprises, All Rights Reserved.
         </p>
       </div>

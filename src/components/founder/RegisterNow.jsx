@@ -18,7 +18,7 @@ const RegisterNow = () => {
               Register Now
             </h3>
             <p className="ff_inter text-xs sm:text-base test-black opacity-70 leading-normal mb-6 lg:mb-10 font-normal text-black">
-              Let’s empower the world of business together.
+            To make WorkUp 's products better please leave your INFORMATION here.
             </p>
             <div className="flex flex-col sm:flex-row sm:gap-10">
               <div className="w-full mb-4 sm:mb-5 lg:mb-[36px]">
@@ -63,10 +63,10 @@ const RegisterNow = () => {
                 return (
                   <div
                     key={i}
-                    className={`${ i === 0 ? "sm:pr-3" : i === 2 ? "sm:pr-3" : "sm:pl-1 lg:pl-0"} lg:w-3/12 w-full sm:w-6/12 pb-4 lg:pb-0`}
+                    className={`${ i === 0 ? "sm:pr-3" : i === 2 ? "sm:pr-3" : "sm:pl-1 lg:pl-0 :"} lg:w-3/12 w-full sm:w-6/12 pb-4 lg:pb-0`}
                   >
                     <div
-                      className="border items-center border-[#E5E5E5] px-[10px] border-solid rounded-xl flex w-full lg:w-[190px] h-[70px]"
+                      className={`${ i===3 ? "lg:items-start items-center py-[9px]" :" items-center"} border border-[#E5E5E5] px-[10px] border-solid rounded-xl flex w-full lg:w-[190px] h-[70px]`}
                     >
                       <span>{obj.icon}</span>
                       <h5 className="ff_outfit ps-[10px] mb-0 text-[#1d1d1d] opacity-70 text-xs font-normal leading-[120%]">
