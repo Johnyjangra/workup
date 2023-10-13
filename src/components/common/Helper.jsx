@@ -24,6 +24,9 @@ import {
   WorkingIcon2,
   CheckIcon,
 } from "./Icons";
+import jhone1 from "../../assets/png/TypingImg1.png";
+import jhone2 from "../../assets/png/jhone2.png";
+import jhone3 from "../../assets/png/jhone3.png";
 export const FeatureData = [
   {
     icon: <CardLoader />,
@@ -156,17 +159,19 @@ export const PotintialPlanData = [
     top_para: "Best for sole traders",
     big_heading: "Free",
     priceBottomPara: "Forever",
-    doller:"",
+    doller: "",
     blue_check_img: <CheckIcon />,
-    submap: [{ subpara: "3 Business accounts" },
-    { subpara: "1 Locked account" },
-    { subpara: "1 Linked account" },],
+    submap: [
+      { subpara: "3 Business accounts" },
+      { subpara: "1 Locked account" },
+      { subpara: "1 Linked account" },
+    ],
     mybutton: "Free Forever",
   },
   {
     top_heading: "Getting Serious",
     top_para: "Best for small business",
-    doller:"$",
+    doller: "$",
     big_heading: "25",
     priceBottomPara: "Per member Per month",
     blue_check_img: <CheckIcon />,
@@ -181,7 +186,7 @@ export const PotintialPlanData = [
   {
     top_heading: "I’m Serious",
     top_para: "Best for growth businesses",
-    doller:"$",
+    doller: "$",
     big_heading: "35",
     priceBottomPara: "Per member Per month",
     blue_check_img: <CheckIcon />,
@@ -197,3 +202,4 @@ export const PotintialPlanData = [
     mybutton: "Get Started",
   },
 ];
+export const ChatRoomData = [{ image: jhone1 }, { image: jhone2 }, { image: jhone3 }];
