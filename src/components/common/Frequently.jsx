@@ -4,7 +4,7 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import { MinusIconFaq, PlusIconFaq } from "../common/Icons";
+import { MinusIconFaq, PlusIconFaq } from "./Icons";
 import awsome_img from "../../assets/webp/awsome-question-img.webp";
 import awsome_right from "../../assets/png/awsome-question-left-rgb.png"
 function Icon({ id, open }) {
@@ -15,7 +15,7 @@ function Icon({ id, open }) {
   );
 }
 
-const AwsomeQuestions = () => {
+const Frequently = () => {
   const [open, setOpen] = useState();
 
   const handleOpen = (value) => {
@@ -231,4 +231,4 @@ const AwsomeQuestions = () => {
   );
 };
 
-export default AwsomeQuestions;
+export default Frequently;

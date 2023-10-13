@@ -6,8 +6,8 @@ import OurWaitList from '../components/common/OurWaitList'
 import ProblemSolving from '../components/home/ProblemSolving'
 import Working from '../components/home/Working'
 import MyPlan from '../components/home/MyPlan'
-import MyFooter from '../components/home/MyFooter'
-import AwsomeQuestions from '../components/home/AwsomeQuestions'
+import Footer from '../components/common/Footer'
+import Frequently from '../components/common/Frequently'
 import Dashboard from '../components/home/Dashboard'
 import Header from '../components/common/Header'
 
@@ -24,8 +24,8 @@ const Homepage = () => {
       <Dashboard/>
       <div className='lg:pt-[100px] md:py-10 lg:pb-[90px]'><OurWaitList/></div>
       <MyPlan/>
-      <AwsomeQuestions/>
-      <MyFooter/>
+      <Frequently/>
+      <Footer/>
     </>
   )
 }
