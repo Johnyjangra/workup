@@ -10,7 +10,7 @@ const ChatroomHero = () => {
           <h2 className="text-white ff_outfit font-semibold text-[32px] sm:text-[38px] md:text-10 lg:text-[48px] 2xl:text-[60px] leading-[120%] text-center mt-[41px]">
             Chatroom
           </h2>
-          <p className="text-[#DFDDFD] text-center ff_inter text-xs sm:text-sm 2xl:text-[18px] font-normal mt-2 max-w-[553px] mx-auto">
+          <p className="text-[#DFDDFD] text-center ff_inter text-xs sm:text-sm  font-normal mt-2 max-w-[553px] mx-auto 2xl:text-[20px]">
             The is a long established fact that a reader will be distracted by
             the readable content of a page.
           </p>

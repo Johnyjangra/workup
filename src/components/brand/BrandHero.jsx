@@ -14,7 +14,7 @@ const BrandHero = () => {
         <p className="text-white ff_outfit font-semibold text-[48px] 2xl:text-[60px] leading-[120%] text-center mt-[15px]">
           Investment
         </p>
-        <p className="text-[#DFDDFD] text-center ff_inter text-xs sm:text-sm 2xl:text-[18px] font-normal mt-2 mb-7">
+        <p className="text-[#DFDDFD] text-center ff_inter text-xs sm:text-sm 2xl:text-[20px] font-normal mt-2 mb-7">
           The is a long established fact that a reader will be distracted by the
           readable content of a page.
         </p>
