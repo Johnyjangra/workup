@@ -31,6 +31,9 @@ import {
 import jhone1 from "../../assets/png/TypingImg1.png";
 import jhone2 from "../../assets/png/jhone2.png";
 import jhone3 from "../../assets/png/jhone3.png";
+import DashboarsData from "../home/DashboarsData";
+import AccountsData from "../home/AccountsData";
+import CardsData from "../home/CardsData";
 export const FeatureData = [
   {
     icon: <CardLoader />,
@@ -226,4 +229,26 @@ export const FormCard = [
     heading: "Experience in building fintech startup",
   },
 ];
-export const ChatRoomData = [{ image: jhone1 }, { image: jhone2 }, { image: jhone3 }];
+export const ChatRoomData = [
+  { image: jhone1 },
+  { image: jhone2 },
+  { image: jhone3 },
+];
+
+export const tabsData = [
+  {
+    heading: "Updated with your Dashboard",
+    parall: <DashboarsData />,
+    para: "1",
+  },
+  {
+    heading: "Accounts",
+    parall: <AccountsData />,
+    para: "2",
+  },
+  {
+    heading: "Cards",
+    parall: <CardsData />,
+    para: "3",
+  },
+];

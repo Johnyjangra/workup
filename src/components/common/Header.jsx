@@ -28,7 +28,7 @@ const Header = () => {
             activeNavOverlay={activeNavOverlay}
             setActiveNavOverlay={setActiveNavOverlay}
           />
-          <nav className="w-full sm:pb-6 pt-[20px] sm:pt-[23px]">
+          <nav className="w-full pt-[20px] sm:py-6">
             <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
               <div className="flex items-center justify-between">
                 <div className="flex-1 flex items-center justify-between">
@@ -50,7 +50,7 @@ const Header = () => {
                   <div className="hidden lg:block">
                     <div className="flex items-center">
                       <a
-                        href="#chat-room"
+                        href="/chatroom"
                         className={`${
                           path === "/" ? "text-black opacity-70" : " text-white"
                         } text-sm font-medium ff_outfit mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-[#2ABAE9] after:duration-300 duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-[#2ABAE9] after:w-0 hover:after:w-full after:h-[2px]`}
@@ -60,15 +60,15 @@ const Header = () => {
                       <a
                         href="#invest"
                         className={`${
-                          path === "/" ? "text-black" : "text-white"
+                          path === "/" ? "text-black opacity-70" : "text-white"
                         } text-black text-sm font-medium ff_outfit mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-[#2ABAE9] after:duration-300 duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-[#2ABAE9] after:w-0 hover:after:w-full after:h-[2px]`}
                       >
                         Invest
                       </a>
                       <a
-                        href="#co-founder"
+                        href="/founder"
                         className={`${
-                          path === "/" ? "text-black" : "text-white"
+                          path === "/" ? "text-black opacity-70" : "text-white"
                         } text-black text-sm font-medium ff_outfit mr-6 xl:mr-[30px] after:transition-all after:rounded-sm hover:text-[#2ABAE9] after:duration-300 duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-[#2ABAE9] after:w-0 hover:after:w-full after:h-[2px]`}
                       >
                         Become a Co-Founder
@@ -76,9 +76,9 @@ const Header = () => {
                       <button
                         className={`${
                           path === "/"
-                            ? "bg-white text-blue"
+                            ? "bg-[#edf7fd] text-blue"
                             : "bg-transparent text-white"
-                        } "hidden sm:flex justify-center items-center overflow-hidden h-[43px] w-[95px] text-sm font-semibold rounded-[100px] border-solid border-[2px] border-white duration-300 ease-linear hover:text-white hover:bg-blue pb-[2px]"`}
+                        } "hidden sm:flex justify-center items-center overflow-hidden h-[43px] w-[95px] text-sm font-semibold rounded-[100px] border-solid border-[1px] border-[#edf7fd] duration-300 ease-linear hover:text-white hover:bg-blue pb-[2px]"`}
                       >
                         Log In
                       </button>

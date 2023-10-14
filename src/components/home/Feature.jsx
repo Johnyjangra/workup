@@ -5,7 +5,7 @@ import dots_img from "../../assets/png/feature-dots-img.png"
 const Feature = () => {
   return (
     <>
-      <div className="lg:pb-[126px] lg:pt-[115px] py-10 relative" id="invest">
+      <div className="lg:pb-[126px] lg:pt-[115px] py-10 relative">
         <img className="absolute pointer-events-none end-0 top-[5%] w-[9%] hidden xl:block" src={right_img} alt="dots" />
         <img className="absolute pointer-events-none left-[-1%] hidden xl:block top-[24%]" src={dots_img} alt="dots-group" />
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">

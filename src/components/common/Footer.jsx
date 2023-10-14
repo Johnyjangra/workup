@@ -90,7 +90,7 @@ const Footer = () => {
                   Home
                 </h3>
                 <a
-                  href="/"
+                  href="/chatroom"
                   className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal inline-block transition duration-300 hover:opacity-80"
                 >
                   Chatroom
@@ -102,7 +102,7 @@ const Footer = () => {
                   Invest
                 </a>
                 <a
-                  href="#cofounder"
+                  href="/founder"
                   className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   Become a cofounder
@@ -113,7 +113,7 @@ const Footer = () => {
                   Links
                 </h3>
                 <a
-                  href="/"
+                  href="/founder"
                   className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal inline-block transition duration-300 hover:opacity-80"
                 >
                   Contact us
@@ -124,18 +124,18 @@ const Footer = () => {
                 >
                   FAQ
                 </a>
-                <span
+                <a
                   href="/"
                   className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   Privacy
-                </span>
-                <span
+                </a>
+                <a
                   href="/"
                   className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   Terms & conditions
-                </span>
+                </a>
               </div>
             </div>
           </div>
