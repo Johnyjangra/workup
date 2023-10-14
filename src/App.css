@@ -6,6 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.overflow-y-hidden {
+  overflow: hidden !important;
+  height: 100vh !important;
+}
+
 .ff_railway {
   font-family: "Raleway", "sans";
 }

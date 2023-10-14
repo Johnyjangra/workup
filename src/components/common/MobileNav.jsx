@@ -21,7 +21,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           <li className="py-5">
             <a
               onClick={() => setActiveNavOverlay(false)}
-              href="#invest"
+              href="/brand"
               className="text-black text-[20px] sm:text-[30px] opacity-70 ff_outfit font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-blue after:w-0 hover:after:w-full after:h-[2px]"
             >
               Invest
