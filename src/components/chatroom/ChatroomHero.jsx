@@ -4,7 +4,7 @@ import arrow from "../../assets/svg/waitlist-arrow.svg";
 const ChatroomHero = () => {
   return (
     <>
-      <div className="bgHerochat bg-no-repeat bg-cover">
+      <div className="bgHerochat bg-[url('./assets/png/ChatroomHeroImg.png')] bg-no-repeat bg-cover">
         <Header />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 mt-3 sm:pb-[64px] pb-[50px]">
           <h2 className="text-white ff_outfit font-semibold text-[32px] sm:text-[38px] md:text-10 lg:text-[48px] 2xl:text-[52px] leading-[120%] text-center mt-[41px]">
