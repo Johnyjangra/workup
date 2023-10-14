@@ -3278,7 +3278,7 @@ export const ProgressLeft = () => {
 export const ProgressRight = () => {
   return (
     <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M2 1.8689L9 8.16398L2 13.8689" stroke="white" stroke-width="2.42353" stroke-linecap="round"/>
+    <path d="M2 1.8689L9 8.16398L2 13.8689" stroke="#2ABAE9" stroke-width="2.42353" stroke-linecap="round"/>
     </svg>
     
   );

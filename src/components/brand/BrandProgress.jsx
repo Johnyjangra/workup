@@ -145,7 +145,7 @@ const BrandProgress = () => {
         </div> */}
         <div className="flex items-center justify-center gap-6 sm:mt-12">
           <div
-            className="h-[42px] w-[42px] border-[2.5px] progress_left_arrow group border-solid hover:bg-btnGradient hover:border-none border-[#2ABAE9] rounded-[100px] flex justify-center items-center cursor-pointer"
+            className="sm:h-[42px] h-[38px] w-[38px] sm:w-[42px] border-[2.5px] progress_left_arrow group border-solid hover:bg-btnGradient hover:border-none border-[#2ABAE9] rounded-[100px] flex justify-center items-center cursor-pointer"
             onClick={() => first.current.slickNext()}
           >
          
@@ -153,7 +153,7 @@ const BrandProgress = () => {
            
           </div>
           <div
-            className="h-[42px] w-[42px] bg-btnGradient progress_Right_arrow rounded-[100px] hover:border-[2.5px] hover:border-solid hover:border-[#2ABAE9] hover:!bg-none cursor-pointer flex justify-center items-center"
+            className="sm:h-[42px] h-[38px] w-[38px] sm:w-[42px] border-[2.5px] progress_left_arrow group border-solid hover:bg-btnGradient hover:border-none border-[#2ABAE9] rounded-[100px] flex justify-center items-center cursor-pointer"
             onClick={() => first.current.slickPrev()}
           >
            
