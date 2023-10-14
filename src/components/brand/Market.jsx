@@ -9,11 +9,11 @@ const Market = () => {
           alt="linerSide"
           className="start-0 absolute pointer-events-none lg:bottom-[-10%] md:bottom-[-20%] md:block hidden"
         />
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 lg:my-28 mt-16">
+        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 lg:mt-28 lg:mb-[167px] mb-[80px] mt-16">
           <div className="flex flex-wrap xl:flex-row flex-col items-center ">
             <div className="xl:w-[35%] md:w-6/12 w-full flex flex-col justify-center ">
               <div className="bgPinkMarket bg-no-repeat bg-center bg-contain xl:py-2 lg:py-5 pe-16 xl:translate-x-[25px]">
-                <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]text-white text-center font-medium leading-[135%]">
+                <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-white text-center font-medium leading-[135%]">
                   2.4
                 </p>
                 <p className="ff_outfit text-center font-semibold sm:text-md text-[15px] leading-[125%] text-white">
@@ -37,7 +37,7 @@ const Market = () => {
             </div>
             <div className="xl:w-[35%] md:w-6/12 w-full flex flex-col justify-center">
               <div className="bgBlueMarket bg-no-repeat bg-center bg-contain xl:py-2 lg:py-5 ps-16 xl:translate-x-[-25px]">
-                <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]text-white text-center font-medium leading-[135%]">
+                <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-white text-center font-medium leading-[135%]">
                   400
                 </p>
                 <p className="ff_outfit text-center font-semibold sm:text-md text-[15px] leading-[125%] text-white">
