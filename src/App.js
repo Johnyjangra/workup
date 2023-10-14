@@ -4,6 +4,7 @@ import Homepage from "./views/Homepage";
 import ChatRoom from "./views/ChatRoom";
 import Founder from "./views/Founder";
 import Brand from "./views/Brand";
+import BackToTop from "./components/common/BackToTopButton";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/brand" element={<Brand />} />
         </Routes>
       </BrowserRouter>
+      <BackToTop />
     </>
   );
 }

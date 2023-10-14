@@ -148,6 +148,34 @@
   background: #2cb9e9;
 }
 
+/* BACK TO TOP */
+.topscroll {
+  border: 2px solid #fff;
+  background-color: #2CB9E9;
+  -webkit-animation: move 2s ease-in-out infinite;
+  -webkit-animation: up-down 2.5s ease-in-out infinite;
+  animation: up-down 2.5s ease-in-out infinite !important;
+}
+
+.topscroll:hover {
+  -webkit-box-shadow: 0 0 17px #2CB9E9;
+  box-shadow: 0 0 17px #2CB9E9;
+}
+
+@-webkit-keyframes up-down {
+  50% {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes up-down {
+  50% {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+  }
+}
+
 /* .scroll_bar_hide::-webkit-scrollbar {
   display: none;
 } */
