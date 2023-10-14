@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700;800;900&display=swap");
 .ff_railway {
   font-family: "Raleway", "sans";
 }
@@ -17,7 +17,9 @@
 .ff_open_sans {
   font-family: "Open Sans", "sans";
 }
-.card_Shadow{transition: all 300ms linear !important;}
+.card_Shadow {
+  transition: all 300ms linear !important;
+}
 /* feature */
 .card_Shadow:hover {
   box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.1);
@@ -48,7 +50,9 @@
 .slick-dots li.slick-active button:before {
   color: #1d80d0 !important;
 }
-.slick-dots{bottom: -37px !important;}
+.slick-dots {
+  bottom: -37px !important;
+}
 .waitlist_shado {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -113,10 +117,10 @@
 .calc_height_custom {
   min-height: 60vh;
 }
-@media (min-width:1023.98px) {
-.calc_height_custom {
-  min-height: calc(100vh - 90px);
-}
+@media (min-width: 1023.98px) {
+  .calc_height_custom {
+    min-height: calc(100vh - 90px);
+  }
 }
 .scroll_bar::-webkit-scrollbar {
   height: 3px;
@@ -136,4 +140,7 @@
 /* Handle on hover */
 .scroll_bar::-webkit-scrollbar-thumb:hover {
   background: #2cb9e9;
+}
+.scroll_bar_hide::-webkit-scrollbar {
+  display: none;
 }
