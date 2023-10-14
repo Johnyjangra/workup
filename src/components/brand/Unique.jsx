@@ -27,13 +27,13 @@ const Unique = () => {
               />
             </div>
             <div className="lg:w-6/12 w-full sm:ps-3 lg:mt-0 mt-16 relative z-10">
-              <p className=" text-white ff_outfit text-lg font-medium tracking-[-0.24px] leading-[106%] relative after:contents-[''] after:absolute after:w-[116px] after:start-0 after:h-[4px]  after:rounded-md after:bg-white after:top-[-36%]">
+              <p className=" text-white ff_outfit text-lg 2xl:text-[26px] font-medium tracking-[-0.24px] leading-[106%] relative after:contents-[''] after:absolute after:w-[116px] after:start-0 after:h-[4px]  after:rounded-md after:bg-white after:top-[-36%]">
                 What are WorkUp's
               </p>
-              <p className="text-white ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-[106%] mt-3">
+              <p className="text-white ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-[106%] mt-3 2xl:text-[44px]">
                 Unique insights?
               </p>
-              <p className="text-[#D1DFFF] ff_inter md:text-md sm:text-[18px] text-[15px] font-normal leading-[160%] tracking-[-0.2px] mt-5 lg:max-w-[526px]">
+              <p className="text-[#D1DFFF] ff_inter 2xl:text-[22px] md:text-md sm:text-[18px] text-[15px] font-normal leading-[160%] tracking-[-0.2px] mt-5 lg:max-w-[526px]">
                 At WorkUp, we provide users with the exceptional ability to
                 seamlessly automate their finances, ensuring they never overlook
                 tax payments or accumulate tax debts. At our core, we take pride
@@ -48,7 +48,7 @@ const Unique = () => {
                 <input
                   type="text"
                   required
-                  className="bg-white ff_inter sm:text-sm text-[13px] text-[#666666] font-normal py-2 ps-4 focus-visible:outline-none placeholder:text-[#666666]"
+                  className="bg-white ff_inter sm:text-sm text-[13px] 2xl:text-[18px] text-[#666666] font-normal py-2 ps-4 focus-visible:outline-none placeholder:text-[#666666]"
                   placeholder="Enter email to join waitlist"
                 />
                 <button className="UniqueBtn rounded-full p-[18px_27px]  flex items-center justify-center group w-[70px] h-[36px]">

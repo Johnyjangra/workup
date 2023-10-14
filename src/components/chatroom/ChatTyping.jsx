@@ -29,7 +29,11 @@ const ChatTyping = () => {
   return (
     <>
       <div className="relative">
-        <img src={sideDots} alt="sideDots" className="absolute top-[7%] start-0" />
+        <img
+          src={sideDots}
+          alt="sideDots"
+          className="absolute top-[7%] start-0"
+        />
         <img
           src={Likeleft}
           alt="topImage"
@@ -67,15 +71,15 @@ const ChatTyping = () => {
                 <span className=" cursor-pointer">
                   <ChatroomLines />
                 </span>
-                <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center md:text-sm text-[14px] hidden">
+                <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center text-xs sm:text-sm 2xl:text-[18px] hidden">
                   <PostPencil />
                   Create a Post
                 </button>
-                <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center md:text-sm text-[14px] hidden">
+                <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center text-xs sm:text-sm 2xl:text-[18px] hidden">
                   <AlbumIcon />
                   Photo/Video Album
                 </button>
-                <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center md:text-sm text-[14px] hidden">
+                <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center text-xs sm:text-sm 2xl:text-[18px] hidden">
                   <LiveCamera />
                   Live Video
                 </button>
@@ -95,18 +99,18 @@ const ChatTyping = () => {
                   <p className=" ff_outfit font-normal leading-[154%] text-[#140524] sm:text-md text-[18px]">
                     John Doe
                   </p>
-                  <p className=" ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px]">
+                  <p className=" ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]">
                     Typing...
                   </p>
                 </div>
               </div>
               <div className="flex sm:items-center sm:gap-[37px] gap-4 flex-wrap mt-6">
                 {/* <div className="flex sm:items-center sm:gap-[37px] gap-3 sm:flex-row flex-col"> */}
-                <button className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] p-[9px] bg-[#F7F7F7] rounded-full flex items-center">
+                <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]p-[9px] bg-[#F7F7F7] rounded-full flex items-center">
                   <PhotoIcon />
                   Photo/Video
                 </button>
-                <button className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] p-[9px] bg-[#F7F7F7] rounded-full flex items-center">
+                <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]p-[9px] bg-[#F7F7F7] rounded-full flex items-center">
                   <ClockIcon />
                   Feeling/Activity
                 </button>
@@ -129,17 +133,17 @@ const ChatTyping = () => {
                           className="h-[65px] max-w-[65px] w-full rounded-full"
                         />
                         <div className="flex flex-col items-start ms-[14px]">
-                          <p className=" ff_outfit font-normal leading-[154%] text-[#140524] sm:text-md text-[18px]">
+                          <p className=" ff_outfit font-normal leading-[154%] text-[#140524] sm:text-md text-[18px] 2xl:text-[22px]">
                             John Doe
                           </p>
-                          <p className="flex items-center ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px]">
+                          <p className="flex items-center ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]">
                             5 hrs <AddMember />
                           </p>
                         </div>
                       </div>
                       <TypingDot />
                     </div>
-                    <p className="ff_inter font-normal leading-[150%] text-[#4D4D4D] sm:text-sm text-[14px] sm:ms-[26px] ms-2 mt-[15px] pb-[22px]">
+                    <p className="ff_inter font-normal leading-[150%] text-[#4D4D4D] text-xs sm:text-sm 2xl:text-[18px]sm:ms-[26px] ms-2 mt-[15px] pb-[22px]">
                       Link any existing business account in seconds.
                     </p>
                     {/* image */}
@@ -168,25 +172,25 @@ const ChatTyping = () => {
                             className="sm:h-[40px] h-[30px] w-[30px] sm:w-[40px] cursor-pointer hover:scale-110 transition-all ease-in-out duration-150"
                           />
                         </div>
-                        <p className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] sm:ms-7 sm:my-0 my-3">
+                        <p className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]sm:ms-7 sm:my-0 my-3">
                           Lorem ipsum and 291 others
                         </p>
                       </div>
-                      <p className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] me-[32px]">
+                      <p className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]me-[32px]">
                         55 comments
                       </p>
                     </div>
                     <hr className="h-[2px] bg-[#E5E5E5] mb-[20px] sm:ms-[18px] ms-2 sm:me-[32px] me-1" />
                     <div className="flex flex-row  sm:items-center sm:ms-[18px] ms-2 pb-6 sm:gap-[30px] gap-4">
                       {/* <div className="flex items-center justify-between sm:gap-[30px] gap-4 "> */}
-                      <button className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] flex items-center">
+                      <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]flex items-center">
                         <ShareIcon /> Share
                       </button>
-                      <button className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] flex items-center">
+                      <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]flex items-center">
                         <LikeWhite /> Like
                       </button>
                       {/* </div> */}
-                      <button className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] flex items-center">
+                      <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]flex items-center">
                         <CommentWhite /> Comment
                       </button>
                     </div>

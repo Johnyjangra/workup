@@ -5,17 +5,21 @@ const WorkUpSeek = () => {
   return (
     <>
       <div className="relative">
-        <img src={liner} alt="liner" className="absolute xl:end-[-15%] md:end-[-20%] end-[-25%] top-[-15%] pointer-events-none" />
+        <img
+          src={liner}
+          alt="liner"
+          className="absolute xl:end-[-15%] md:end-[-20%] end-[-25%] top-[-15%] pointer-events-none"
+        />
         <div className="bg-[#F7FCFE] md:py-[70px] py-12 overflow-hidden mt-5 mb-10 md:mb-[70px] lg:mb-32">
           <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-            <p className="text-center text-lightBlack ff_outfit font-medium leading-[106%] tracking-[-0.24px] text-lg relative after:contents-[''] after:absolute after:w-[114px] after:start-[50%] after:translate-x-[-50%] after:h-[4px]  after:rounded-md after:bg-[#1C1D1D] after:top-[-26%]">
+            <p className="text-center text-lightBlack ff_outfit font-medium leading-[106%] tracking-[-0.24px] text-lg 2xl:text-[26px] relative after:contents-[''] after:absolute after:w-[114px] after:start-[50%] after:translate-x-[-50%] after:h-[4px]  after:rounded-md after:bg-[#1C1D1D] after:top-[-26%]">
               What does
             </p>
-            <p className=" text-center mt-[6px] text-lightBlack font-medium leading-[106%] tracking-[-0.4px] ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] ">
+            <p className=" text-center mt-[6px] text-lightBlack font-medium leading-[106%] tracking-[-0.4px] ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] 2xl:text-[44px]">
               WorkUp Seek?
             </p>
             <div className="flex justify-center mt-4 pt-2">
-              <p className=" text-[#4A4C4C] text-center ff_inter sm:text-md text-[16px] font-normal leading-[160%] max-w-[641px]">
+              <p className=" text-[#4A4C4C] text-center ff_inter 2xl:text-[22px] sm:text-md text-[16px] font-normal leading-[160%] max-w-[641px]">
                 We are seeking an aligned and powerful partnership
                 with...........who shares our vision for empowering the world of
                 business. Together, we aim to revolutionise the way businesses
@@ -26,7 +30,7 @@ const WorkUpSeek = () => {
             <form className="bg-white group h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto waitlistshado rounded-[100px] ps-[22px] flex items-center justify-between mb-0 input_border_gradient shadow mt-9">
               <input
                 required
-                className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#4D4D4D]"
+                className="w-full outline-none ff_inter text-xs sm:text-sm 2xl:text-[18px] font-normal leading-normal text-[#666666] placeholder:text-[#4D4D4D]"
                 type="text"
                 placeholder="Enter email to join waitlist"
               />
