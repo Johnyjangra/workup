@@ -33,7 +33,7 @@ const Unique = () => {
               <p className="text-white ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-[106%] mt-3 2xl:text-[44px]">
                 Unique insights?
               </p>
-              <p className="text-[#D1DFFF] ff_inter 2xl:text-[22px] md:text-md sm:text-[18px] text-[15px] font-normal leading-[160%] tracking-[-0.2px] mt-5 lg:max-w-[526px]">
+              <p className="text-[#D1DFFF] ff_inter  md:text-md sm:text-[18px] text-[15px] font-normal leading-[160%] tracking-[-0.2px] mt-5 lg:max-w-[526px]">
                 At WorkUp, we provide users with the exceptional ability to
                 seamlessly automate their finances, ensuring they never overlook
                 tax payments or accumulate tax debts. At our core, we take pride
@@ -44,7 +44,7 @@ const Unique = () => {
                 </span>{" "}
                 payments and transfers.
               </p>
-              <form className="mt-9 border input_border_gradient bg-white rounded-full overflow-hidden flex justify-between pe-2 py-2 max-w-[335px] h-[52px] items-center ps-4">
+              <form className="mt-9 border input_border_gradient bg-white rounded-full overflow-hidden flex justify-between pe-2 py-2 max-w-[335px] 2xl:max-w-[360px] h-[52px] items-center ps-4">
                 <input
                   type="text"
                   required
