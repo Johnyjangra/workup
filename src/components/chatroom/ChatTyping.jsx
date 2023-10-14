@@ -118,13 +118,13 @@ const ChatTyping = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex sm:items-center sm:gap-[37px] gap-4 flex-wrap mt-6">
+              <div className="flex sm:items-center sm:gap-[37px] gap-2 flex-wrap mt-6">
                 {/* <div className="flex sm:items-center sm:gap-[37px] gap-3 sm:flex-row flex-col"> */}
-                <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]p-[9px] bg-[#F7F7F7] rounded-full flex items-center">
+                <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px] p-[9px] bg-[#F7F7F7] rounded-full flex items-center">
                   <PhotoIcon />
                   Photo/Video
                 </button>
-                <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]p-[9px] bg-[#F7F7F7] rounded-full flex items-center">
+                <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px] sm:p-[9px] p-1 bg-[#F7F7F7] rounded-full flex items-center">
                   <ClockIcon />
                   Feeling/Activity
                 </button>
@@ -186,7 +186,7 @@ const ChatTyping = () => {
                             className="sm:h-[40px] h-[30px] w-[30px] sm:w-[40px] cursor-pointer hover:scale-110 transition-all ease-in-out duration-150"
                           />
                         </div>
-                        <p className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]sm:ms-7 sm:my-0 my-3">
+                        <p className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px] sm:ms-7 sm:my-0 my-3">
                           Lorem ipsum and 291 others
                         </p>
                       </div>

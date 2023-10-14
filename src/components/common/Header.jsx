@@ -57,7 +57,7 @@ const Header = () => {
                         Chat Room
                       </a>
                       <a
-                        href="#invest"
+                        href="/brand"
                         className={`${
                           path === "/" ? "text-black opacity-70" : "text-white"
                         } text-black text-sm font-medium ff_outfit mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-[#2ABAE9] after:duration-300 duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-[#2ABAE9] after:w-0 hover:after:w-full after:h-[2px]`}>

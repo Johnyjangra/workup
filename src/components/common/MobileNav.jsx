@@ -12,7 +12,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           <li>
             <a
               onClick={() => setActiveNavOverlay(false)}
-              href="#chat-room"
+              href="/chatroom"
               className="text-black text-[20px] sm:text-[30px] opacity-70 ff_outfit font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-blue after:w-0 hover:after:w-full after:h-[2px]"
             >
               Chat-Room
@@ -21,7 +21,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           <li className="py-5">
             <a
               onClick={() => setActiveNavOverlay(false)}
-              href="#invest"
+              href="/brand"
               className="text-black text-[20px] sm:text-[30px] opacity-70 ff_outfit font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-blue after:w-0 hover:after:w-full after:h-[2px]"
             >
               Invest
@@ -30,7 +30,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           <li>
             <a
               onClick={() => setActiveNavOverlay(false)}
-              href="#co-founder"
+              href="/founder"
               className="text-black text-[20px] sm:text-[30px] opacity-70 ff_outfit font-medium after:transition-all after:rounded-sm after:duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-blue after:w-0 hover:after:w-full after:h-[2px]"
             >
               Become a Co-Founder
@@ -38,7 +38,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           </li>
           <li className="pt-5">
             <a
-              href="#contact"
+              href="/"
               onClick={() => setActiveNavOverlay(false)}
               aria-current="page"
             >
