@@ -190,11 +190,11 @@ const ChatTyping = () => {
                           Lorem ipsum and 291 others
                         </p>
                       </div>
-                      <p className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]me-[32px]">
+                      <p className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px] me-[32px]">
                         55 comments
                       </p>
                     </div>
-                    <hr className="h-[2px] bg-[#E5E5E5] mb-[20px] sm:ms-[18px] ms-2 sm:me-[32px] me-1" />
+                    <hr className="h-[1px] bg-[#E5E5E5] mb-[20px] sm:ms-[18px] ms-2 sm:me-[32px] me-1" />
                     <div className="flex flex-row  sm:items-center sm:ms-[18px] ms-2 pb-6 sm:gap-[30px] gap-4">
                       {/* <div className="flex items-center justify-between sm:gap-[30px] gap-4 "> */}
                       <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]flex items-center">
