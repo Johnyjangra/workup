@@ -11,7 +11,7 @@ const OurWaitList = () => {
               <input
                 required
                 className="w-full outline-none 2xl:text-base ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"
-                type="text"
+                type="email"
                 placeholder="Enter your email"
               />
               <button className="bg-gradientOne h-[32px] sm:h-[36px] group min-w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">

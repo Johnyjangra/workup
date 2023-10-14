@@ -50,7 +50,7 @@ const ProblemSolving = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="relative py-12 sm:py-[70px] lg:pt-0 lg:pb-[135px]">
+      <div className="relative py-12 sm:py-[70px] lg:pt-0 lg:pb-[80px] xl:pb-[135px]">
         <span
           className="absolute pointer-events-none end-0 hidden xl:block top-[2%] w-[5%]"
         ><ProblemSolvingRight/></span>

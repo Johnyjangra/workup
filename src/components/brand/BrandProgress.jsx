@@ -63,7 +63,7 @@ const BrandProgress = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="bg-[#F7FCFE] md:py-20 py-[70px] md:mb-28 mb-5">
+      <div className="bg-[#F7FCFE] md:py-20 py-[70px] lg:mb-28 mb-5">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p className=" ff_outfit 2xl:text-[44px] lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium text-black leading-[135%] text-center relative after:contents-[''] after:absolute after:w-[132px] after:start-[50%] after:h-[4px] after:rounded-md after:bg-blue after:top-[-6%] after:translate-x-[-50%]">
             What’s Our Progress?
