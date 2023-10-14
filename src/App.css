@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700;800;900&display=swap");
 
 body,
 html {
@@ -46,10 +46,12 @@ html {
 }
 
 .arrows_bg:hover {
-  background: linear-gradient(223deg,
-      #fbc524 -75.58%,
-      #e939d9 2.42%,
-      #2abae9 74.42%);
+  background: linear-gradient(
+    223deg,
+    #fbc524 -75.58%,
+    #e939d9 2.42%,
+    #2abae9 74.42%
+  );
 }
 
 .arrows_bg:hover svg path {
@@ -83,13 +85,17 @@ html {
 }
 
 .plan_card button {
-  background: var(--Linear-two,
-      linear-gradient(91deg, #994fff 0.27%, #4ab6fe 98.57%));
+  background: var(
+    --Linear-two,
+    linear-gradient(91deg, #994fff 0.27%, #4ab6fe 98.57%)
+  );
 }
 
 .footer_bg {
-  background: var(--Linear-color,
-      linear-gradient(223deg, #fbc524 -34.99%, #e939d9 21.89%, #2abae9 74.4%));
+  background: var(
+    --Linear-color,
+    linear-gradient(223deg, #fbc524 -34.99%, #e939d9 21.89%, #2abae9 74.4%)
+  );
 }
 
 .footer_icon {
@@ -107,26 +113,32 @@ html {
   content: "";
   position: absolute;
   inset: -1px;
-  transform: translate(10px, 25px);
+  transform: translate(5px, 40%);
   z-index: -1;
-  background: conic-gradient(from 90deg at 40% 0%,
-      #2abae9,
-      #2abae9,
-      #994fff,
-      #994fff,
-      #994fff,
-      #994fff,
-      #994fff,
-      #994fff,
-      #994fff,
-      #994fff,
-      #994fff,
-      #994fff,
-      #2abae9,
-      #2abae9,
-      #2abae9,
-      #2abae9);
-  filter: blur(30px);
+  width: 100%;
+  height: 40px;
+  border-radius: 35px;
+  bottom: -100% !important;
+  background: conic-gradient(
+    from 90deg at 40% 0%,
+    #2abae9,
+    #2abae9,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #994fff,
+    #2abae9,
+    #2abae9,
+    #2abae9,
+    #2abae9
+  );
+  filter: blur(29px);
 }
 
 .calc_height_custom {
@@ -162,15 +174,15 @@ html {
 /* BACK TO TOP */
 .topscroll {
   border: 2px solid #fff;
-  background-color: #2CB9E9;
+  background-color: #2cb9e9;
   -webkit-animation: move 2s ease-in-out infinite;
   -webkit-animation: up-down 2.5s ease-in-out infinite;
   animation: up-down 2.5s ease-in-out infinite !important;
 }
 
 .topscroll:hover {
-  -webkit-box-shadow: 0 0 17px #2CB9E9;
-  box-shadow: 0 0 17px #2CB9E9;
+  -webkit-box-shadow: 0 0 17px #2cb9e9;
+  box-shadow: 0 0 17px #2cb9e9;
 }
 
 @-webkit-keyframes up-down {

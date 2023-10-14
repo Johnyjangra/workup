@@ -37,7 +37,7 @@ const Footer = () => {
               />
               <button className="bg-gradientOne h-[32px] sm:h-[36px] min-w-[70px] group rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
                 <img
-                  className=" group-hover:translate-x-[7px] transition duration-300"
+                  className=" group-hover:translate-x-[7px] transition duration-300 ease-linear"
                   src={arrow}
                   alt="arrow"
                 />
@@ -56,7 +56,7 @@ const Footer = () => {
               <div className="flex gap-4">
                 <a href="https://www.facebook.com/" target="blank">
                   <img
-                    className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
+                    className="h-[34px] w-[34px] transition duration-300 ease-linear hover:translate-y-[-4px]"
                     src={facebook}
                     alt="facebook"
                   />
@@ -64,22 +64,19 @@ const Footer = () => {
                 <a
                   target="blank"
                   href="https://www.instagram.com/"
-                  className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
-                >
+                  className="h-[34px] w-[34px] transition duration-300 ease-linear hover:translate-y-[-4px]">
                   <img src={instagram} alt="instagram" />
                 </a>
                 <a
                   target="blank"
                   href="https://twitter.com/"
-                  className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
-                >
+                  className="h-[34px] w-[34px] transition duration-300 ease-linear hover:translate-y-[-4px]">
                   <img src={twitter} alt="twitter" />
                 </a>
                 <a
                   target="blank"
                   href="https://www.linkedin.com/"
-                  className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
-                >
+                  className="h-[34px] w-[34px] transition duration-300 ease-linear hover:translate-y-[-4px]">
                   <img src={linkdin} alt="linkdin" />
                 </a>
               </div>
@@ -91,20 +88,17 @@ const Footer = () => {
                 </h3>
                 <a
                   href="/chatroom"
-                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal inline-block transition duration-300 hover:opacity-80"
-                >
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal inline-block transition duration-300 ease-linear hover:opacity-80">
                   Chatroom
                 </a>
                 <a
                   href="#invest"
-                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] transition duration-300 hover:opacity-80 inline-block"
-                >
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] transition duration-300 ease-linear hover:opacity-80 inline-block">
                   Invest
                 </a>
                 <a
                   href="/founder"
-                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
-                >
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 ease-linear hover:opacity-80">
                   Become a cofounder
                 </a>
               </div>
@@ -114,26 +108,22 @@ const Footer = () => {
                 </h3>
                 <a
                   href="/founder"
-                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal inline-block transition duration-300 hover:opacity-80"
-                >
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal inline-block transition duration-300 ease-linear hover:opacity-80">
                   Contact us
                 </a>
                 <a
                   href="#faqs"
-                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
-                >
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 ease-linear hover:opacity-80">
                   FAQ
                 </a>
                 <a
                   href="/"
-                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
-                >
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 ease-linear hover:opacity-80">
                   Privacy
                 </a>
                 <a
                   href="/"
-                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
-                >
+                  className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 ease-linear hover:opacity-80">
                   Terms & conditions
                 </a>
               </div>

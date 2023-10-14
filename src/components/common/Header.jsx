@@ -84,25 +84,16 @@ const Header = () => {
                     <div
                       className=" relative z-50 text-white cursor-pointer"
                       onClick={() => setActiveNavOverlay(!activeNavOverlay)}>
-                      {!activeNavOverlay && (
-                        <div>
-                          {" "}
-                          {window.location.hash === "#chat-room" ? (
-                            <ToggleIconWhite />
-                          ) : (
-                            <ToggleIcon />
-                          )}
-                        </div>
-                      )}
-                      {activeNavOverlay && (
-                        <div>
-                          {" "}
-                          {window.location.hash === "#chat-room" ? (
-                            <CrossIcon />
-                          ) : (
-                            <CrossIcon />
-                          )}
-                        </div>
+                      {path === "/" ? (
+                        activeNavOverlay ? (
+                          <CrossIcon />
+                        ) : (
+                          <ToggleIcon />
+                        )
+                      ) : activeNavOverlay ? (
+                        <CrossIcon />
+                      ) : (
+                        <ToggleIconWhite />
                       )}
 
                       {/* {activeNavOverlay ? <CrossIcon /> : <ToggleIcon />} */}
