@@ -181,3 +181,19 @@ html {
     transform: translateY(-7px);
   }
 }
+
+.social_icon svg path {
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -o-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.social_icon svg rect {
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -o-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.social_icon:hover svg path {
+  fill: #1B77CC !important;
+}
