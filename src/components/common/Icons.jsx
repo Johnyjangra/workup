@@ -3269,64 +3269,18 @@ export const AddPost = () => {
 };
 export const ProgressLeft = () => {
   return (
-    <svg
-      width="43"
-      height="43"
-      viewBox="0 0 43 43"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M41.2 21.4689C41.2 32.1438 32.2817 40.8571 21.2059 40.8571C10.1301 40.8571 1.21176 32.1438 1.21176 21.4689C1.21176 10.7939 10.1301 2.08065 21.2059 2.08065C32.2817 2.08065 41.2 10.7939 41.2 21.4689Z"
-        stroke="#2ABAE9"
-        stroke-width="2.42353"
-      />
-      <path
-        d="M25 15.8689L18 22.164L25 27.8689"
-        stroke="#2ABAE9"
-        stroke-width="2.42353"
-        stroke-linecap="round"
-      />
+    <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9 1.8689L2 8.16398L9 13.8689" stroke="#2ABAE9" stroke-width="2.42353" stroke-linecap="round"/>
     </svg>
+    
   );
 };
 export const ProgressRight = () => {
   return (
-    <svg
-      width="45"
-      height="45"
-      viewBox="0 0 43 43"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <ellipse
-        cx="21.2059"
-        cy="20.6"
-        rx="21.2059"
-        ry="20.6"
-        transform="matrix(-1 0 0 1 43 0.868896)"
-        fill="url(#paint0_linear_1502_4387)"
-      />
-      <path
-        d="M18 15.8689L25 22.164L18 27.8689"
-        stroke="white"
-        stroke-width="2.42353"
-        stroke-linecap="round"
-      />
-      <defs>
-        <linearGradient
-          id="paint0_linear_1502_4387"
-          x1="7.32491e-08"
-          y1="8.14942"
-          x2="42.256"
-          y2="8.74668"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stop-color="#994FFF" />
-          <stop offset="1" stop-color="#4AB6FE" />
-        </linearGradient>
-      </defs>
+    <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M2 1.8689L9 8.16398L2 13.8689" stroke="white" stroke-width="2.42353" stroke-linecap="round"/>
     </svg>
+    
   );
 };
 export const CrossIcon = () => {

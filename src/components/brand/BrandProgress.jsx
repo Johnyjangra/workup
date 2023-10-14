@@ -145,18 +145,20 @@ const BrandProgress = () => {
         </div> */}
         <div className="flex items-center justify-center gap-6 sm:mt-12">
           <div
-            className="h-[38px] w-[38px] group  transition duration-300 flex justify-center items-center rounded-full arrows_bg  cursor-pointer"
+            className="h-[42px] w-[42px] border-[2.5px] progress_left_arrow group border-solid hover:bg-btnGradient hover:border-none border-[#2ABAE9] rounded-[100px] flex justify-center items-center cursor-pointer"
             onClick={() => first.current.slickNext()}
           >
-            <span>
-              <ProgressLeft />
-            </span>
+         
+              <ProgressLeft/>
+           
           </div>
           <div
-            className="h-[38px] w-[38px] group flex justify-center transition duration-300 items-center rounded-full arrows_bg hover:border-hidden cursor-pointer"
+            className="h-[42px] w-[42px] bg-btnGradient progress_Right_arrow rounded-[100px] hover:border-[2.5px] hover:border-solid hover:border-[#2ABAE9] hover:!bg-none cursor-pointer flex justify-center items-center"
             onClick={() => first.current.slickPrev()}
           >
-            <ProgressRight />
+           
+              <ProgressRight />
+         
           </div>
         </div>
       </div>
