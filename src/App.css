@@ -87,11 +87,6 @@ html {
       linear-gradient(91deg, #994fff 0.27%, #4ab6fe 98.57%));
 }
 
-.footer_bg {
-  background: var(--Linear-color,
-      linear-gradient(223deg, #fbc524 -34.99%, #e939d9 21.89%, #2abae9 74.4%));
-}
-
 .footer_icon {
   filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
 }

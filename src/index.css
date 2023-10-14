@@ -25,6 +25,7 @@
 .UniqueBtn {
   background: linear-gradient(105deg, #2abae9 0%, #1b77cc 100%);
 }
+
 .ProgressSlide .slick-current {
   border-radius: 8px !important;
   overflow: hidden;

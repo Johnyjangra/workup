@@ -10,7 +10,7 @@ import awsome_right from "../../assets/png/awsome-question-left-rgb.png";
 import { useLocation } from "react-router-dom";
 function Icon({ id, open }) {
   return (
-    <div className="h-5 w-5  absolute right-0 transform origin-center top-[50%] lg:top-[50%] translate-y-[-50%] transition-transform ease-in-out duration-300 cursor-pointer rotate-0">
+    <div className="h-5 w-5 absolute right-0 transform origin-center top-[50%] lg:top-[50%] translate-y-[-50%] transition-transform ease-in-out duration-300 cursor-pointer rotate-0">
       {id === open ? <MinusIconFaq /> : <PlusIconFaq />}
     </div>
   );
@@ -38,18 +38,18 @@ const Frequently = () => {
         )}
 
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
-          <h2 className="text-center ff_outfit text-lightBlack lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px]  font-medium leading-[150%] linline-block">
+          <h2 className="text-center ff_outfit text-lightBlack lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px]  font-medium max-[459px]:leading-[100%] leading-[150%] linline-block">
             Frequently
             <span className="ps-2 relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
               Awesome
             </span>
             <span className="ps-2">Questions</span>
           </h2>
-          <div className="flex flex-wrap items-center justify-between">
+          <div className="flex flex-wrap items-center justify-center lg:justify-between">
             <div className="lg:w-6/12 lg:pe-4 xl:pe-0">
               <img src={awsome_img} alt="people group" />
             </div>
-            <div className="lg:w-6/12 lg:min-h-[656px] lg:pt-[50px]">
+            <div className="lg:w-6/12 lg:min-h-[656px] lg:pt-[50px] sm:mb-12 lg:mb-0">
               <Fragment>
                 <Accordion
                   className="border-b-[1px] border-[#EBEBEB] border-solid"
@@ -61,7 +61,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px]  border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
+                      className={`ff_outfit font-medium text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
                         open === 1 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -90,7 +90,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px] border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
+                      className={`ff_outfit font-medium text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
                         open === 2 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -120,7 +120,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px]  border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
+                      className={`ff_outfit font-medium text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
                         open === 3 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -151,7 +151,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px] border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
+                      className={`ff_outfit font-medium text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
                         open === 4 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -181,7 +181,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px] border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
+                      className={`ff_outfit font-medium text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
                         open === 5 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >
@@ -212,7 +212,7 @@ const Frequently = () => {
                     className="py-[14px] sm:py-[18px] border-b-[0px] cursor-pointer relative"
                   >
                     <p
-                      className={`ff_outfit font-semibold text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
+                      className={`ff_outfit font-medium  text-black opacity-70 leading-[150%] text-start text-sm 2xl:text-base pe-8 ${
                         open === 6 ? "!text-[#2ABAE9]" : ""
                       }`}
                     >

@@ -2215,8 +2215,7 @@ export const UniqueArrow = () => {
 export const WorkingIcon1 = () => {
   return (
     <svg
-      width="51"
-      height="51"
+      className="w-[38px] h-[38px] sm:w-[51px] sm:h-[51px]"
       viewBox="0 0 51 51"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2313,8 +2312,7 @@ export const WorkingIcon1 = () => {
 export const WorkingIcon2 = () => {
   return (
     <svg
-      width="51"
-      height="51"
+    className="w-[38px] h-[38px] sm:w-[51px] sm:h-[51px]"
       viewBox="0 0 51 51"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2387,8 +2385,7 @@ export const WorkingIcon2 = () => {
 export const WorkingIcon3 = () => {
   return (
     <svg
-      width="51"
-      height="51"
+    className="w-[38px] h-[38px] sm:w-[51px] sm:h-[51px]"
       viewBox="0 0 51 51"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -2688,6 +2685,7 @@ export const MinusIconFaq = () => {
   return (
     <svg
       width="25"
+      className=" mb-[5px]"
       height="25"
       viewBox="0 0 25 25"
       fill="none"
@@ -3377,3 +3375,61 @@ export const ToggleIconWhite = () => {
     </svg>
   );
 };
+export const DashboardRight = () => {
+  return (
+    <svg width="107" height="228" viewBox="0 0 107 228" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="1" y="140" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="1" y="151.091" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="1" y="162.183" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="1" y="173.274" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="1" y="184.366" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="1" y="195.457" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="1" y="206.549" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="1" y="217.64" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="13.0039" y="140" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="13.0039" y="151.091" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="13.0039" y="162.183" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="13.0039" y="173.274" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="13.0039" y="184.366" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="13.0039" y="195.457" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="13.0039" y="206.549" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="13.0039" y="217.64" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="25.0078" y="140" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="25.0078" y="151.091" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="25.0078" y="162.183" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="25.0078" y="173.274" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="25.0078" y="184.366" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="25.0078" y="195.457" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="25.0078" y="206.549" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="25.0078" y="217.64" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="37.0078" y="140" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="37.0078" y="151.091" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="37.0078" y="162.183" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="37.0078" y="173.274" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="37.0078" y="184.366" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="37.0078" y="195.457" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="37.0078" y="206.549" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="37.0078" y="217.64" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="49.0117" y="140" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="49.0117" y="151.091" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="49.0117" y="162.183" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="49.0117" y="173.274" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="49.0117" y="184.366" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="49.0117" y="195.457" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="49.0117" y="206.549" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <rect x="49.0117" y="217.64" width="3.49443" height="3.79851" rx="1" fill="#D9D9D9"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M104.878 1.45784C135.37 4.90345 150.191 36.825 168.926 61.1661C187.02 84.6762 213.21 106.7 208.427 135.996C203.437 166.556 174.802 186.438 146.454 198.795C119.625 210.489 89.6939 211.429 63.0227 199.377C35.4459 186.916 13.5637 164.244 5.41529 135.062C-3.24952 104.03 0.492169 70.1376 19.7228 44.3059C39.7006 17.4708 71.6685 -2.29494 104.878 1.45784Z" stroke="url(#paint0_linear_1502_4385)" stroke-width="2"/>
+    <defs>
+    <linearGradient id="paint0_linear_1502_4385" x1="258.929" y1="-92.8885" x2="39.3972" y2="141.077" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FBC524"/>
+    <stop offset="0.52" stop-color="#E939D9"/>
+    <stop offset="1" stop-color="#2ABAE9"/>
+    </linearGradient>
+    </defs>
+    </svg>
+    
+
+  );
+};
+
+
