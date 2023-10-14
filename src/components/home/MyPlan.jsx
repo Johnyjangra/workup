@@ -5,7 +5,7 @@ import dots_img from "../../assets/png/feature-dots-img.png"
 const MyPlan = () => {
   return (
     <>
-      <div className="py-12 lg:pb-163px relative" id="invest">
+      <div className="pt-12 sm:pb-12 relative" id="invest">
         <img
           className="absolute pointer-events-none top-[45%] start-0 hidden xl:block"
           src={dots_img}
@@ -29,17 +29,17 @@ const MyPlan = () => {
               return (
                 <div
                   key={i}
-                  className="md:px-5 px-3 w-[350px] sm:w-6/12 lg:w-4/12 md:mt-[40px] mt-[24px]"
+                  className="md:px-5 px-3 w-[350px] sm:w-6/12 lg:w-4/12 md:mt-[40px] mt-[17px]"
                 >
                   <div className="border pt-[30px] cursor-pointer pb-[28px] border-[#E5E5E5] rounded-[14px] plan_card group hover:bg-planCard h-full flex items-center flex-col justify-between min-h-[480px] lg:min-h-[570px]">
                     <div>
                       <h4 className="ff_outfit text-lightBlack 2xl:text-[22px] text-md font-medium leading-normal text-center group-hover:text-white">
                         {MyData.top_heading}
                       </h4>
-                      <p className="ff_inter text-sm text-black 2xl:text-base opacity-70 leading-normal text-center mb-[27px] group-hover:text-white">
+                      <p className="ff_inter text-sm text-black 2xl:text-base opacity-70 leading-normal text-center mb-5 sm:mb-[27px] group-hover:text-white">
                         {MyData.top_para}
                       </p>
-                      <h3 className="ff_open_sans mb-[12px] relative text-center font-semibold leading-[100%] text-transparent 2xl:text-[52px] text-[48px] bg-clip-text bg-gradient-to-r from-[#994FFF] to-[#4AB6FE] group-hover:text-white">
+                      <h3 className="ff_open_sans mb-[12px] relative text-center font-semibold leading-[100%] text-transparent 2xl:text-[52px] text-[38px] sm:text-[48px] bg-clip-text bg-gradient-to-r from-[#994FFF] to-[#4AB6FE] group-hover:text-white">
                         <sup className="ff_poppins font-semibold absolute top-[2%] start-[28%] leading-normal text-[18px] sm:text-[20px] text-transparent bg-clip-text bg-gradient-to-r from-[#994FFF] to-[#4AB6FE] group-hover:text-white">
                           {MyData.doller}
                         </sup>
@@ -63,7 +63,7 @@ const MyPlan = () => {
                         ))}
                       </div>
                     </div>
-                    <button className="ff_inter mt-[36px] font-medium 2xl:text-[22px] text-md bg-btnGradient group-hover:text-black  group-hover:bg-gradient-to-t from-white to-white text-white h-[45px] lg:h-[48px] w-[200px] lg:w-[220px] xl:w-[270px] rounded-[122px]">
+                    <button className="ff_inter mt-[36px] font-medium 2xl:text-[20px] text-base bg-btnGradient group-hover:text-black  group-hover:bg-gradient-to-t from-white to-white text-white h-[45px] lg:h-[48px] w-[200px] lg:w-[220px] xl:w-[270px] rounded-[122px]">
                       {MyData.mybutton}
                     </button>
                   </div>

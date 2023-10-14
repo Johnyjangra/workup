@@ -7,7 +7,7 @@ import dots_group from "../../assets/png/founder-dots-group.png"
 const RegisterNow = () => {
   return (
     <>
-      <div className="lg:pt-[111px] py-12 xl:pb-[105px] relative">
+      <div className="lg:pt-[111px] sm:pb-12 pb-2 pt-12 xl:pb-[92px] relative">
         <img  className="absolute top-0 start-0 hidden xl:block" src={left_top} alt=" dots with circle" />
         <img className="absolute start-0 bottom-[30%] w-[6%] hidden xl:block"  src={left_bottom} alt="semicircle" />
         <img  className="absolute end-0 top-[60%] w-[8%] hidden xl:block" src={right_img} alt="dots with circle" />
@@ -26,7 +26,7 @@ const RegisterNow = () => {
                   Full Name
                 </p>
                 <input
-                  className="border h-[45px] sm:h-[52px] 2xl:text-base p-4 border-solid border-[#CCCCCC] w-full rounded-xl ff_inter text-sm font-normal text-[#999999] placeholder:opacity-40 placeholder:ff_inter outline-none"
+                  className="border h-[45px] sm:h-[52px] 2xl:text-base p-4 border-solid border-[#CCCCCC] w-full rounded-xl ff_inter text-sm font-normal text-black placeholder:text-[rgba(0,0,0,0.40)] placeholder:ff_inter outline-none"
                   placeholder="Your first name"
                   type="text"
                 />
@@ -36,24 +36,24 @@ const RegisterNow = () => {
                   Email
                 </p>
                 <input
-                  className="border h-[45px] sm:h-[52px] p-4 2xl:text-base border-solid border-[#CCCCCC] w-full rounded-xl ff_inter text-sm font-normal text-[#999999] placeholder:opacity-40 placeholder:ff_inter outline-none"
+                  className="border h-[45px] sm:h-[52px] p-4 2xl:text-base border-solid border-[#CCCCCC] w-full rounded-xl ff_inter text-sm font-normal text-black placeholder:text-[rgba(0,0,0,0.40)]  placeholder:ff_inter outline-none"
                   placeholder="Email address"
                   type="Email"
                 />
               </div>
             </div>
             <p className="ff_inter text-xs 2xl:text-[20px] sm:text-base test-black opacity-80 leading-normal font-normal text-black mb-3 lg:mb-4">
-              About You
+              About Us
             </p>
-            <textarea className="p-4 mb-5 lg:mb-[36px] ff_inter text-[#999999] text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"></textarea>
+            <textarea className="p-4 mb-5 lg:mb-[36px] ff_inter text-black text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"></textarea>
             <p className="ff_inter text-xs 2xl:text-[20px] sm:text-base test-black opacity-80 leading-normal font-normal text-black mb-3 lg:mb-4">
-              Why WorkUp
+            Why WorkUp
             </p>
-            <textarea className="p-4 mb-5 lg:mb-[36px] ff_inter text-[#999999] text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"></textarea>
+            <textarea className="p-4 mb-5 lg:mb-[36px] ff_inter text-black text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"></textarea>
             <p className="ff_inter 2xl:text-[20px] text-xs sm:text-base test-black opacity-80 leading-normal font-normal text-black mb-3 lg:mb-4">
-              My You
+            My You
             </p>
-            <textarea className="p-4 mb-5 lg:mb-[36px] ff_inter text-[#999999] text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"></textarea>
+            <textarea className="p-4 mb-5 lg:mb-[36px] ff_inter text-black text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"></textarea>
             <h3 className="ff_outfit 2xl:text-[20px] text-xs sm:text-base font-normal leading-[112.5%] text-black mb-[27px] capitalize">
             Must have ata least one of the requirements
             </h3>
@@ -69,7 +69,7 @@ const RegisterNow = () => {
                       className={`${ i===3 ? "lg:items-start items-center py-[9px]" :" items-center"} border border-[#E5E5E5] px-[10px] border-solid rounded-xl flex w-full lg:w-[190px] h-[70px] 2xl:h-[80px]`}
                     >
                       <span>{obj.icon}</span>
-                      <h5 className="ff_outfit 2xl:text-sm ps-[10px] mb-0 text-[#1d1d1d] opacity-70 text-xs font-normal leading-[120%]">
+                      <h5 className="ff_outfit 2xl:text-sm ps-[10px] mb-0 text-[#1c1d1d] opacity-70 text-xs font-normal leading-[120%]">
                         {obj.heading}
                       </h5>
                     </div>
@@ -77,7 +77,7 @@ const RegisterNow = () => {
                 );
               })}
             </div>
-            <button className="ff_inter text-xs sm:text-base 2xl:text-[20px] text-white transition hover:bg-gradient-to-t from-[#4AB6FE] to-[#994FFF] font-medium tranisition duration-300 h-[46px] 2xl:h-[50px] w-[149px] bg-btnGradient rounded-[100px] lg:mt-[45px] mt-1 sm:mt-4">
+            <button className="ff_inter text-xs sm:text-base 2xl:text-[20px] text-white transition hover:bg-gradient-to-t from-[#4AB6FE] to-[#994FFF] font-medium tranisition duration-300 h-[40px] w-[130px] sm:h-[46px] 2xl:h-[50px] sm:w-[149px] bg-btnGradient rounded-[100px] lg:mt-[45px] mt-1 sm:mt-4">
               Submit
             </button>
           </form>
