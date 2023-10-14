@@ -9,8 +9,8 @@ import sliderImage3 from "../../assets/webp/Progress3.webp";
 // import rightbtn from "../../assets/svg/progressRightBtn.svg";
 import {
   LeftArrow,
-  // ProgressLeft,
-  // ProgressRight,
+  ProgressLeft,
+  ProgressRight,
   RightArrow,
 } from "../common/Icons";
 const BrandProgress = () => {
@@ -148,15 +148,15 @@ const BrandProgress = () => {
             className="h-[38px] w-[38px] group  transition duration-300 flex justify-center items-center rounded-full arrows_bg  cursor-pointer"
             onClick={() => first.current.slickNext()}
           >
-            {/* <span>
+            <span>
               <ProgressLeft />
-            </span> */}
+            </span>
           </div>
           <div
             className="h-[38px] w-[38px] group flex justify-center transition duration-300 items-center rounded-full arrows_bg hover:border-hidden cursor-pointer"
             onClick={() => first.current.slickPrev()}
           >
-            {/* <ProgressRight /> */}
+            <ProgressRight />
           </div>
         </div>
       </div>
