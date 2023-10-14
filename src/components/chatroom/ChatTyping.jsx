@@ -9,7 +9,7 @@ import {
   LikeWhite,
   LiveCamera,
   PhotoIcon,
-  PostPencil,
+  // PostPencil,
   ShareIcon,
   TypingDot,
 } from "../common/Icons";
@@ -65,7 +65,7 @@ const ChatTyping = () => {
                   <ChatroomLines />
                 </span>
                 <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center md:text-sm text-[14px] hidden">
-                  <PostPencil />
+                  {/* <PostPencil /> */}
                   Create a Post
                 </button>
                 <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center md:text-sm text-[14px] hidden">

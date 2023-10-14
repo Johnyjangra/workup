@@ -1,7 +1,7 @@
 import React from 'react'
 import Feature from '../components/home/Feature'
 import OurMisson from '../components/home/OurMisson'
-import SoluctionSucces from '../components/home/SoluctionSucces'
+import Soluction from '../components/home/Soluction'
 import OurWaitList from '../components/common/OurWaitList'
 import ProblemSolving from '../components/home/ProblemSolving'
 import Working from '../components/home/Working'
@@ -17,7 +17,7 @@ const Homepage = () => {
       <Header/>
       <Feature />
       <OurMisson />
-      <SoluctionSucces />
+      <Soluction />
       <div className='pb-12 lg:pb-[126px]'><OurWaitList/></div>
       <ProblemSolving/>
       <Working/>
