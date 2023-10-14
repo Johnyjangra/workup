@@ -3250,8 +3250,7 @@ export const AddPost = () => {
       width="39"
       height="40"
       viewBox="0 0 39 40"
-      fill="none"
-    >
+      fill="none" >
       <rect
         x="0.917969"
         y="0.908691"
