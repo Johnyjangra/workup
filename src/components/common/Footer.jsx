@@ -14,7 +14,7 @@ const Footer = () => {
     <>
       <div className="footer_bg mt-[150px] pt-12">
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
-          <div className="h-[160px] max-w-[973px] mx-auto sm:h-[198px] bg-gradientOne rounded-2xl sm:px-12 px-8 flex flex-col items-center justify-center relative overflow-hidden translate-y-[-100%]">
+          <div className="h-[160px] max-w-[973px] mx-auto sm:h-[225px] bg-gradientOne rounded-2xl sm:px-12 px-8 flex flex-col items-center justify-center relative overflow-hidden translate-y-[-100%]">
             <img
               className="absolute pointer-events-none top-0 start-0 z-[0]"
               src={left_img}
@@ -56,7 +56,7 @@ const Footer = () => {
               <div className="flex gap-4">
                 <a href="https://www.facebook.com/" target="blank">
                   <img
-                    className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px] "
+                    className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
                     src={facebook}
                     alt="facebook"
                   />
@@ -119,7 +119,7 @@ const Footer = () => {
                   Contact us
                 </a>
                 <a
-                  href="#faq"
+                  href="#faqs"
                   className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] inline-block transition duration-300 hover:opacity-80"
                 >
                   FAQ

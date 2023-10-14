@@ -72,7 +72,7 @@ const ProblemSolving = () => {
                   <div className="lg:py-6 px-3">
                     <div
                       key={i}
-                      className="px-[29px] py-[38px]  card_bg min-h-[319px] sm:min-h-[317px] bg-white rounded-xl border border-solid border-[#E5E5E5]"
+                      className="px-[29px] py-[38px]  card_bg min-h-[319px] sm:min-h-[317px] lg:min-h-[290px] bg-white rounded-xl border border-solid border-[#E5E5E5]"
                     >
                       <span>{ProblemData.icon}</span>
                       <h3 className="ff_outfit text-black 2xl:text-base text-md font-medium leading-[160%] pt-4 pb-[10px]">
@@ -88,7 +88,7 @@ const ProblemSolving = () => {
             </Slider>
             <div className="sm:hidden xl:inline-block">
               <div
-                className="absolute bottom-[-21%] left-[38%] sm:top-[50%] translate-y-[-50%] lg:left-[-3%] xl:left-[-5%] sm:h-[38px] sm:w-[38px] group h-[35px] w-[35px]  transition duration-300 flex justify-center items-center rounded-full border border-solid border-[#4D4D4D] arrows_bg hover:border-hidden cursor-pointer"
+                className="absolute bottom-[-21%] left-[38%] sm:top-[49%] translate-y-[-50%] lg:left-[-3%] xl:left-[-5%] sm:h-[38px] sm:w-[38px] group h-[35px] w-[35px]  transition duration-300 flex justify-center items-center rounded-full border border-solid border-[#4D4D4D] arrows_bg hover:border-hidden cursor-pointer"
                 onClick={() => first.current.slickNext()}
               >
                 <span>
@@ -96,14 +96,14 @@ const ProblemSolving = () => {
                 </span>
               </div>
               <div
-                className="absolute bottom-[-21%] right-[38%] sm:top-[50%] translate-y-[-50%] lg:right-[-3%] xl:right-[-5%] sm:h-[38px] sm:w-[38px] h-[35px] w-[35px] flex justify-center transition duration-300 items-center rounded-full border border-solid border-[#4D4D4D] arrows_bg hover:border-hidden cursor-pointer"
+                className="absolute bottom-[-21%] right-[38%] sm:top-[49%] translate-y-[-50%] lg:right-[-3%] xl:right-[-5%] sm:h-[38px] sm:w-[38px] h-[35px] w-[35px] flex justify-center transition duration-300 items-center rounded-full border border-solid border-[#4D4D4D] arrows_bg hover:border-hidden cursor-pointer"
                 onClick={() => first.current.slickPrev()}
               >
                 <RightArrow />
               </div>
             </div>
           </div>
-            <form className="bg-white h-[44px] sm:h-[52px] w-full max-w-[264px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between  mb-0 mt-20 input_border_gradient">
+            <form className="bg-white h-[44px] sm:h-[52px] w-full max-w-[264px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between  mb-0 lg:mt-[80px] xl:mt-[32px] input_border_gradient">
               <input
                 required
                 className="w-full outline-none ff_inter 2xl:text-base text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"

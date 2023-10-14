@@ -6,7 +6,8 @@ import {
 } from "@material-tailwind/react";
 import { MinusIconFaq, PlusIconFaq } from "./Icons";
 import awsome_img from "../../assets/webp/awsome-question-img.webp";
-import awsome_right from "../../assets/png/awsome-question-left-rgb.png"
+import awsome_right from "../../assets/png/awsome-question-left-rgb.png";
+import { useLocation } from "react-router-dom";
 function Icon({ id, open }) {
   return (
     <div className="h-5 w-5  absolute right-0 transform origin-center top-[50%] lg:top-[50%] translate-y-[-50%] transition-transform ease-in-out duration-300 cursor-pointer rotate-0">
@@ -22,17 +23,27 @@ const Frequently = () => {
     setOpen(open === value ? 0 : value);
   };
 
+  const path = useLocation().pathname;
   return (
     <>
-      <div className=" lg:pt-[116px] py-12 lg:pb-[97px] relative" id="faq">
-        <img className="absolute pointer-events-none right-0 top-[8%] hidden lg:block" src={awsome_right} alt="right-rgb" />
+      <div className=" lg:pt-[116px] py-12 lg:pb-[97px] relative" id="faqs">
+        {path === "/" ? (
+          <img
+            className="absolute pointer-events-none right-0 top-[8%] hidden lg:block"
+            src={awsome_right}
+            alt="right-rgb"
+          />
+        ) : (
+          ""
+        )}
+
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
           <h2 className="text-center ff_outfit text-lightBlack lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px]  font-medium leading-[150%] linline-block">
-            Frequently 
+            Frequently
             <span className="ps-2 relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
-               Awesome
+              Awesome
             </span>
-             <span className="ps-2">Questions</span>
+            <span className="ps-2">Questions</span>
           </h2>
           <div className="flex flex-wrap items-center justify-between">
             <div className="lg:w-6/12 lg:pe-4 xl:pe-0">
