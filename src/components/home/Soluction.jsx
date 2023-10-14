@@ -1,27 +1,22 @@
 import React from "react";
-import right_img from "../../assets/png/soluction-right-img.png";
-import dots_img from "../../assets/png/feature-dots-img.png";
+import right_img from "../../assets/webp/soluction-right-abs.webp";
 import top_dots from "../../assets/svg/solution_top_dots.svg"
-import { SuccesDimand, SuccesRocketIcon, SuccesVision } from "../common/Icons";
+import { FeatureDots, SuccesDimand, SuccesRocketIcon, SuccesVision } from "../common/Icons";
 const Soluction = () => {
   return (
     <>
-      <div className="lg:pt-[60px] xl:pb-[105px] relative pt-6 pb-12">
+      <div className="sm:pt-[60px] xl:pb-[105px] relative pt-6 pb-12">
         <img
           className="absolute pointer-events-none right-0 top-[-10%] hidden md:block lg:top-[-20%] md:w-[25%] lg:w-[20%] xl:w-[25%]"
           src={right_img}
           alt="like rainbow img"
         />
-        <img
+        <span
           className="absolute pointer-events-none top-[6%] left-[-30px]"
-          src={dots_img}
-          alt="dots img"
-        />
-        <img
-          className="absolute pointer-events-none left-[1%] bottom-[0%] xl:bottom-[29%] hidden lg:block"
-          src={dots_img}
-          alt="dots img"
-        />
+        ><FeatureDots/></span>
+        <span
+          className="absolute pointer-events-none left-[1%] bottom-[0%] xl:bottom-[29%] hidden lg:block"  
+        ><FeatureDots/></span>
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px]  mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-center flex-col-reverse lg:flex-row lg:justify-between items-center">
             <div className="lg:w-5/12 relative">

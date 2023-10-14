@@ -1,20 +1,19 @@
 import React from "react";
 import { FeatureData } from "../common/Helper";
-import right_img from "../../assets/png/feature-right-img.png"
-import dots_img from "../../assets/png/feature-dots-img.png"
+import { FeatureDots, FeatureRightImg } from "../common/Icons";
 const Feature = () => {
   return (
     <>
-      <div className="lg:pb-[126px] lg:pt-[115px] py-10 relative">
-        <img className="absolute pointer-events-none end-0 top-[5%] w-[9%] hidden xl:block" src={right_img} alt="dots" />
-        <img className="absolute pointer-events-none left-[-1%] hidden xl:block top-[24%]" src={dots_img} alt="dots-group" />
+      <div className="lg:pb-[126px] lg:pt-[115px] py-10 sm:py-[70px] relative">
+        <span className="absolute pointer-events-none end-0 top-[5%] w-[9%] hidden xl:block"><FeatureRightImg/></span>
+        <span className="absolute pointer-events-none left-[-1%] hidden xl:block top-[24%]"><FeatureDots/></span>
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
           <h2 className="ff_outfit text-lightBlack lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-[120%] text-center mb-8 lg:mb-[57px]">
             Plugs <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9] before:top-[-15%] before:content-[''] before:start-0">& Play Fea</span>tures
           </h2>
           <div className="grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-[24px] place-items-center content-center relative">
-          <img className="absolute pointer-events-none left-[10%] top-[60%] hidden xl:block" src={dots_img} alt="dots-group" />
-          <img className="absolute pointer-events-none right-[21.5%] h-[50px] w-[31px] bottom-[-5%] hidden xl:block" src={dots_img} alt="dots-group" />
+          <span className="absolute pointer-events-none left-[10%] top-[60%] hidden xl:block"><FeatureDots/></span>
+          <span className="absolute pointer-events-none right-[21.5%] h-[50px] w-[31px] bottom-[-5%] hidden xl:block"><FeatureDots/></span>
             {FeatureData.map((MyData, i) => {
               return (
                 <div

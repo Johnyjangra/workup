@@ -3,9 +3,8 @@ import Slider from "react-slick";
 import { ProblemSolvingData } from "../common/Helper";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { LeftArrow, RightArrow } from "../common/Icons";
+import { LeftArrow, ProblemSolvingRight, RightArrow } from "../common/Icons";
 import arrow from "../../assets/svg/waitlist-arrow.svg";
-import right_img from "../../assets/png/problome-solving-right.png";
 const ProblemSolving = () => {
   const settings = {
     centerMode: true,
@@ -51,16 +50,14 @@ const ProblemSolving = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="relative py-12 lg:pt-0 lg:pb-[135px]">
-        <img
+      <div className="relative py-12 sm:py-[70px] lg:pt-0 lg:pb-[135px]">
+        <span
           className="absolute pointer-events-none end-0 hidden xl:block top-[2%] w-[5%]"
-          src={right_img}
-          alt="dots-group"
-        />
+        ><ProblemSolvingRight/></span>
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px]  mx-auto px-5 xl:px-0">
           <h2 className="text-center ff_outfit text-[#333333] 2xl:text-[44px] lg:text-xl md:text-[36px] sm:text-[34px] text-[30px]  font-medium leading-normal mb-6 linline-block">
             Problem
-            <span className="ps-2 relative before:absolute before:h-[3px] before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
+            <span className="ps-2 relative before:absolute before:h-[4px] before:w-full before:rounded before:bg-[#2ABAE9] lg:before:top-[-20%] before:content-[''] before:start-0">
               We are
             </span>
             <span className="ps-2">solving</span>

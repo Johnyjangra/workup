@@ -9,11 +9,9 @@ const Dashboard = () => {
     <>
       <div className="relative">
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
-          <div className="py-12 xl:pt-[163px]">
+          <div className="py-12 sm:py-[70px] xl:pt-[163px]">
             <span
               className="absolute pointer-events-none end-0 bottom-[-3%] lg:bottom-0 hidden md:block md:w-[6%] 2xl:w-[5%]"
-              src={semi_circle}
-              alt="rgb-semircle"
             ><DashboardRight/></span>
             <div className="text-center">
               <div className="overflow-auto sm:overflow-visible md:overflow-auto scroll_bar_hide">
