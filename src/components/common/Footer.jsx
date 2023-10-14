@@ -98,7 +98,7 @@ const Footer = () => {
                   Chatroom
                 </a>
                 <a
-                  href="#invest"
+                  href="/brand"
                   className="ff_inter text-white text-xs 2xl:text-sm font-medium leading-normal mt-[14px] transition duration-300 ease-linear hover:opacity-80 inline-block">
                   Invest
                 </a>
