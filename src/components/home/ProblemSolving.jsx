@@ -103,7 +103,7 @@ const ProblemSolving = () => {
               </div>
             </div>
           </div>
-            <div className="bg-white h-[44px] sm:h-[52px] w-full max-w-[264px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between  mb-0 mt-[70px] sm:mt-[50px] lg:mt-[80px] xl:mt-[32px] input_border_gradient">
+            <div className="bg-white h-[44px] sm:h-[52px] w-full max-w-[264px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between  mb-0 mt-[70px] sm:mt-[50px] lg:mt-[80px] xl:mt-[20px] input_border_gradient">
               <p className=" ff_inter 2xl:text-base text-sm font-normal leading-normal text-[#666666]">List Goes On</p>
               <button className="bg-gradientOne group h-[32px] sm:h-[36px] min-w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1">
                 <img className="group-hover:translate-x-[7px] transition duration-300" src={arrow} alt="arrow" />

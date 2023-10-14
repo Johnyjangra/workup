@@ -12,9 +12,9 @@ const RegisterNow = () => {
         <img className="absolute start-0 bottom-[30%] w-[6%] hidden xl:block"  src={left_bottom} alt="semicircle" />
         <img  className="absolute end-0 top-[60%] w-[8%] hidden xl:block" src={right_img} alt="dots with circle" />
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
-          <form className="max-w-[946px] mx-auto px-4 sm:px-8 lg:px-[52px] bg-white sm:pt-8 lg:pt-[43px] py-6 sm:pb-8 lg:pb-[52px] shadow-lg leading-normal rounded-xl relative">
+          <form className="max-w-[946px] mx-auto px-4 sm:px-8 lg:px-[52px] bg-white sm:pt-8 lg:py-[52px] py-6 sm:pb-8 shadow-lg leading-normal rounded-xl relative">
           <img  className="absolute end-[-3%] top-[40%] z-[-2] hidden lg:block" src={dots_group} alt="dots group" />
-            <h3 className="ff_outfit text-black text-base sm:text-[20px] opacity-70 font-semibold leading-normal mb-3 2xl:text-base">
+            <h3 className="ff_outfit text-black text-base sm:text-[20px] opacity-70 font-semibold leading-normal mb-1 2xl:text-base">
               Register Now
             </h3>
             <p className="ff_inter text-xs sm:text-base test-black opacity-70 leading-normal mb-6 lg:mb-10 font-normal text-black 2xl:text-[20px]">
