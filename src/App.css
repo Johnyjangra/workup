@@ -94,7 +94,7 @@ html {
 .input_border_gradient {
   background: linear-gradient(white, white) padding-box,
     linear-gradient(to right, #994fff, #2abae9) border-box;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   position: relative;
 }
 

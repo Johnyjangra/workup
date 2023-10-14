@@ -43,14 +43,14 @@ const Hero = () => {
             <p className="text-md sm:text-lg 2xl:text-[30px] ff_outfit text-transparent pt-2 sm:pt-0 xl:pt-2 bg-clip-text bg-gradient-to-r from-[#994FFF] to-[#4AB6FE] font-normal">
               Empowering Autopilot Automation
             </p>
-            <form className="bg-white group h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto waitlistshado rounded-[100px] ps-[22px] flex items-center justify-between mt-3 xl:mt-14 mb-0 input_border_gradient shadow">
+            <form className="bg-white h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto waitlistshado rounded-[100px] ps-[22px] flex items-center justify-between mt-3 xl:mt-14 mb-0 input_border_gradient shadow">
               <input
                 required
                 className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"
                 type="text"
                 placeholder="Enter email to join waitlist"
-              />    
-              <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
+              />
+              <button className="bg-gradientOne h-[32px] sm:h-[36px] group min-w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
                 <img
                   className="group-hover:translate-x-[7px] transition duration-300"
                   src={arrow}

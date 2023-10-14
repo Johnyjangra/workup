@@ -88,6 +88,20 @@ const ChatTyping = () => {
                 <AddPost />
               </span>
             </div>
+            <div className="flex items-center justify-between overflow-scroll pb-2 md:hidden">
+              <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:hidden flex items-center text-xs sm:text-sm 2xl:text-[18px] whitespace-nowrap">
+                <PostPencil />
+                Create a Post
+              </button>
+              <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:hidden flex items-center text-xs sm:text-sm 2xl:text-[18px] whitespace-nowrap mx-5">
+                <AlbumIcon />
+                Photo/Video Album
+              </button>
+              <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:hidden flex items-center text-xs sm:text-sm 2xl:text-[18px]  whitespace-nowrap">
+                <LiveCamera />
+                Live Video
+              </button>
+            </div>
             <div className="bg-white shadow-[0px_5px_21px_0px_rgba(0,0,0,0.05)] rounded-md pt-6 pb-7 sm:ps-[26px] ps-2 mb-6">
               <div className="flex items-center">
                 <img
