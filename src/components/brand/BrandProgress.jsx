@@ -39,13 +39,14 @@ const BrandProgress = () => {
         breakpoint: 1280,
         settings: {
           slidesToShow: 3,
+          centerMode: false,
           dots: false,
         },
       },
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           centerMode: false,
         },
       },
@@ -68,7 +69,7 @@ const BrandProgress = () => {
             What’s Our Progress?
           </p>
           <div className="flex justify-center mt-4 mb-12">
-            <p className="text-center ff_inter sm:text-md text-[18px] 2xl:text-[22px] text-[#4A4C4C] font-normal max-w-[940px]">
+            <p className="text-center ff_inter 2xl:pb-10 sm:text-md text-[18px] 2xl:text-[22px] text-[#4A4C4C] font-normal max-w-[940px]">
               We have made substantial progress in our development journey. We
               initiated the design phase for our prototype, and we are now ready
               to commence development and fulfil the banking partnership

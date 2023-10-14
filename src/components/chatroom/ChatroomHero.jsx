@@ -7,7 +7,7 @@ const ChatroomHero = () => {
       <div className="bgHerochat bg-[url('./assets/png/ChatroomHeroImg.png')] bg-no-repeat bg-cover">
         <Header />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 mt-3 sm:pb-[64px] pb-[50px]">
-          <h2 className="text-white ff_outfit font-semibold text-[32px] sm:text-[38px] md:text-10 lg:text-[48px] 2xl:text-[52px] leading-[120%] text-center mt-[41px]">
+          <h2 className="text-white ff_outfit font-semibold text-[32px] sm:text-[38px] md:text-10 lg:text-[48px] 2xl:text-[60px] leading-[120%] text-center mt-[41px]">
             Chatroom
           </h2>
           <p className="text-[#DFDDFD] text-center ff_inter text-xs sm:text-sm 2xl:text-[18px] font-normal mt-2 max-w-[553px] mx-auto">

@@ -64,7 +64,7 @@ const ChatTyping = () => {
           alt="topImage"
           className=" absolute top-[-3%] pointer-events-none start-0 xl:block hidden"
         />
-        <div className="md:mt-[108px] sm:mt-12 mt-10 lg:pb-40 sm:pb-20 relative z-10">
+        <div className="md:mt-[80px] sm:mt-12 mt-10 lg:pb-40 sm:pb-20 relative z-10">
           <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto sm:px-5 px-3 xl:px-0">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-[60px] ">

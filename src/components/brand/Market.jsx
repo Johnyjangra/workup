@@ -9,7 +9,7 @@ const Market = () => {
           alt="linerSide"
           className="start-0 absolute pointer-events-none lg:bottom-[-10%] md:bottom-[-20%] md:block hidden"
         />
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 lg:mt-28 lg:mb-[167px] mb-[80px] mt-16">
+        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 lg:mt-28 lg:mb-[100px] mb-[80px] mt-16">
           <div className="flex flex-wrap xl:flex-row flex-col items-center ">
             <div className="xl:w-[35%] md:w-6/12 w-full flex flex-col justify-center ">
               <div className="bg-[url('./assets/svg/millionPink.svg')] bg-no-repeat bg-center bg-contain 2xl:py-2 xl:py-5 pe-16 xl:translate-x-[25px]">
@@ -25,7 +25,7 @@ const Market = () => {
               </div>
             </div>
             <div className="xl:w-[30%] md:w-6/12 w-full flex justify-center">
-              <div className="bg-no-repeat bg-[url('./assets/svg/MarketCircle.svg')] bg-[100%_100%] sm:py-28 py-16 px-20 bg-center bg-contain">
+              <div className="bg-no-repeat bg-[url('./assets/svg/MarketCircle.svg')] bg-[100%_100%] sm:py-[5rem] py-16 px-20 bg-center bg-contain">
                 <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-black font-medium max-w-[200px] leading-[135%] text-center] text-center">
                   How big is{" "}
                   <span className="sm:whitespace-normal whitespace-nowrap sm:flex block">

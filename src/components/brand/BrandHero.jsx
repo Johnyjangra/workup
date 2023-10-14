@@ -11,7 +11,7 @@ const BrandHero = () => {
       />
       <Header />
       <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
-        <p className="text-white ff_outfit font-semibold text-[48px] 2xl:text-[52px] leading-[120%] text-center mt-[15px]">
+        <p className="text-white ff_outfit font-semibold text-[48px] 2xl:text-[60px] leading-[120%] text-center mt-[15px]">
           Investment
         </p>
         <p className="text-[#DFDDFD] text-center ff_inter text-xs sm:text-sm 2xl:text-[18px] font-normal mt-2 mb-7">
