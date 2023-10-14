@@ -4,7 +4,7 @@ import LogoImg from "../../assets/svg/logo.svg";
 import LogoImg2 from "../../assets/svg/white-logo.svg";
 import Hero from "../home/Hero.jsx";
 import { useLocation } from "react-router-dom";
-import { CrossIcon, ToggleIcon } from "./Icons.jsx";
+import { CrossIcon, ToggleIcon, ToggleIconWhite } from "./Icons.jsx";
 const Header = () => {
   const [activeNavOverlay, setActiveNavOverlay] = useState(false);
   useEffect(() => {
@@ -22,8 +22,7 @@ const Header = () => {
           path === "/"
             ? "bg-[url('./assets/png/hero-bg.png')] bg-cover bg-no-repeat"
             : ""
-        } "relative"`}
-      >
+        } "relative"`}>
         <div>
           <MobileNav
             activeNavOverlay={activeNavOverlay}
@@ -54,24 +53,21 @@ const Header = () => {
                         href="/chatroom"
                         className={`${
                           path === "/" ? "text-black opacity-70" : " text-white"
-                        } text-sm font-medium ff_outfit mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-[#2ABAE9] after:duration-300 duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-[#2ABAE9] after:w-0 hover:after:w-full after:h-[2px]`}
-                      >
+                        } text-sm font-medium ff_outfit mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-[#2ABAE9] after:duration-300 duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-[#2ABAE9] after:w-0 hover:after:w-full after:h-[2px]`}>
                         Chat Room
                       </a>
                       <a
                         href="#invest"
                         className={`${
                           path === "/" ? "text-black opacity-70" : "text-white"
-                        } text-black text-sm font-medium ff_outfit mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-[#2ABAE9] after:duration-300 duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-[#2ABAE9] after:w-0 hover:after:w-full after:h-[2px]`}
-                      >
+                        } text-black text-sm font-medium ff_outfit mr-6 xl:mr-[44px] after:transition-all after:rounded-sm hover:text-[#2ABAE9] after:duration-300 duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-[#2ABAE9] after:w-0 hover:after:w-full after:h-[2px]`}>
                         Invest
                       </a>
                       <a
                         href="/founder"
                         className={`${
                           path === "/" ? "text-black opacity-70" : "text-white"
-                        } text-black text-sm font-medium ff_outfit mr-6 xl:mr-[30px] after:transition-all after:rounded-sm hover:text-[#2ABAE9] after:duration-300 duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-[#2ABAE9] after:w-0 hover:after:w-full after:h-[2px]`}
-                      >
+                        } text-black text-sm font-medium ff_outfit mr-6 xl:mr-[30px] after:transition-all after:rounded-sm hover:text-[#2ABAE9] after:duration-300 duration-300 after:ease-linear relative after:absolute after:bottom-0 after:left-0 after:bg-[#2ABAE9] after:w-0 hover:after:w-full after:h-[2px]`}>
                         Become a Co-Founder
                       </a>
                       <button
@@ -79,8 +75,7 @@ const Header = () => {
                           path === "/"
                             ? "bg-[#edf7fd] text-blue"
                             : "bg-transparent text-white"
-                        } "hidden sm:flex justify-center items-center overflow-hidden h-[43px] w-[95px] text-sm font-semibold rounded-[100px] border-solid border-[1px] border-[#edf7fd] duration-300 ease-linear hover:text-white hover:bg-blue pb-[2px]"`}
-                      >
+                        } "hidden sm:flex justify-center items-center overflow-hidden h-[43px] w-[95px] text-sm font-semibold rounded-[100px] border-solid border-[1px] border-[#edf7fd] duration-300 ease-linear hover:text-white hover:bg-blue pb-[2px]"`}>
                         Log In
                       </button>
                     </div>
@@ -88,9 +83,18 @@ const Header = () => {
                   <div className="flex items-center lg:hidden">
                     <div
                       className=" relative z-50 text-white cursor-pointer"
-                      onClick={() => setActiveNavOverlay(!activeNavOverlay)}
-                    >
-                      {activeNavOverlay ? <CrossIcon /> : <ToggleIcon />}
+                      onClick={() => setActiveNavOverlay(!activeNavOverlay)}>
+                      {path === "/" ? (
+                        activeNavOverlay ? (
+                          <CrossIcon />
+                        ) : (
+                          <ToggleIcon />
+                        )
+                      ) : activeNavOverlay ? (
+                        <CrossIcon />
+                      ) : (
+                        <ToggleIconWhite />
+                      )}
                     </div>
                   </div>
                 </div>
