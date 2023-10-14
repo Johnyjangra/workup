@@ -1,17 +1,15 @@
 import React from "react";
 import people_graff from "../../assets/webp/Working-img.webp";
 import { WorkingData } from "../common/Helper";
-import right_img from "../../assets/png/working-right-img.png";
 import semicircle_group from "../../assets/png/working-semocircle-group.png";
+import { WorkingLeftImg } from "../common/Icons";
 const Working = () => {
   return (
     <>
-      <div className="bg-[#F7FCFE] lg:pt-[56px] lg:pb-4 py-12 relative" id="cofounder">
-        <img
+      <div className="bg-[#F7FCFE] lg:pt-[56px] lg:pb-4 py-12 sm:py-[70px] relative" id="cofounder">
+        <span
           className="absolute pointer-events-none start-0 top-0 hidden sm:block"
-          src={right_img}
-          alt="dots-group"
-        />
+        ><WorkingLeftImg/></span>
         <div className="container xl:max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <h2 className="text-center ff_outfit text-lightBlack lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-normal mb-10 linline-block">
             Ho

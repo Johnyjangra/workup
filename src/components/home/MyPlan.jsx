@@ -1,21 +1,16 @@
 import React from 'react'
 import { PotintialPlanData } from '../common/Helper';
-import plan_right from "../../assets/png/Potiontal-plan-right.png"
-import dots_img from "../../assets/png/feature-dots-img.png"
+import { FeatureDots, MyPlanTopRight } from '../common/Icons';
 const MyPlan = () => {
   return (
     <>
-      <div className="pt-12 sm:pb-12 relative" id="invest">
-        <img
+      <div className="pt-12 sm:pt-[70px] sm:pb-12 relative" id="invest">
+        <span
           className="absolute pointer-events-none top-[45%] start-0 hidden xl:block"
-          src={dots_img}
-          alt="dots-img"
-        />
-        <img
+        ><FeatureDots/></span>
+        <span
           className="absolute pointer-events-none end-0 hidden md:block top-0 xl:top-[12%]"
-          src={plan_right}
-          alt="dots group"
-        />
+        ><MyPlanTopRight/></span>
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px]  mx-auto px-5 xl:px-0">
           <h2 className="text-center ff_outfit text-lightBlack lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] lg:mb-[24px] font-medium leading-normal linline-block">
             Po

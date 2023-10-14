@@ -1,6 +1,6 @@
 import React from "react";
-import circle from "../../assets/png/dashboard-rgb-circle.png";
 import dashboard from "../../assets/webp/dahboart-img.webp";
+import { DashboardImgTopCircle } from "../common/Icons";
 
 const DashboarsData = () => {
   return (
@@ -8,11 +8,10 @@ const DashboarsData = () => {
       <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
         <div className="flex flex-wrap items-center justify-center md:justify-between">
           <div className="md:w-6/12 w-11/12 sm:w-10/12 pt-3 sm:pt-0 relative">
-            <img
-              className="absolute pointer-events-none top-[-10%] hidden md:block w-[30%] left-[-10%]"
-              src={circle}
-              alt="rgb-circle"
-            />
+            <span
+              className="absolute pointer-events-none top-[-10%] hidden lg:block w-[30%] left-[-10%]"
+             
+            ><DashboardImgTopCircle/></span>
             <img
               className="drop-shadow-lg w-full xl:h-[447px] xl:w-[570px]"
               src={dashboard}

@@ -1,19 +1,16 @@
 import React from "react";
 import { FormCard } from "../common/Helper";
-import left_top from "../../assets/png/founder-form-top-left.png"
-import left_bottom from "../../assets/png/founder-form-bottom-left.png"
-import right_img from "../../assets/png/founder-form-right.png"
-import dots_group from "../../assets/png/founder-dots-group.png"
+import { FormDotsGroup, FormLeftBottom, FormRightImg, FormTopLeft } from "../common/Icons";
 const RegisterNow = () => {
   return (
     <>
-      <div className="lg:pt-[111px] sm:pb-12 pb-2 pt-12 xl:pb-[92px] relative">
-        <img  className="absolute top-0 start-0 hidden xl:block" src={left_top} alt=" dots with circle" />
-        <img className="absolute start-0 bottom-[30%] w-[6%] hidden xl:block"  src={left_bottom} alt="semicircle" />
-        <img  className="absolute end-0 top-[60%] w-[8%] hidden xl:block" src={right_img} alt="dots with circle" />
+      <div className="lg:pt-[111px] sm:pb-12 pb-2 pt-12 sm:pt-[70px] xl:pb-[92px] relative">
+        <span  className="absolute top-0 start-0 hidden xl:block"><FormTopLeft/></span>
+        <span className="absolute start-0 bottom-[30%] w-[6%] hidden xl:block"><FormLeftBottom/></span>
+        <span  className="absolute end-0 top-[60%] w-[8%] hidden xl:block"><FormRightImg/></span>
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
           <form className="max-w-[946px] mx-auto px-4 sm:px-8 lg:px-[52px] bg-white sm:pt-8 lg:py-[52px] py-6 sm:pb-8 shadow-lg leading-normal rounded-xl relative">
-          <img  className="absolute end-[-3%] top-[40%] z-[-2] hidden lg:block" src={dots_group} alt="dots group" />
+          <span  className="absolute end-[-3%] top-[40%] z-[-2] hidden lg:block"><FormDotsGroup/></span>
             <h3 className="ff_outfit text-black text-base sm:text-[20px] opacity-70 font-semibold leading-normal mb-1 2xl:text-base">
               Register Now
             </h3>
@@ -22,7 +19,7 @@ const RegisterNow = () => {
             </p>
             <div className="flex flex-col sm:flex-row sm:gap-10">
               <div className="w-full mb-4 sm:mb-5 lg:mb-[36px]">
-                <p className="ff_inter 2xl:text-[20px] text-xs sm:text-base test-black opacity-80 leading-normal font-normal text-black mb-[11px]">
+                <p className="ff_inter 2xl:text-[20px] text-xs sm:text-base test-black opacity-70 leading-normal font-normal text-black mb-[11px]">
                   Full Name
                 </p>
                 <input
@@ -32,7 +29,7 @@ const RegisterNow = () => {
                 />
               </div>
               <div className="w-full mb-5 sm:mb-0">
-                <p className="ff_inter 2xl:text-[20px] text-xs  sm:text-base test-black opacity-80 leading-normal font-normal text-black mb-[11px]">
+                <p className="ff_inter 2xl:text-[20px] text-xs  sm:text-base test-black opacity-70 leading-normal font-normal text-black mb-[11px]">
                   Email
                 </p>
                 <input
@@ -42,15 +39,15 @@ const RegisterNow = () => {
                 />
               </div>
             </div>
-            <p className="ff_inter text-xs 2xl:text-[20px] sm:text-base test-black opacity-80 leading-normal font-normal text-black mb-3 lg:mb-4">
+            <p className="ff_inter text-xs 2xl:text-[20px] sm:text-base test-black opacity-70 leading-normal font-normal text-black mb-3 lg:mb-4">
               About Us
             </p>
             <textarea className="p-4 mb-5 lg:mb-[36px] ff_inter text-black text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"></textarea>
-            <p className="ff_inter text-xs 2xl:text-[20px] sm:text-base test-black opacity-80 leading-normal font-normal text-black mb-3 lg:mb-4">
+            <p className="ff_inter text-xs 2xl:text-[20px] sm:text-base test-black opacity-70 leading-normal font-normal text-black mb-3 lg:mb-4">
             Why WorkUp
             </p>
             <textarea className="p-4 mb-5 lg:mb-[36px] ff_inter text-black text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"></textarea>
-            <p className="ff_inter 2xl:text-[20px] text-xs sm:text-base test-black opacity-80 leading-normal font-normal text-black mb-3 lg:mb-4">
+            <p className="ff_inter 2xl:text-[20px] text-xs sm:text-base test-black opacity-70 leading-normal font-normal text-black mb-3 lg:mb-4">
             My You
             </p>
             <textarea className="p-4 mb-5 lg:mb-[36px] ff_inter text-black text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"></textarea>

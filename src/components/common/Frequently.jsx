@@ -4,9 +4,8 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import { MinusIconFaq, PlusIconFaq } from "./Icons";
+import { AwsomeRightImg, MinusIconFaq, PlusIconFaq } from "./Icons";
 import awsome_img from "../../assets/webp/awsome-question-img.webp";
-import awsome_right from "../../assets/png/awsome-question-left-rgb.png";
 import { useLocation } from "react-router-dom";
 function Icon({ id, open }) {
   return (
@@ -26,13 +25,12 @@ const Frequently = () => {
   const path = useLocation().pathname;
   return (
     <>
-      <div className=" lg:pt-[116px] py-12 lg:pb-[97px] relative" id="faqs">
+      <div className=" lg:pt-[116px] py-12 sm:py-[70px] lg:pb-[97px] relative" id="faqs">
         {path === "/" ? (
-          <img
+          <span
             className="absolute pointer-events-none right-0 top-[8%] hidden lg:block"
-            src={awsome_right}
-            alt="right-rgb"
-          />
+           
+          ><AwsomeRightImg/></span>
         ) : (
           ""
         )}
