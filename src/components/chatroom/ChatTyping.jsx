@@ -9,6 +9,7 @@ import {
   LikeWhite,
   LiveCamera,
   PhotoIcon,
+  PostPencil,
   // PostPencil,
   ShareIcon,
   TypingDot,
@@ -23,14 +24,16 @@ import Likeleft from "../../assets/svg/likeLeftLiner.svg";
 import Dots from "../../assets/svg/LikeRightDot.svg";
 import RightDots from "../../assets/svg/rightDotLiner.svg";
 import bottom from "../../assets/svg/chatroomBottom.svg";
+import sideDots from "../../assets/svg/jhoneSlideDots.svg";
 const ChatTyping = () => {
   return (
     <>
       <div className="relative">
+        <img src={sideDots} alt="sideDots" className="absolute top-[7%] start-0" />
         <img
-          src={topImage}
+          src={Likeleft}
           alt="topImage"
-          className=" absolute top-[30%] pointer-events-none start-0 lg:block hidden"
+          className=" absolute top-[33%] pointer-events-none start-0 lg:block hidden"
         />
         <img
           src={bottom}
@@ -50,14 +53,14 @@ const ChatTyping = () => {
         <img
           src={RightDots}
           alt="topImage"
-          className=" absolute top-[54%] pointer-events-none end-0 lg:block hidden"
+          className=" absolute top-[56%] pointer-events-none end-0 lg:block hidden"
         />
         <img
-          src={Likeleft}
+          src={topImage}
           alt="topImage"
-          className=" absolute top-[-3%] pointer-events-none start-0 lg:block hidden"
+          className=" absolute top-[-3%] pointer-events-none start-0 xl:block hidden"
         />
-        <div className="md:mt-[108px] sm:mt-[80px] mt-10 md:mb-40 sm:mb-20 md:pb-40 sm:pb-20 relative z-10">
+        <div className="md:mt-[108px] sm:mt-12 mt-10 lg:pb-40 sm:pb-20 relative z-10">
           <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto sm:px-5 px-3 xl:px-0">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-[60px] ">
@@ -65,7 +68,7 @@ const ChatTyping = () => {
                   <ChatroomLines />
                 </span>
                 <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center md:text-sm text-[14px] hidden">
-                  {/* <PostPencil /> */}
+                  <PostPencil />
                   Create a Post
                 </button>
                 <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center md:text-sm text-[14px] hidden">
@@ -152,17 +155,17 @@ const ChatTyping = () => {
                           <img
                             src={Like}
                             alt="Like"
-                            className="sm:h-[40px] h-[30px] w-[30px] sm:w-[40px] me-[18px]"
+                            className="sm:h-[40px] h-[30px] w-[30px] sm:w-[40px] me-[18px] cursor-pointer hover:scale-110 transition-all ease-in-out duration-150"
                           />
                           <img
                             src={LikeThumb}
                             alt="Like"
-                            className="sm:h-[40px] h-[30px] w-[30px] sm:w-[40px] me-[18px]"
+                            className="sm:h-[40px] h-[30px] w-[30px] sm:w-[40px] me-[18px] cursor-pointer hover:scale-110 transition-all ease-in-out duration-150"
                           />
                           <img
                             src={Smile}
                             alt="Like"
-                            className="sm:h-[40px] h-[30px] w-[30px] sm:w-[40px]"
+                            className="sm:h-[40px] h-[30px] w-[30px] sm:w-[40px] cursor-pointer hover:scale-110 transition-all ease-in-out duration-150"
                           />
                         </div>
                         <p className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] sm:ms-7 sm:my-0 my-3">
@@ -173,16 +176,16 @@ const ChatTyping = () => {
                         55 comments
                       </p>
                     </div>
-                    <hr className="h-[2px] bg-[#E5E5E5] mb-[20px] sm:ms-[18px] ms-2 me-[32px]" />
-                    <div className="flex sm:flex-row flex-col sm:items-center sm:ms-[18px] ms-2 pb-6 sm:gap-[30px] gap-4">
-                      <div className="flex items-center justify-between sm:gap-[30px] gap-4 pe-10">
-                        <button className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] flex items-center">
-                          <ShareIcon /> Share
-                        </button>
-                        <button className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] flex items-center">
-                          <LikeWhite /> Like
-                        </button>
-                      </div>
+                    <hr className="h-[2px] bg-[#E5E5E5] mb-[20px] sm:ms-[18px] ms-2 sm:me-[32px] me-1" />
+                    <div className="flex flex-row  sm:items-center sm:ms-[18px] ms-2 pb-6 sm:gap-[30px] gap-4">
+                      {/* <div className="flex items-center justify-between sm:gap-[30px] gap-4 "> */}
+                      <button className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] flex items-center">
+                        <ShareIcon /> Share
+                      </button>
+                      <button className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] flex items-center">
+                        <LikeWhite /> Like
+                      </button>
+                      {/* </div> */}
                       <button className="ff_inter font-normal leading-[154%] text-[#666666] sm:text-sm text-[14px] flex items-center">
                         <CommentWhite /> Comment
                       </button>

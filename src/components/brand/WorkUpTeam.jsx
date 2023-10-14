@@ -41,7 +41,7 @@ const WorkUpTeam = () => {
             <p className="text-black ff_outfit text-md font-medium leading-[160%]">
               Luke Howard
             </p>
-            <p className="text-black ff_outfit text-base font-normal leading-[140%]">
+            <p className="text-black ff_outfit text-base font-normal leading-[140%] mt-[-4px]">
               Founder
             </p>
           </div>

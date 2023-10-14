@@ -6,18 +6,18 @@ import sideDots from "../../assets/svg/PitchDots.svg";
 const BrandAbout = () => {
   return (
     <>
-      <div className="relative pt-3">
+      <div className="relative mt-1 mb-[80px] md:mb-0">
         <img
           src={sideDots}
           alt="sideDots"
-          className="absolute start-0 top-[-25%] pointer-events-none"
+          className="absolute start-0 top-[-10%] pointer-events-none"
         />
         <p className="text-center ff_outfit font-semibold lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-lightBlack leading-[120%] mt-16 relative after:contents-[''] after:absolute after:w-[132px] after:start-[50%] after:translate-x-[-50%] after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] lg:mb-24 mb-10">
           Pitch Deck
         </p>
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap items-center justify-between lg:flex-row flex-col-reverse">
-            <div className="lg:w-5/12 w-full lg:mt-0 mt-5">
+            <div className="lg:w-6/12 w-full lg:mt-0 mt-5">
               <p className="ff_outfit font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-Black leading-normal relative after:contents-[''] after:absolute after:w-[132px] after:start-0 after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] mb-0">
                 About Us
               </p>

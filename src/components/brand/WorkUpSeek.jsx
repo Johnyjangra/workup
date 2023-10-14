@@ -6,7 +6,7 @@ const WorkUpSeek = () => {
     <>
       <div className="relative">
         <img src={liner} alt="liner" className="absolute xl:end-[-15%] md:end-[-20%] end-[-25%] top-[-15%] pointer-events-none" />
-        <div className="bg-[#F7FCFE] md:py-32 sm:py-28 py-12 overflow-hidden mt-5 mb-20 md:mb-32 sm:mb-30">
+        <div className="bg-[#F7FCFE] md:py-[70px] py-12 overflow-hidden mt-5 mb-10 md:mb-[70px] lg:mb-32">
           <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
             <p className="text-center text-lightBlack ff_outfit font-medium leading-[106%] tracking-[-0.24px] text-lg relative after:contents-[''] after:absolute after:w-[114px] after:start-[50%] after:translate-x-[-50%] after:h-[4px]  after:rounded-md after:bg-[#1C1D1D] after:top-[-26%]">
               What does
@@ -30,7 +30,7 @@ const WorkUpSeek = () => {
                 type="text"
                 placeholder="Enter email to join waitlist"
               />
-              <button className="bg-btnGradient h-[32px] sm:h-[36px] w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
+              <button className="bg-btnGradient h-[32px] sm:h-[36px] min-w-[70px] max-w-[70px]: rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
                 <img
                   className="group-hover:translate-x-[7px] transition duration-300"
                   src={arrow}

@@ -6,7 +6,7 @@ import { UniqueArrow } from "../common/Icons";
 const Unique = () => {
   return (
     <>
-      <div className="uniqueBg py-20 rounded-[10px] relative overflow-hidden lg:mt-0 mt-20">
+      <div className="uniqueBg md:py-20 py-[70px] rounded-[10px] relative overflow-hidden lg:mt-0 md:mt-20 mt-5">
         <img
           src={uniqueLayerText}
           alt="uniqueLayerText"
@@ -51,7 +51,7 @@ const Unique = () => {
                   className="bg-white ff_inter sm:text-sm text-[13px] text-[#666666] font-normal py-2 ps-4 focus-visible:outline-none placeholder:text-[#666666]"
                   placeholder="Enter email to join waitlist"
                 />
-                <button className="UniqueBtn rounded-full p-[18px_27px]  flex items-center justify-center group w-[69px] h-[36px]">
+                <button className="UniqueBtn rounded-full p-[18px_27px]  flex items-center justify-center group w-[70px] h-[36px]">
                   <UniqueArrow />
                 </button>
               </form>
