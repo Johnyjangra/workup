@@ -48,6 +48,8 @@
 }
 .ProgressSlide .slick-current {
   box-shadow: 0px 3.23603px 17.79814px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px !important;
+  overflow: hidden;
 }
 @media (min-width: 1400px) {
   .ProgressSlide .slick-current {

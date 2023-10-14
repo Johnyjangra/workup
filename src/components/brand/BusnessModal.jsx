@@ -16,17 +16,17 @@ const BusnessModal = () => {
           alt="BottomDot"
           className="absolute bottom-0 start-0 lg:block hidden pointer-events-none"
         />
-        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 md:pt-[138px] md:mb-12 py-16">
+        <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 md:pt-[138px] md:mb-12 md:py-16 py-[70px]">
           <div className="flex flex-wrap items-center justify-between lg:flex-row flex-col-reverse">
             <div className="lg:w-5/12  w-full lg:mt-0 mt-10">
-              <p className="ff_outfit font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-Black leading-normal relative after:contents-[''] after:absolute after:w-[200px] after:start-0 after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] mb-0 ">
+              <p className="ff_outfit font-medium lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] text-Black leading-normal relative after:contents-[''] after:absolute after:w-[200px] after:start-0 after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] mb-0 ">
                 Business Model
               </p>
-              <p className="ff_inter text-xs sm:text-sm font-normal leading-[160%] text-[#4D4D4D] lg:max-w-[414px] lg:mt-5 mt-1">
+              <p className="ff_inter text-xs sm:text-sm 2xl:text-[18px] font-normal leading-[160%] text-[#4D4D4D] lg:max-w-[414px] lg:mt-5 mt-1">
                 Our primary revenue model around a software-as-a-Services
                 subscription model.
               </p>
-              <p className="ff_inter text-xs sm:text-sm font-normal leading-[160%] text-[#4D4D4D] lg:max-w-[414px]">
+              <p className="ff_inter text-xs sm:text-sm 2xl:text-[18px] font-normal leading-[160%] text-[#4D4D4D] lg:max-w-[414px]">
                 Additionally, we anticipate through interchange fees. In the
                 other revenue streams as leading insurance fetors terminal fees
                 and more.

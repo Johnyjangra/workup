@@ -25,14 +25,18 @@ const BrandWhatDo = () => {
                 alt="WhyDoesImage"
                 className="lg:w-full w-11/12 pointer-events-none relative z-10"
               />
-              <img src={dots} alt="dots" className="absolute top-[-30px] start-[-36px]" />
+              <img
+                src={dots}
+                alt="dots"
+                className="absolute top-[-30px] start-[-36px]"
+              />
             </div>
             <div className="lg:w-6/12 w-full flex lg:justify-end lg:mt-0 mt-10">
               <div className="mb-0">
-                <p className="ff_outfit font-medium lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-Black leading-normal relative after:contents-[''] after:absolute after:w-[202px] after:start-0 after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] mb-0">
+                <p className="ff_outfit font-medium lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] text-Black leading-normal relative after:contents-[''] after:absolute after:w-[202px] after:start-0 after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] mb-0">
                   What does WorkUp do?
                 </p>
-                <p className="ff_inter text-xs sm:text-sm font-normal leading-[160%] text-[#4D4D4D] lg:max-w-[440px] lg:mt-5 mt-1">
+                <p className="ff_inter text-xs sm:text-sm 2xl:text-[18px] font-normal leading-[160%] text-[#4D4D4D] lg:max-w-[440px] lg:mt-5 mt-1">
                   WorkUp MVP is a{" "}
                   <span className="font-medium">cutting-edge banking</span>{" "}
                   automation & spend management platform that empowers users to
@@ -42,7 +46,7 @@ const BrandWhatDo = () => {
                     debit cards directly from our intuitive dashboard.
                   </span>
                 </p>
-                <p className="ff_inter text-xs sm:text-sm font-normal leading-[160%] text-[#4D4D4D] lg:max-w-[451px] mt-2">
+                <p className="ff_inter text-xs sm:text-sm 2xl:text-[18px] font-normal leading-[160%] text-[#4D4D4D] lg:max-w-[451px] mt-2">
                   By seamlessly integrating with Xero accounting software, Work
                   Up leverages reconciliation matches and Xero tax amounts to
                   automate financial rules.

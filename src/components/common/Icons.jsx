@@ -3063,7 +3063,7 @@ export const TypingDot = () => {
       xmlns="http://www.w3.org/2000/svg"
       width="55"
       height="43"
-      className=" cursor-pointer"
+      className="sm:w-[55px] sm:h-[43px] h-[40px] w-[40px] cursor-pointer"
       viewBox="0 0 55 43"
       fill="none"
     >
