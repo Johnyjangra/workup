@@ -18,7 +18,7 @@ const Homepage = () => {
       <Feature />
       <OurMisson />
       <Soluction />
-      <div className="pb-8 lg:pb-[126px]">
+      <div className="pb-8 lg:pb-[110px] pt-[26px] xl:pt-0">
         <OurWaitList />
       </div>
       <ProblemSolving />

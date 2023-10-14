@@ -58,7 +58,7 @@ const MyPlan = () => {
                         ))}
                       </div>
                     </div>
-                    <button className="ff_inter mt-[36px] font-medium 2xl:text-[20px] text-base bg-btnGradient group-hover:text-black  group-hover:bg-gradient-to-t from-white to-white text-white h-[45px] lg:h-[48px] w-[200px] lg:w-[220px] xl:w-[270px] rounded-[122px]">
+                    <button className="ff_inter mt-[36px] font-medium 2xl:text-[20px] text-sm sm:text-base bg-btnGradient group-hover:text-black  group-hover:bg-gradient-to-t from-white to-white text-white h-[45px] lg:h-[48px] w-[200px] lg:w-[220px] xl:w-[270px] rounded-[122px]">
                       {MyData.mybutton}
                     </button>
                   </div>

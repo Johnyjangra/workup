@@ -18,7 +18,7 @@ const ProblemSolving = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1280,
+        breakpoint: 1279,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
