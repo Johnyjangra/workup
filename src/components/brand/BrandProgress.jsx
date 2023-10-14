@@ -7,7 +7,12 @@ import sliderImage2 from "../../assets/webp/progress2.webp";
 import sliderImage3 from "../../assets/webp/Progress3.webp";
 import leftbtn from "../../assets/svg/ProgressLeftBtn.svg";
 import rightbtn from "../../assets/svg/progressRightBtn.svg";
-import { LeftArrow, RightArrow } from "../common/Icons";
+import {
+  LeftArrow,
+  ProgressLeft,
+  ProgressRight,
+  RightArrow,
+} from "../common/Icons";
 const BrandProgress = () => {
   const ProgressSlider = {
     centerMode: true, // Enable center mode
@@ -63,7 +68,7 @@ const BrandProgress = () => {
             What’s Our Progress?
           </p>
           <div className="flex justify-center mt-4 mb-12">
-            <p className="text-center ff_inter text-md text-[#4A4C4C] font-normal max-w-[940px] mb-10">
+            <p className="text-center ff_inter sm:text-md text-[18px] text-[#4A4C4C] font-normal max-w-[940px] mb-10">
               We have made substantial progress in our development journey. We
               initiated the design phase for our prototype, and we are now ready
               to commence development and fulfil the banking partnership
@@ -137,20 +142,20 @@ const BrandProgress = () => {
             onClick={() => first.current.slickNext()}
           />
         </div> */}
-        <div className="flex items-center justify-center gap-6 sm:mt-16">
+        <div className="flex items-center justify-center gap-6 sm:mt-12">
           <div
-            className="sm:h-[38px] sm:w-[38px] group h-[30px] w-[30px]  transition duration-300 flex justify-center items-center rounded-full border border-solid border-[#4D4D4D] arrows_bg hover:border-hidden cursor-pointer"
+            className="h-[38px] w-[38px] group  transition duration-300 flex justify-center items-center rounded-full arrows_bg  cursor-pointer"
             onClick={() => first.current.slickNext()}
           >
             <span>
-              <LeftArrow />
+              <ProgressLeft />
             </span>
           </div>
           <div
-            className=" sm:h-[38px] sm:w-[38px] h-[30px] w-[30px] flex justify-center transition duration-300 items-center rounded-full border border-solid border-[#4D4D4D] arrows_bg hover:border-hidden cursor-pointer"
+            className="h-[38px] w-[38px] group flex justify-center transition duration-300 items-center rounded-full arrows_bg hover:border-hidden cursor-pointer"
             onClick={() => first.current.slickPrev()}
           >
-            <RightArrow />
+            <ProgressRight />
           </div>
         </div>
       </div>

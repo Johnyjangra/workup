@@ -110,7 +110,7 @@ const ProblemSolving = () => {
                 type="text"
                 placeholder="List Goes On"
               />
-              <button className="bg-gradientOne h-[32px] sm:h-[36px] w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1">
+              <button className="bg-gradientOne h-[32px] sm:h-[36px] min-w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1">
                 <img className="group-hover:translate-x-[7px] transition duration-300" src={arrow} alt="arrow" />
               </button>
             </form>

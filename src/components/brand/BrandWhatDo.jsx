@@ -1,7 +1,8 @@
 import React from "react";
-import WhyDoesImage from "../../assets/webp/whatDoImage.webp";
+import WhyDoesImage from "../../assets/png/workDoImg.png";
 import sideImage from "../../assets/svg/WhatDoSideImg.svg";
 import rightDots from "../../assets/svg/workUpRight.svg";
+import dots from "../../assets/svg/workDoDot.svg";
 const BrandWhatDo = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const BrandWhatDo = () => {
         <img
           src={sideImage}
           alt="sideImage"
-          className="absolute xl:top-[80%] md:bottom-[-9%] bottom-[-7%] start-0 max-w-[100px] w-full lg:block hidden pointer-events-none"
+          className="absolute xl:top-[31%] md:bottom-[-9%] bottom-[-7%] start-0 max-w-[100px] w-full lg:block hidden pointer-events-none"
         />
         <img
           src={rightDots}
@@ -22,19 +23,9 @@ const BrandWhatDo = () => {
               <img
                 src={WhyDoesImage}
                 alt="WhyDoesImage"
-                className="lg:w-full w-11/12 pointer-events-none"
+                className="lg:w-full w-11/12 pointer-events-none relative z-10"
               />
-              {/* side box" */}
-              {/* <div className="sm:absolute rounded-md sm:max-w-[190px] max-w-[250px] bg-white shadow-[0px_8px_12px_0px_rgba(0,0,0,0.10)] xl:end-[-19%] lg:end-[-25%] md:end-[2%] end-[-3%] lg:bottom-[-11%] md:bottom-[2%] bottom-[-3%]">
-                <p className=" text-black ff_inter text-[12px] p-3 font-normal leading-[160%]">
-                  This{" "}
-                  <span className="text-blue">
-                    empowers users to conveniently automate payments and
-                    transfers
-                  </span>
-                  , enabling them to put their business finances on autopilot.
-                </p>
-              </div> */}
+              <img src={dots} alt="dots" className="absolute top-[-30px] start-[-36px]" />
             </div>
             <div className="lg:w-6/12 w-full flex lg:justify-end lg:mt-0 mt-10">
               <div className="mb-0">

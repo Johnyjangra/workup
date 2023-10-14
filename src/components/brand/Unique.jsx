@@ -44,14 +44,14 @@ const Unique = () => {
                 </span>{" "}
                 payments and transfers.
               </p>
-              <form className="mt-9 border input_border_gradient bg-white rounded-full overflow-hidden flex justify-between pe-2 py-2 max-w-[400px] ps-4">
+              <form className="mt-9 border input_border_gradient bg-white rounded-full overflow-hidden flex justify-between pe-2 py-2 max-w-[335px] h-[52px] items-center ps-4">
                 <input
                   type="text"
                   required
                   className="bg-white ff_inter sm:text-sm text-[13px] text-[#666666] font-normal py-2 ps-4 focus-visible:outline-none placeholder:text-[#666666]"
                   placeholder="Enter email to join waitlist"
                 />
-                <button className="UniqueBtn rounded-full p-[18px_27px] w-[90px] flex items-center justify-center group">
+                <button className="UniqueBtn rounded-full p-[18px_27px]  flex items-center justify-center group w-[69px] h-[36px]">
                   <UniqueArrow />
                 </button>
               </form>
