@@ -3,7 +3,7 @@ import Header from "../common/Header";
 import dots from "../../assets/svg/BrandHeroBg.svg";
 const BrandHero = () => {
   return (
-    <div className="bgHeroBrand bg-no-repeat bg-cover relative">
+    <div className="bg-[url('./assets/webp/BrandHeroBg.webp')] bg-no-repeat bg-cover relative">
       <img
         src={dots}
         alt="dots"
