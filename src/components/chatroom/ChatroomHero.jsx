@@ -14,14 +14,14 @@ const ChatroomHero = () => {
             The is a long established fact that a reader will be distracted by
             the readable content of a page.
           </p>
-          <form className="bg-transparent group h-[44px] sm:h-[52px] w-full max-w-[353px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between mt-4 border border-white">
+          <form className="bg-transparent h-[44px] sm:h-[52px] w-full max-w-[353px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between mt-4 border border-white">
             <input
               required
               className="w-full bg-transparent outline-none ff_inter text-sm font-normal leading-normal text-white placeholder:text-white"
               type="text"
               placeholder="Enter email to join waitlist"
             />
-            <button className="bg-[#E939D9] h-[32px] sm:h-[38px] w-[50px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
+            <button className="bg-[#E939D9] group h-[32px] sm:h-[38px] w-[50px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
               <img
                 className="group-hover:translate-x-[7px] transition duration-300"
                 src={arrow}
