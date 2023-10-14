@@ -226,8 +226,4 @@ export const FormCard = [
     heading: "Experience in building fintech startup",
   },
 ];
-export const ChatRoomData = [
-  { image: jhone1 },
-  { image: jhone2 },
-  { image: jhone3 },
-];
+export const ChatRoomData = [{ image: jhone1 }, { image: jhone2 }, { image: jhone3 }];

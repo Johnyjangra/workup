@@ -134,6 +134,3 @@
 .scroll_bar::-webkit-scrollbar-thumb:hover {
   background: #2cb9e9;
 }
-.scroll_bar_hide::-webkit-scrollbar {
-  display: none;
-}

@@ -5,12 +5,12 @@ import Slider from "react-slick";
 import sliderImage from "../../assets/webp/Progress1.webp";
 import sliderImage2 from "../../assets/webp/progress2.webp";
 import sliderImage3 from "../../assets/webp/Progress3.webp";
-import leftbtn from "../../assets/svg/ProgressLeftBtn.svg";
-import rightbtn from "../../assets/svg/progressRightBtn.svg";
+// import leftbtn from "../../assets/svg/ProgressLeftBtn.svg";
+// import rightbtn from "../../assets/svg/progressRightBtn.svg";
 import {
   LeftArrow,
-  ProgressLeft,
-  ProgressRight,
+  // ProgressLeft,
+  // ProgressRight,
   RightArrow,
 } from "../common/Icons";
 const BrandProgress = () => {
@@ -147,15 +147,15 @@ const BrandProgress = () => {
             className="h-[38px] w-[38px] group  transition duration-300 flex justify-center items-center rounded-full arrows_bg  cursor-pointer"
             onClick={() => first.current.slickNext()}
           >
-            <span>
+            {/* <span>
               <ProgressLeft />
-            </span>
+            </span> */}
           </div>
           <div
             className="h-[38px] w-[38px] group flex justify-center transition duration-300 items-center rounded-full arrows_bg hover:border-hidden cursor-pointer"
             onClick={() => first.current.slickPrev()}
           >
-            <ProgressRight />
+            {/* <ProgressRight /> */}
           </div>
         </div>
       </div>
