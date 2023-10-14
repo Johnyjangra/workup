@@ -15,7 +15,7 @@ const FounderHero = () => {
         <form className="bg-white group h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between mt-4 input_border_gradient">
               <input
                 required
-                className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"
+                className="w-full 2xl:text-base outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"
                 type="text"
                 placeholder="Enter email to join waitlist"
               />

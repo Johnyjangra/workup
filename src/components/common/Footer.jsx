@@ -4,20 +4,30 @@ import "font-awesome/css/font-awesome.min.css";
 import left_img from "../../assets/svg/joinBgLiner.svg";
 import right_img from "../../assets/svg/joinBgLinerRight.svg";
 import arrow from "../../assets/svg/waitlist-arrow.svg";
-import facebook from "../../assets/svg/footer-fb-logo.svg"
-import instagram from "../../assets/svg/footer-insta-logo.svg"
-import linkdin from "../../assets/svg/footer-linkdin-logo.svg"
-import twitter from "../../assets/svg/footer-twitter-logo.svg"
+import facebook from "../../assets/svg/footer-fb-logo.svg";
+import instagram from "../../assets/svg/footer-insta-logo.svg";
+import linkdin from "../../assets/svg/footer-linkdin-logo.svg";
+import twitter from "../../assets/svg/footer-twitter-logo.svg";
 const Footer = () => {
   const Today = new Date().getFullYear();
   return (
     <>
       <div className="footer_bg mt-[150px] pt-12">
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
-      <div className="h-[160px] max-w-[973px] mx-auto sm:h-[198px] bg-gradientOne rounded-2xl sm:px-12 px-8 flex flex-col items-center justify-center relative overflow-hidden translate-y-[-100%]">
-      <img className="absolute pointer-events-none top-0 start-0 z-[0]" src={left_img} alt="lines-group" />
-            <img className="absolute pointer-events-none top-0 end-0 z-[0]" src={right_img} alt="lines-group" />
-            <h2 className="ff_outfit text-white font-medium lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">Join Free Demo</h2>
+          <div className="h-[160px] max-w-[973px] mx-auto sm:h-[198px] bg-gradientOne rounded-2xl sm:px-12 px-8 flex flex-col items-center justify-center relative overflow-hidden translate-y-[-100%]">
+            <img
+              className="absolute pointer-events-none top-0 start-0 z-[0]"
+              src={left_img}
+              alt="lines-group"
+            />
+            <img
+              className="absolute pointer-events-none top-0 end-0 z-[0]"
+              src={right_img}
+              alt="lines-group"
+            />
+            <h2 className="ff_outfit text-white font-medium lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] text-center leading-[100%] mb-1 ms:mb-2 md:mb-5 relative z-10">
+              Join Free Demo
+            </h2>
             <form className="bg-white z-[10] relative h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25); shadow-xl rounded-[100px] ps-[22px] flex items-center justify-between mt-3 sm:mt-2 mb-0">
               <input
                 required
@@ -36,38 +46,41 @@ const Footer = () => {
           </div>
           <div className="flex flex-wrap justify-between items-start mt-[-140px] sm:mt-[-160px]">
             <div className="md:w-5/12">
-              <a href="/"><img src={logo} alt="workup logo" /></a>
+              <a href="/">
+                <img src={logo} alt="workup logo" />
+              </a>
               <p className="ff_inter text-white opacity-70 text-xs font-medium leading-normal 2xl:text-sm pt-3 mb-3 max-w-[500px]">
                 The is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
               </p>
               <div className="flex gap-4">
-                <a
-                  href="https://www.facebook.com/"
-                  target="blank"
-                >
-                <img className="min-h-[32px] min-w-[34px] transition duration-300 hover:translate-y-[-4px] " src={facebook} alt="facebook" />
+                <a href="https://www.facebook.com/" target="blank">
+                  <img
+                    className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px] "
+                    src={facebook}
+                    alt="facebook"
+                  />
                 </a>
                 <a
                   target="blank"
                   href="https://www.instagram.com/"
                   className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
                 >
-                <img src={instagram} alt="instagram" />
+                  <img src={instagram} alt="instagram" />
                 </a>
                 <a
                   target="blank"
                   href="https://twitter.com/"
                   className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
                 >
-                 <img src={twitter} alt="twitter" />
+                  <img src={twitter} alt="twitter" />
                 </a>
                 <a
                   target="blank"
                   href="https://www.linkedin.com/"
                   className="h-[34px] w-[34px] transition duration-300 hover:translate-y-[-4px]"
                 >
-                 <img src={linkdin} alt="linkdin" />
+                  <img src={linkdin} alt="linkdin" />
                 </a>
               </div>
             </div>
