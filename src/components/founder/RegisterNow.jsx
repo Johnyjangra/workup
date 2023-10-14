@@ -83,5 +83,4 @@ const RegisterNow = () => {
     </>
   );
 };
-
 export default RegisterNow;
