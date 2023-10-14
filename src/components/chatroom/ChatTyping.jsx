@@ -61,7 +61,9 @@ const ChatTyping = () => {
           <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto sm:px-5 px-3 xl:px-0">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-[60px] ">
-                <ChatroomLines />
+                <span className=" cursor-pointer">
+                  <ChatroomLines />
+                </span>
                 <button className=" ff_inter font-normal leading-[154%] text-[#707070] md:flex items-center md:text-sm text-[14px] hidden">
                   <PostPencil />
                   Create a Post
@@ -75,7 +77,9 @@ const ChatTyping = () => {
                   Live Video
                 </button>
               </div>
-              <AddPost />
+              <span className=" cursor-pointer">
+                <AddPost />
+              </span>
             </div>
             <div className="bg-white shadow-[0px_5px_21px_0px_rgba(0,0,0,0.05)] rounded-md pt-6 pb-7 sm:ps-[26px] ps-2 mb-6">
               <div className="flex items-center">
