@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Tab } from "@headlessui/react";
-import dashboard from "../../assets/webp/dahboart-img.webp";
-import circle from "../../assets/png/dashboard-rgb-circle.png"
-import semi_circle from "../../assets/png/dashboard-right-semicircle.png"
+import semi_circle from "../../assets/png/dashboard-right-semicircle.png";
+import DashboarsData from "./DashboarsData";
+import AccountsData from "./AccountsData";
+import CardsData from "./CardsData";
 const Dashboard = () => {
   const tabsData = [
     {
@@ -34,33 +34,36 @@ const Dashboard = () => {
             alt="rgb-semircle"
           />
           <div className="text-center">
-            <div className="md:overflow-x-scroll overflow-auto sm:overflow-visible md:overflow-auto scroll_bar_hide">
+            <div className="overflow-auto sm:overflow-visible md:overflow-auto scroll_bar_hide">
               <div
-                className={` flex gap-8 justify-between  relative after:absolute after:h-[8px] after:bg-[#F0F0F0] w-[460px] sm:w-auto after:w-full sm:after:w-[calc(100%_+_70px)] after:top-[40px] md:after:top-[46px] after:left-1/2 after:translate-x-[-50%] sm:inline-block after:rounded-[10px] before:transition-all before:duration-200 before:ease-linear
+                className={` flex gap-8 justify-between  relative after:absolute after:h-[5px] after:bg-[#F0F0F0] w-[460px] sm:w-auto after:w-full sm:after:w-[calc(100%_+_70px)] after:top-[40px] md:after:top-[46px] after:left-1/2 after:translate-x-[-50%] sm:inline-block after:rounded-[10px] before:transition-all before:duration-200 before:ease-linear
             
-            before:absolute before:h-[8px] before:bg-sky before:z-10 before:top-[40px]   md:before:top-[46px]  before:rounded-[10px] mb-10 md:mb-0 ${
+            before:absolute before:h-[5px] before:bg-sky before:z-10 before:top-[40px] md:before:top-[46px] before:rounded-[10px] mb-10 md:mb-0 ${
               border === 0
-                ? "before:left-0 before:translate-x-[-10.5%] md:before:translate-x-[-8.5%] before:w-[calc(70%)] md:before:w-[calc(60%)]"
+                ? "before:left-0 before:translate-x-[0%] md:before:translate-x-[-8.5%] before:w-[calc(60%)] md:before:w-[calc(60%)]"
                 : border === 1
                 ? "before:left-[50%] before:translate-x-[40%] md:before:translate-x-[15%] before:w-[calc(25%)] md:before:w-[calc(30%)]"
                 : border === 2
-                ? "before:left-[85.1%]  before:translate-x-[-10%] md:before:translate-x-[0%] before:w-[calc(25%)] md:before:w-[calc(20%)]"
+                ? "before:left-[85.1%]  before:translate-x-[-20%] md:before:translate-x-[0%] before:w-[calc(25%)] md:before:w-[calc(20%)]"
                 : ""
-            } `}>
+            } `}
+              >
                 {tabsData.map((val, index) => {
                   return (
                     <div
                       key={index}
                       className={`${
                         index === 0 ? "" : "sm:ps-8 md:ps-[94px]"
-                      } inline-block md:mb-10 lg:mb-[116px]`}>
+                      } inline-block md:mb-10 lg:mb-[116px]`}
+                    >
                       <button
                         key={index}
                         className={` ff_outfit font-semibold leading-normal text-[18px] sm:text-[20px] md:text-lg`}
                         onClick={() => {
                           setValue(val);
                           setborder(index);
-                        }}>
+                        }}
+                      >
                         {val.heading}
                       </button>
                     </div>
