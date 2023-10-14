@@ -12,7 +12,7 @@ const Market = () => {
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 lg:mt-28 lg:mb-[167px] mb-[80px] mt-16">
           <div className="flex flex-wrap xl:flex-row flex-col items-center ">
             <div className="xl:w-[35%] md:w-6/12 w-full flex flex-col justify-center ">
-              <div className="bg-[url('./assets/svg/millionPink.svg')] bg-no-repeat bg-center bg-contain xl:py-2 lg:py-5 pe-16 xl:translate-x-[25px]">
+              <div className="bg-[url('./assets/svg/millionPink.svg')] bg-no-repeat bg-center bg-contain 2xl:py-2 xl:py-5 pe-16 xl:translate-x-[25px]">
                 <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-white text-center font-medium leading-[135%] 2xl:text-[44px]">
                   2.4
                 </p>
@@ -36,7 +36,7 @@ const Market = () => {
               </div>
             </div>
             <div className="xl:w-[35%] md:w-6/12 w-full flex flex-col justify-center">
-              <div className="bg-[url('./assets/svg/marketBlue.svg')] bg-no-repeat bg-center bg-contain xl:py-2 lg:py-5 ps-16 xl:translate-x-[-25px]">
+              <div className="bg-[url('./assets/svg/marketBlue.svg')] bg-no-repeat bg-center bg-contain 2xl:py-2 xl:py-5 ps-16 xl:translate-x-[-25px]">
                 <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-white text-center font-medium leading-[135%] 2xl:text-[44px]">
                   400
                 </p>
