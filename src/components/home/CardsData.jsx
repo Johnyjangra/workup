@@ -4,7 +4,6 @@ import dashboard from "../../assets/webp/dahboart-img.webp";
 const CardsData = () => {
   return (
     <>
-      <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
         <div className="flex flex-wrap items-center justify-center md:justify-between">
           <div className="md:w-6/12 w-11/12 sm:w-10/12 pt-3 sm:pt-0 relative">
             <img
@@ -30,7 +29,6 @@ const CardsData = () => {
             </p>
           </div>
         </div>
-      </div>
     </>
   );
 };
