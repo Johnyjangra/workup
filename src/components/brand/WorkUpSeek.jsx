@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import arrow from "../../assets/svg/waitlist-arrow.svg";
 import liner from "../../assets/svg/workUpSeekLiner.svg";
 const WorkUpSeek = () => {
+  const [typicalform, setTypicalForm] = useState({
+    email: "",
+  });
+  const [error, setError] = useState(false);
+  const regex =
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  const OnsubmitHandler = (e) => {
+    e.preventDefault();
+    setError(true);
+    if (typicalform.email !== "" && regex.test(typicalform.email)) {
+      setError(false);
+      setTypicalForm({
+        email: "",
+      });
+    }
+  };
   return (
     <>
       <div className="relative">
@@ -27,12 +43,21 @@ const WorkUpSeek = () => {
                 customers.
               </p>
             </div>
-            <form className="bg-white group h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto waitlistshado rounded-[100px] ps-[22px] flex items-center justify-between mb-0 input_border_gradient shadow mt-9">
+            <form
+              className="bg-white group h-[44px] sm:h-[52px] w-full max-w-[464px] mx-auto waitlistshado rounded-[100px] ps-[22px] flex items-center justify-between mb-0 input_border_gradient shadow mt-9"
+              onSubmit={(e) => OnsubmitHandler(e)}
+            >
               <input
-                required
                 className="w-full outline-none ff_inter text-xs sm:text-sm 2xl:text-[18px] font-normal leading-normal text-[#666666] placeholder:text-[#4D4D4D]"
                 type="email"
                 placeholder="Enter email to join waitlist"
+                onChange={(e) =>
+                  setTypicalForm({
+                    ...typicalform,
+                    email: e.target.value,
+                  })
+                }
+                value={typicalform.email}
               />
               <button className="bg-btnGradient h-[32px] sm:h-[36px] min-w-[70px] max-w-[70px]: rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
                 <img
@@ -42,6 +67,15 @@ const WorkUpSeek = () => {
                 />
               </button>
             </form>
+            <p className="mb-0 text-rose-500 font-medium h-[24px] sm:text-center text-start sm:ms-0 ms-5 sm:me-[300px]">
+              {error && typicalform.email === "" ? (
+                "Email is required"
+              ) : error && regex.test(typicalform.email) === false ? (
+                <p className="text-rose-500 font-medium">Email Not Valid</p>
+              ) : (
+                ""
+              )}
+            </p>
           </div>
         </div>
       </div>
