@@ -212,5 +212,10 @@ html {
 }
 
 .social_icon:hover svg path {
-  fill: #1B77CC !important;
+  fill: #1b77cc !important;
+}
+input::selection,
+textarea::selection {
+  background: #8996f8;
+  color: white;
 }

@@ -62,8 +62,7 @@ const RegisterNow = () => {
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px] mx-auto px-5 xl:px-0">
           <form
             onSubmit={Submitdata}
-            className="max-w-[946px] mx-auto px-4 sm:px-8 lg:px-[52px] bg-white sm:pt-8 lg:py-[52px] py-6 sm:pb-8 shadow-lg leading-normal rounded-xl relative"
-          >
+            className="max-w-[946px] mx-auto px-4 sm:px-8 lg:px-[52px] bg-white sm:pt-8 lg:py-[52px] py-6 sm:pb-8 shadow-lg leading-normal rounded-xl relative">
             <span className="absolute end-[-3%] top-[40%] z-[-2] hidden lg:block">
               <FormDotsGroup />
             </span>
@@ -120,8 +119,7 @@ const RegisterNow = () => {
                 inputValue.userAbout.trim() === "" && errActive
                   ? "border-[#ff3c3c]"
                   : ""
-              }`}
-            ></textarea>
+              }`}></textarea>
             <p className="ff_inter text-xs 2xl:text-[20px] sm:text-base test-black opacity-80 leading-normal font-normal text-black mb-3 lg:mb-4">
               Why WorkUp
             </p>
@@ -133,8 +131,7 @@ const RegisterNow = () => {
                 inputValue.userWorkUp.trim() === "" && errActive
                   ? "border-[#ff3c3c]"
                   : ""
-              }`}
-            ></textarea>
+              }`}></textarea>
             <p className="ff_inter 2xl:text-[20px] text-xs sm:text-base test-black opacity-80 leading-normal font-normal text-black mb-3 lg:mb-4">
               My You
             </p>
@@ -146,8 +143,7 @@ const RegisterNow = () => {
                 inputValue.userMyYou.trim() === "" && errActive
                   ? "border-[#ff3c3c]"
                   : ""
-              }`}
-            ></textarea>
+              }`}></textarea>
             <h3 className="ff_outfit 2xl:text-[20px] text-xs sm:text-base font-normal leading-[112.5%] text-black mb-[27px] capitalize">
               Must have ata least one of the requirements
             </h3>
@@ -163,15 +159,13 @@ const RegisterNow = () => {
                         : i === 2
                         ? "sm:pr-3"
                         : "sm:pl-1 lg:pl-0 :"
-                    } lg:w-3/12 w-full sm:w-6/12 pb-4 lg:pb-0`}
-                  >
+                    } lg:w-3/12 w-full sm:w-6/12 pb-4 lg:pb-0`}>
                     <div
                       className={`${
                         i === 3
                           ? "lg:items-start items-center py-[9px]"
                           : " items-center"
-                      } border border-[#E5E5E5] px-[10px] border-solid rounded-xl flex w-full lg:w-[190px] h-[70px] 2xl:h-[80px]`}
-                    >
+                      } border border-[#E5E5E5] px-[10px] border-solid rounded-xl flex w-full lg:w-[190px] h-[70px] 2xl:h-[80px]`}>
                       <span>{obj.icon}</span>
                       <h5 className="ff_outfit 2xl:text-sm ps-[10px] mb-0 text-[#1c1d1d] opacity-70 text-xs font-normal leading-[120%]">
                         {obj.heading}
@@ -183,8 +177,7 @@ const RegisterNow = () => {
             </div>
             <button
               onClick={() => seterrActive(true)}
-              className="ff_inter text-xs sm:text-base 2xl:text-[20px] text-white transition hover:bg-gradient-to-t from-[#4AB6FE] to-[#994FFF] font-medium tranisition duration-300 h-[46px] 2xl:h-[50px] w-[149px] bg-btnGradient rounded-[100px] lg:mt-[45px] mt-1 sm:mt-4"
-            >
+              className="ff_inter text-xs sm:text-base 2xl:text-[20px] text-white transition hover:bg-gradient-to-t from-[#4AB6FE] to-[#994FFF] font-medium tranisition duration-300 h-[46px] 2xl:h-[50px] w-[149px] bg-btnGradient rounded-[100px] lg:mt-[45px] mt-1 sm:mt-4">
               Submit
             </button>
           </form>
