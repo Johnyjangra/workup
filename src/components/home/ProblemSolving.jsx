@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import { ProblemSolvingData } from "../common/Helper";
 import "slick-carousel/slick/slick.css";
@@ -49,8 +49,21 @@ const ProblemSolving = () => {
       },
     ],
   };
-
   const first = React.useRef();
+  const [typicalform, setTypicalForm] = useState({
+    text: "",
+  });
+  const [error, setError] = useState(false);
+  const OnsubmitHandler = (e) => {
+    e.preventDefault();
+    setError(true);
+    if (typicalform.text !== "") {
+      setError(false);
+      setTypicalForm({
+        text: "",
+      });
+    }
+  };
   return (
     <>
       <div className="relative py-12 sm:py-[70px] lg:pt-0 lg:pb-[80px] xl:pb-[135px]">
@@ -104,8 +117,19 @@ const ProblemSolving = () => {
             </div>
           </div>
             <form className="bg-white h-[44px] sm:h-[52px] w-full max-w-[264px] mx-auto rounded-[100px] ps-[22px] flex items-center justify-between  mb-0 mt-[70px] sm:mt-[50px] lg:mt-[80px] xl:mt-[20px] input_border_gradient">
-              <input placeholder="List Goes On" type="text" className="ff_inter outline-none w-full 2xl:text-base text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"/>
-              <button onClick={(e) => Submitbtn(e)} className="bg-gradientOne group h-[32px] sm:h-[36px] min-w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1">
+              <input 
+               onChange={(e) =>
+                setTypicalForm({
+                  ...typicalform,
+                  text: e.target.value,
+                })
+              }  value={typicalform.text} placeholder="List Goes On" type="text" className="ff_inter outline-none w-full 2xl:text-base text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"/>
+                {error && typicalform.text === "" ? (
+                  <p className="text-rose-500 font-medium absolute bottom-[-50%]">Text is required</p>
+                ) : (
+                  typicalform !== ""
+                )}
+              <button onClick={OnsubmitHandler} className="bg-gradientOne group h-[32px] sm:h-[36px] min-w-[70px] rounded-[100px] flex justify-center items-center sm:mx-2 mx-1">
                 <img className="group-hover:translate-x-[7px] transition duration-300" src={arrow} alt="arrow" />
               </button>
             </form>
