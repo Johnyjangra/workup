@@ -104,7 +104,7 @@ const RegisterNow = () => {
                   type="email"
                   value={typicalform.email}
                 />
-                <p className="mb-0 text-rose-500 font-medium">
+                <p className="mb-0 text-rose-500 font-medium pointer-events-none ">
                   {error && typicalform.email === "" ? (
                     "Email is required"
                   ) : error && regex.test(typicalform.email) === false ? (

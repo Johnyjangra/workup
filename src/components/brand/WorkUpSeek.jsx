@@ -67,7 +67,7 @@ const WorkUpSeek = () => {
                 />
               </button>
             </form>
-            <p className="mb-0 text-rose-500 font-medium h-[24px] sm:text-center text-start sm:ms-0 ms-5 sm:me-[300px]">
+            <p className="mb-0 text-rose-500 font-medium pointer-events-none  h-[24px] sm:text-center text-start sm:ms-0 ms-5 sm:me-[300px]">
               {error && typicalform.email === "" ? (
                 "Email is required"
               ) : error && regex.test(typicalform.email) === false ? (
