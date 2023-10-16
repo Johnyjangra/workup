@@ -5,14 +5,7 @@ import Slider from "react-slick";
 import sliderImage from "../../assets/webp/Progress1.webp";
 import sliderImage2 from "../../assets/webp/progress2.webp";
 import sliderImage3 from "../../assets/webp/Progress3.webp";
-// import leftbtn from "../../assets/svg/ProgressLeftBtn.svg";
-// import rightbtn from "../../assets/svg/progressRightBtn.svg";
-import {
-  LeftArrow,
-  ProgressLeft,
-  ProgressRight,
-  RightArrow,
-} from "../common/Icons";
+import { ProgressLeft, ProgressRight } from "../common/Icons";
 const BrandProgress = () => {
   const ProgressSlider = {
     centerMode: true, // Enable center mode
@@ -128,37 +121,18 @@ const BrandProgress = () => {
             />
           </div>
         </Slider>
-        {/* <div className="flex items-center justify-center gap-6 sm:mt-11 mt-5">
-          <img
-            src={leftbtn}
-            alt="leftbtn"
-            className=" cursor-pointer"
-            onClick={() => first.current.slickPrev()}
-          />
-
-          <img
-            src={rightbtn}
-            alt="rightbtn"
-            className=" cursor-pointer"
-            onClick={() => first.current.slickNext()}
-          />
-        </div> */}
         <div className="flex items-center justify-center gap-6 sm:mt-12">
           <div
             className="sm:h-[42px] h-[38px] w-[38px] sm:w-[42px] border-[2.5px] progress_left_arrow group border-solid hover:bg-btnGradient hover:border-none border-[#2ABAE9] rounded-[100px] flex justify-center items-center cursor-pointer"
             onClick={() => first.current.slickNext()}
           >
-         
-              <ProgressLeft/>
-           
+            <ProgressLeft />
           </div>
           <div
             className="sm:h-[42px] h-[38px] w-[38px] sm:w-[42px] border-[2.5px] progress_left_arrow group border-solid hover:bg-btnGradient hover:border-none border-[#2ABAE9] rounded-[100px] flex justify-center items-center cursor-pointer"
             onClick={() => first.current.slickPrev()}
           >
-           
-              <ProgressRight />
-         
+            <ProgressRight />
           </div>
         </div>
       </div>
