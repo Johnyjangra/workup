@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import uniqueImg from "../../assets/webp/UniqueImg.webp";
 import uniqueLayerText from "../../assets/svg/UniqueTextLayer.svg";
 import uniqueImgLayer from "../../assets/svg/UniqeImgLayer.svg";
 import { UniqueArrow } from "../common/Icons";
 const Unique = () => {
+  const [typicalform, setTypicalForm] = useState({
+    email: "",
+  });
+  const [error, setError] = useState(false);
+  const regex =
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  const OnsubmitHandler = (e) => {
+    e.preventDefault();
+    setError(true);
+    if (typicalform.email !== "" && regex.test(typicalform.email)) {
+      setError(false);
+      setTypicalForm({
+        email: "",
+      });
+    }
+  };
   return (
     <>
       <div className="uniqueBg md:py-20 py-[70px] rounded-[10px] relative overflow-hidden lg:mt-0 md:mt-10 mt-5">
@@ -44,17 +60,35 @@ const Unique = () => {
                 </span>{" "}
                 payments and transfers.
               </p>
-              <form className="mt-9 border input_border_gradient bg-white rounded-full overflow-hidden flex justify-between pe-2 py-2 max-w-[335px] 2xl:max-w-[360px] h-[52px] items-center ps-4">
+              <form
+                className="mt-9 border input_border_gradient bg-white rounded-full overflow-hidden flex justify-between pe-2 py-2 max-w-[335px] 2xl:max-w-[360px] h-[52px] items-center ps-4"
+                onSubmit={(e) => OnsubmitHandler(e)}
+              >
                 <input
                   type="email"
-                  required
                   className="bg-white ff_inter sm:text-sm text-[13px] 2xl:text-[18px] text-[#666666] font-normal py-2 ps-4 focus-visible:outline-none placeholder:text-[#666666]"
                   placeholder="Enter email to join waitlist"
+                  onChange={(e) =>
+                    setTypicalForm({
+                      ...typicalform,
+                      email: e.target.value,
+                    })
+                  }
+                  value={typicalform.email}
                 />
                 <button className="UniqueBtn rounded-full p-[18px_27px]  flex items-center justify-center group w-[70px] h-[36px]">
                   <UniqueArrow />
                 </button>
               </form>
+              <p className="mb-0 text-rose-500 font-medium h-[24px] ms-10">
+                {error && typicalform.email === "" ? (
+                  "Email is required"
+                ) : error && regex.test(typicalform.email) === false ? (
+                  <p className="text-rose-500 font-medium">Email Not Valid</p>
+                ) : (
+                  ""
+                )}
+              </p>
             </div>
           </div>
         </div>
