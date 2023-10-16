@@ -156,7 +156,7 @@ const ChatTyping = () => {
                       </div>
                       <TypingDot />
                     </div>
-                    <p className="ff_inter font-normal leading-[150%] text-[#4D4D4D] text-xs sm:text-sm 2xl:text-[18px]sm:ms-[26px] ms-2 mt-[15px] pb-[22px]">
+                    <p className="ff_inter font-normal leading-[150%] text-[#4D4D4D] text-xs sm:text-sm 2xl:text-[18px]   ms-3 sm:ms-[26px] mt-[15px] pb-[22px]">
                       Link any existing business account in seconds.
                     </p>
                     {/* image */}

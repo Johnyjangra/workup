@@ -20,7 +20,7 @@ const ChatroomHero = () => {
   };
   return (
     <>
-      <div className="bg-[url('./assets/webp/ChatroomHeroImg.webp')] bg-no-repeat bg-cover">
+      <div className="bg-[url('./assets/webp/ChatroomHeroImg.webp')] bg-no-repeat bg-cover sm:min-h-[415px]">
         <Header />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 sm:pb-[64px] pb-[50px]">
           <h2 className="text-white ff_outfit font-semibold text-[32px] sm:text-[38px] md:text-10 lg:text-[48px] 2xl:text-[60px] leading-[120%] text-center mt-[41px]">
