@@ -1,7 +1,6 @@
 import React from "react";
 import dashboard from "../../assets/webp/dahboart-img.webp";
 import { DashboardImgTopCircle } from "../common/Icons";
-
 const DashboarsData = () => {
   return (
     <>
