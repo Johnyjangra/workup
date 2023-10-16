@@ -18,7 +18,7 @@ const BusnessModal = () => {
         />
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0 md:pt-[138px] md:mb-12 md:py-16 py-[70px]">
           <div className="flex flex-wrap items-center justify-between lg:flex-row flex-col-reverse">
-            <div className="lg:w-5/12  w-full lg:mt-0 mt-10"data-aos="fade-right" data-aos-duration="1500">
+            <div className="lg:w-5/12  w-full lg:mt-0 mt-10">
               <p className="ff_outfit font-medium lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] text-Black leading-normal relative after:contents-[''] after:absolute after:w-[200px] after:start-0 after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] mb-0 ">
                 Business Model
               </p>
