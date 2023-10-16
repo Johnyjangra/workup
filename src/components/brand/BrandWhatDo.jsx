@@ -1,5 +1,5 @@
 import React from "react";
-import WhyDoesImage from "../../assets/png/workDoImg.png";
+import WhyDoesImage from "../../assets/webp/workDoImg.webp";
 import sideImage from "../../assets/svg/WhatDoSideImg.svg";
 import rightDots from "../../assets/svg/workUpRight.svg";
 import dots from "../../assets/svg/workDoDot.svg";
