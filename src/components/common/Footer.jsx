@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/svg/footer-logo.svg";
 import "font-awesome/css/font-awesome.min.css";
 import left_img from "../../assets/svg/joinBgLiner.svg";
@@ -7,6 +7,25 @@ import arrow from "../../assets/svg/waitlist-arrow.svg";
 import footer_vacter from "../../assets/svg/footer-bottom-vacter.svg";
 import { FacebookIcon, InstagramIcon, LinkdinIcon, TwitterIcon } from "./Icons";
 const Footer = () => {
+  const [typicalform, setTypicalForm] = useState({
+    email: "",
+  });
+  const [error, setError] = useState(false);
+  const regex =
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+  const OnsubmitHandler = (e) => {
+    e.preventDefault();
+    setError(true);
+    if (
+      typicalform.email !== "" &&
+      regex.test(typicalform.email)
+    ) {
+      setError(false);
+      setTypicalForm({
+        email: "",
+      });
+    }
+  };
   const Today = new Date().getFullYear();
   return (
     <>
@@ -33,14 +52,28 @@ const Footer = () => {
             </h2>
             <form className="bg-white z-[10] relative h-[40px] sm:h-[52px] w-full max-w-[464px] mx-auto box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25); shadow-xl rounded-[100px] ps-[22px] flex items-center justify-between mt-3 sm:mt-2 mb-0">
               <input
-                required
+               onChange={(e) =>
+                setTypicalForm({
+                  ...typicalform,
+                  email: e.target.value,
+                })
+              }    value={typicalform.email}
                 className="w-full outline-none ff_inter text-sm font-normal leading-normal text-[#666666] placeholder:text-[#666666]"
-                type="email"
+                type="Email"
                 placeholder="Enter your email"
               />
-              <button className="bg-gradientOne h-[32px] sm:h-[36px] min-w-[70px] group rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
+               <p className="mb-0 text-rose-500 font-medium absolute bottom-[-55%]">
+              {error && typicalform.email === "" ? (
+                "Email is required"
+              ) : error && regex.test(typicalform.email) === false ? (
+                <p className="text-rose-500 font-medium">Email Not Valid</p>
+              ) : (
+                ""
+              )}
+            </p>
+              <button onClick={OnsubmitHandler} className="bg-gradientOne h-[32px] sm:h-[36px] min-w-[70px] group rounded-[100px] flex justify-center items-center sm:mx-2 mx-1 mt-[1px]">
                 <img
-                  className=" group-hover:translate-x-[7px] transition duration-300 ease-linear"
+                  className="group-hover:translate-x-[7px] transition duration-300 ease-linear"
                   src={arrow}
                   alt="arrow"
                 />
