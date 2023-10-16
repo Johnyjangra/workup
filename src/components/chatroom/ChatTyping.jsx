@@ -113,9 +113,11 @@ const ChatTyping = () => {
                   <p className=" ff_outfit font-normal leading-[154%] text-[#140524] sm:text-md text-[18px]">
                     John Doe
                   </p>
-                  <p className=" ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]">
-                    Typing...
-                  </p>
+                  <input
+                    type="text"
+                    placeholder="Typing..."
+                    className="ff_inter border-0 focus-visible:outline-none font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]"
+                  />
                 </div>
               </div>
               <div className="flex sm:items-center sm:gap-[37px] gap-2 flex-wrap mt-6">
