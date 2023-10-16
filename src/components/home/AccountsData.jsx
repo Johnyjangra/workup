@@ -7,7 +7,7 @@ const AccountsData = () => {
       <div className="flex flex-wrap items-center justify-center md:justify-between">
         <div className="md:w-6/12 w-11/12 sm:w-10/12 pt-3 sm:pt-0 relative">
           <span
-            className="absolute top-[-10%] hidden md:block w-[30%] left-[-10%]"
+            className="absolute hidden lg:block top-[-10%] w-[30%] left-[-10%]"
           ><DashboardImgTopCircle/></span>
           <img
             className="drop-shadow-lg w-full xl:h-[447px] xl:w-[570px]"
