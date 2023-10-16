@@ -6,9 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { LeftArrow, ProblemSolvingRight, RightArrow } from "../common/Icons";
 import arrow from "../../assets/svg/waitlist-arrow.svg";
 const ProblemSolving = () => {
-  const Submitbtn = (e) => {
-    e.preventDefault();}
-    
   const settings = {
     centerMode: true,
     arrows: false,
