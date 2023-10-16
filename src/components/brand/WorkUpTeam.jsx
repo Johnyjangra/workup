@@ -27,7 +27,7 @@ const WorkUpTeam = () => {
               className="w-full relative z-10"
             />
           </div>
-          <div className="lg:w-6/12 w-full lg:mt-0 mt-5 relative z-10 xl:pb-0 sm:pb-14"data-aos="fade-left" data-aos-duration="1500">
+          <div className="lg:w-6/12 w-full lg:mt-0 mt-5 relative z-10 xl:pb-0 sm:pb-14">
             <p className=" text-xs sm:text-sm 2xl:text-[18px] font-normal leading-[160%] text-[#4D4D4D] ff_inter">
               Workup is spearheaded by our Founder, Luke Howard. With extensive
               experience in the hospitality sector, Luke has successfully owned
