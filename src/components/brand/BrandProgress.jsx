@@ -8,16 +8,16 @@ import sliderImage3 from "../../assets/webp/Progress3.webp";
 import { ProgressLeft, ProgressRight } from "../common/Icons";
 const BrandProgress = () => {
   const ProgressSlider = {
-    centerMode: true, // Enable center mode
+    centerMode: true,
     arrows: false,
     autoplay: true,
     autoplaySpeed: 1500,
-    centerPadding: "140px", // Adjust this value to control spacing between centered slide and partially visible slides
+    centerPadding: "140px",
     dots: false,
     focusOnSelect: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides to show at a time
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {

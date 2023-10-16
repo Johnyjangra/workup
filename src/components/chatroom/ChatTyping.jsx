@@ -10,7 +10,6 @@ import {
   LiveCamera,
   PhotoIcon,
   PostPencil,
-  // PostPencil,
   ShareIcon,
   TypingDot,
 } from "../common/Icons";
@@ -121,7 +120,6 @@ const ChatTyping = () => {
                 </div>
               </div>
               <div className="flex sm:items-center sm:gap-[37px] gap-2 flex-wrap mt-6">
-                {/* <div className="flex sm:items-center sm:gap-[37px] gap-3 sm:flex-row flex-col"> */}
                 <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px] p-[9px] bg-[#F7F7F7] rounded-full flex items-center">
                   <PhotoIcon />
                   Photo/Video
@@ -130,7 +128,6 @@ const ChatTyping = () => {
                   <ClockIcon />
                   Feeling/Activity
                 </button>
-                {/* </div> */}
                 <button className="rounded-full flex sm:items-center items-start">
                   <TypingDot />
                 </button>
