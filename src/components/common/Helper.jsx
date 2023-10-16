@@ -28,9 +28,9 @@ import {
   Formcard3,
   Formcard4,
 } from "./Icons";
-import jhone1 from "../../assets/png/TypingImg1.png";
-import jhone2 from "../../assets/png/jhone2.png";
-import jhone3 from "../../assets/png/jhone3.png";
+import jhone1 from "../../assets/webp/TypingImg1.webp";
+import jhone2 from "../../assets/webp/jhone2.webp";
+import jhone3 from "../../assets/webp/jhone3.webp";
 import DashboarsData from "../home/DashboarsData";
 import AccountsData from "../home/AccountsData";
 import CardsData from "../home/CardsData";

@@ -163,7 +163,7 @@ const ChatTyping = () => {
                       Link any existing business account in seconds.
                     </p>
                     {/* image */}
-                    <div className=" rounded-xl overflow-hidden mb-[22px] relative">
+                    <div className="rounded-xl overflow-hidden mb-[22px] relative">
                       <img src={chat.image} alt="image1" className="w-full" />
                       <button className=" capitalize font-medium ff_inter text-white sm:text-base text-[15px] rounded-full bg-[rgba(0,0,0,0.20)] flex items-center justify-center sm:px-[38px] px-4 h-[46px] absolute bottom-0 start-0 mb-[17px] ms-[17px] transition-all ease-in-out duration-300 hover:bg-black">
                         Robert charley
@@ -198,14 +198,12 @@ const ChatTyping = () => {
                     </div>
                     <hr className="h-[1px] bg-[#E5E5E5] mb-[20px] sm:ms-[18px] ms-2 sm:me-[32px] me-1" />
                     <div className="flex flex-row  sm:items-center sm:ms-[18px] ms-2 pb-6 sm:gap-[30px] gap-4">
-                      {/* <div className="flex items-center justify-between sm:gap-[30px] gap-4 "> */}
                       <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]flex items-center">
                         <ShareIcon /> Share
                       </button>
                       <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]flex items-center">
                         <LikeWhite /> Like
                       </button>
-                      {/* </div> */}
                       <button className="ff_inter font-normal leading-[154%] text-[#666666] text-xs sm:text-sm 2xl:text-[18px]flex items-center">
                         <CommentWhite /> Comment
                       </button>

@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import { FormCard } from "../common/Helper";
-import left_top from "../../assets/png/founder-form-top-left.png";
-import left_bottom from "../../assets/png/founder-form-bottom-left.png";
-import right_img from "../../assets/png/founder-form-right.png";
-import dots_group from "../../assets/png/founder-dots-group.png";
 import {
   FormDotsGroup,
   FormLeftBottom,
