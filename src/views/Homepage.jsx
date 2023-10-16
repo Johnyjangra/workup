@@ -1,7 +1,7 @@
 import React from 'react'
 import Feature from '../components/home/Feature'
 import OurMisson from '../components/home/OurMisson'
-import Soluction from '../components/home/Soluction'
+import Solution from '../components/home/Solution'
 import OurWaitList from '../components/common/OurWaitList'
 import ProblemSolving from '../components/home/ProblemSolving'
 import Working from '../components/home/Working'
@@ -17,7 +17,7 @@ const Homepage = () => {
       <Header />
       <Feature />
       <OurMisson />
-      <Soluction />
+      <Solution />
       <div className="pb-8 lg:pb-[110px] pt-[26px] xl:pt-0">
         <OurWaitList />
       </div>
