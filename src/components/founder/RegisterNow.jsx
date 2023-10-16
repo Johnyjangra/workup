@@ -77,7 +77,7 @@ const RegisterNow = () => {
                   onChange={(e) =>
                     setTypicalForm({ ...typicalform, name: e.target.value })
                   }
-                  className="border h-[45px] sm:h-[52px] 2xl:text-base p-4 border-solid border-[#CCCCCC] w-full rounded-xl ff_inter text-sm font-normal text-[#999999] placeholder:opacity-40 placeholder:ff_inter outline-none"
+                  className="border h-[45px] sm:h-[52px] 2xl:text-base p-4 border-solid border-[#CCCCCC] w-full rounded-xl ff_inter text-sm font-normal text-[#999999] placeholder:opacity-40 placeholder:ff_inter outline-1 outline-cyan-500"
                   placeholder="Your first name"
                   type="text"
                   value={typicalform.name}
@@ -99,7 +99,7 @@ const RegisterNow = () => {
                       email: e.target.value,
                     })
                   }
-                  className="border h-[45px] sm:h-[52px] p-4 2xl:text-base border-solid border-[#CCCCCC] w-full rounded-xl ff_inter text-sm font-normal text-[#999999] placeholder:opacity-40 placeholder:ff_inter outline-none"
+                  className="border h-[45px] sm:h-[52px] p-4 2xl:text-base border-solid border-[#CCCCCC] w-full rounded-xl ff_inter text-sm font-normal text-[#999999] placeholder:opacity-40 placeholder:ff_inter outline-1 outline-cyan-500"
                   placeholder="Email address"
                   type="email"
                   value={typicalform.email}
@@ -125,7 +125,7 @@ const RegisterNow = () => {
                 }
                 value={typicalform.aboutus}
                 type="text"
-                className="p-4 ff_inter text-[#999999] text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"
+                className="p-4 ff_inter text-[#999999] text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-1 outline-cyan-500"
               ></textarea>
               {error && typicalform.aboutus === "" ? (
                 <p className="text-rose-500 font-medium">text is required</p>
@@ -143,7 +143,7 @@ const RegisterNow = () => {
                 }
                 value={typicalform.workup}
                 type="text"
-                className="p-4 ff_inter text-[#999999] text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"
+                className="p-4 ff_inter text-[#999999] text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-1 outline-cyan-500"
               ></textarea>
               {error && typicalform.workup === "" ? (
                 <p className="text-rose-500 font-medium">text is required</p>
@@ -161,7 +161,7 @@ const RegisterNow = () => {
                 }
                 value={typicalform.myYou}
                 type="text"
-                className="p-4 ff_inter text-[#999999] text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-none"
+                className="p-4 ff_inter text-[#999999] text-sm font-normal placeholder:opacity-40 border border-solid rounded-xl border-[#cccccc] w-full h-[120px] sm:h-[150px] resize-none outline-1 outline-cyan-500"
               ></textarea>
               {error && typicalform.myYou === "" ? (
                 <p className="text-rose-500 font-medium">text is required</p>
