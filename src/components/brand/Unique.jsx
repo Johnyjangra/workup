@@ -80,7 +80,7 @@ const Unique = () => {
                   <UniqueArrow />
                 </button>
               </form>
-              <p className="mb-0 text-rose-500 font-medium pointer-events-none  h-[24px] ms-[33px]">
+              <p className="mb-0 text-rose-500 font-medium pointer-events-none  h-[24px] ms-[22px]">
                 {error && typicalform.email === "" ? (
                   "Email is required"
                 ) : error && regex.test(typicalform.email) === false ? (
