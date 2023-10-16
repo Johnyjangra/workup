@@ -14,20 +14,24 @@ import Header from '../components/common/Header'
 const Homepage = () => {
   return (
     <>
-      <Header/>
+      <Header />
       <Feature />
       <OurMisson />
       <Soluction />
-      <div className='pb-12 lg:pb-[126px]'><OurWaitList/></div>
-      <ProblemSolving/>
-      <Working/>
-      <Dashboard/>
-      <div className='lg:pt-[84px] md:py-10 lg:pb-[90px]'><OurWaitList/></div>
-      <MyPlan/>
-      <Frequently/>
-      <Footer/>
+      <div className="pb-8 lg:pb-[110px] pt-[26px] xl:pt-0">
+        <OurWaitList />
+      </div>
+      <ProblemSolving />
+      <Working />
+      <Dashboard />
+      <div className="lg:py-[50px] xl:pt-[84px] md:py-10 xl:pb-[90px]">
+        <OurWaitList />
+      </div>
+      <MyPlan />
+      <Frequently />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default Homepage

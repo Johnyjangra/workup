@@ -82,7 +82,7 @@ const RegisterNow = () => {
                 <input
                   id="nameErr"
                   onChange={handleChange}
-                  className={`border h-[45px] sm:h-[52px] 2xl:text-base p-4 border-solid border-[#CCCCCC] w-full rounded-xl ff_inter text-sm font-normal text-[#999999] placeholder:opacity-40 placeholder:ff_inter outline-none ${
+                  className={`border h-[45px] sm:h-[52px] 2xl:text-base p-4 border-solid border-[#CCCCCC] w-full rounded-xl ff_inter text-sm font-normal text-[#999999] placeholder:opacity-40 placeholder:ff_inter outline-none${
                     inputValue.userName.trim() === "" && errActive
                       ? "border-[#ff3c3c]"
                       : ""

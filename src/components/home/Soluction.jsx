@@ -5,7 +5,7 @@ import { FeatureDots, SuccesDimand, SuccesRocketIcon, SuccesVision } from "../co
 const Soluction = () => {
   return (
     <>
-      <div className="sm:pt-[60px] xl:pb-[105px] relative pt-6 pb-12">
+      <div className="lg:pt-[60px] xl:pb-[105px] relative pt-6 pb-20">
         <img
           className="absolute pointer-events-none right-0 top-[-10%] hidden md:block lg:top-[-20%] md:w-[25%] lg:w-[20%] xl:w-[25%]"
           src={right_img}

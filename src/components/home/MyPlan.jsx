@@ -4,7 +4,7 @@ import { FeatureDots, MyPlanTopRight } from '../common/Icons';
 const MyPlan = () => {
   return (
     <>
-      <div className="pt-12 sm:pt-[70px] sm:pb-12 relative" id="invest">
+      <div className="pt-12 sm:pt-[70px] pb-8 xl:pb-12 relative" id="invest">
         <span
           className="absolute pointer-events-none top-[45%] start-0 hidden xl:block"
         ><FeatureDots/></span>
@@ -12,7 +12,7 @@ const MyPlan = () => {
           className="absolute pointer-events-none end-0 hidden md:block top-0 xl:top-[12%]"
         ><MyPlanTopRight/></span>
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px]  mx-auto px-5 xl:px-0">
-          <h2 className="text-center ff_outfit text-lightBlack lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] lg:mb-[24px] font-medium leading-normal linline-block">
+          <h2 className="text-center ff_outfit text-lightBlack lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] xl:mb-[24px] font-medium leading-normal linline-block">
             Po
             <span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">
               tential Pl
@@ -58,7 +58,7 @@ const MyPlan = () => {
                         ))}
                       </div>
                     </div>
-                    <button className="ff_inter mt-[36px] font-medium 2xl:text-[20px] text-base bg-btnGradient group-hover:text-black  group-hover:bg-gradient-to-t from-white to-white text-white h-[45px] lg:h-[48px] w-[200px] lg:w-[220px] xl:w-[270px] rounded-[122px]">
+                    <button className="ff_inter mt-[36px] font-medium 2xl:text-[20px] text-sm sm:text-base bg-btnGradient group-hover:text-black  group-hover:bg-gradient-to-t from-white to-white text-white h-[45px] lg:h-[48px] w-[200px] lg:w-[220px] xl:w-[270px] rounded-[122px]">
                       {MyData.mybutton}
                     </button>
                   </div>

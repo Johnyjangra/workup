@@ -5,7 +5,6 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-
 .overflow-y-hidden {
   overflow: hidden !important;
   height: 100vh !important;
@@ -34,7 +33,6 @@ html {
 .card_Shadow {
   transition: all 300ms linear !important;
 }
-
 /* feature */
 .card_Shadow:hover {
   box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.1);
@@ -46,12 +44,10 @@ html {
 }
 
 .arrows_bg:hover {
-  background: linear-gradient(
-    223deg,
-    #fbc524 -75.58%,
-    #e939d9 2.42%,
-    #2abae9 74.42%
-  );
+  background: linear-gradient(223deg,
+      #fbc524 -75.58%,
+      #e939d9 2.42%,
+      #2abae9 74.42%);
 }
 
 .arrows_bg:hover svg path {
@@ -85,17 +81,13 @@ html {
 }
 
 .plan_card button {
-  background: var(
-    --Linear-two,
-    linear-gradient(91deg, #994fff 0.27%, #4ab6fe 98.57%)
-  );
+  background: var(--Linear-two,
+      linear-gradient(91deg, #994fff 0.27%, #4ab6fe 98.57%));
 }
 
 .footer_bg {
-  background: var(
-    --Linear-color,
-    linear-gradient(223deg, #fbc524 -34.99%, #e939d9 21.89%, #2abae9 74.4%)
-  );
+  background: var(--Linear-color,
+      linear-gradient(223deg, #fbc524 -34.99%, #e939d9 21.89%, #2abae9 74.4%));
 }
 
 .footer_icon {
@@ -119,25 +111,23 @@ html {
   height: 40px;
   border-radius: 35px;
   bottom: -100% !important;
-  background: conic-gradient(
-    from 90deg at 40% 0%,
-    #2abae9,
-    #2abae9,
-    #994fff,
-    #994fff,
-    #994fff,
-    #994fff,
-    #994fff,
-    #994fff,
-    #994fff,
-    #994fff,
-    #994fff,
-    #994fff,
-    #2abae9,
-    #2abae9,
-    #2abae9,
-    #2abae9
-  );
+  background: conic-gradient(from 90deg at 40% 0%,
+      #2abae9,
+      #2abae9,
+      #994fff,
+      #994fff,
+      #994fff,
+      #994fff,
+      #994fff,
+      #994fff,
+      #994fff,
+      #994fff,
+      #994fff,
+      #994fff,
+      #2abae9,
+      #2abae9,
+      #2abae9,
+      #2abae9);
   filter: blur(29px);
 }
 
@@ -219,3 +209,12 @@ textarea::selection {
   background: #8996f8;
   color: white;
 }
+
+.hero_text_gradient {
+  background: var(--Linear-two, linear-gradient(91deg, #994FFF 0.27%, #4AB6FE 60.57%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.progress_left_arrow:hover svg path{stroke: white !important;}
+.progress_Right_arrow:hover svg path{stroke: #2ABAE9 !important;}

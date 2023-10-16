@@ -63,7 +63,7 @@ const BrandProgress = () => {
   const first = React.useRef();
   return (
     <>
-      <div className="bg-[#F7FCFE] md:py-20 py-[70px] md:mb-28 mb-5">
+      <div className="bg-[#F7FCFE] md:py-20 py-[70px] lg:mb-28 mb-5">
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <p className=" ff_outfit 2xl:text-[44px] lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium text-black leading-[135%] text-center relative after:contents-[''] after:absolute after:w-[132px] after:start-[50%] after:h-[4px] after:rounded-md after:bg-blue after:top-[-6%] after:translate-x-[-50%]">
             What’s Our Progress?
@@ -145,18 +145,20 @@ const BrandProgress = () => {
         </div> */}
         <div className="flex items-center justify-center gap-6 sm:mt-12">
           <div
-            className="h-[38px] w-[38px] group  transition duration-300 flex justify-center items-center rounded-full arrows_bg  cursor-pointer"
+            className="sm:h-[42px] h-[38px] w-[38px] sm:w-[42px] border-[2.5px] progress_left_arrow group border-solid hover:bg-btnGradient hover:border-none border-[#2ABAE9] rounded-[100px] flex justify-center items-center cursor-pointer"
             onClick={() => first.current.slickNext()}
           >
-            <span>
-              <ProgressLeft />
-            </span>
+         
+              <ProgressLeft/>
+           
           </div>
           <div
-            className="h-[38px] w-[38px] group flex justify-center transition duration-300 items-center rounded-full arrows_bg hover:border-hidden cursor-pointer"
+            className="sm:h-[42px] h-[38px] w-[38px] sm:w-[42px] border-[2.5px] progress_left_arrow group border-solid hover:bg-btnGradient hover:border-none border-[#2ABAE9] rounded-[100px] flex justify-center items-center cursor-pointer"
             onClick={() => first.current.slickPrev()}
           >
-            <ProgressRight />
+           
+              <ProgressRight />
+         
           </div>
         </div>
       </div>

@@ -39,7 +39,7 @@ const BrandHero = () => {
             </p>
             <form>
               <input
-                type="text"
+                type="email"
                 required
                 className="p-4 bg-[rgba(255,255,255,0.20)] rounded-lg md:w-[350px] w-full text-[#EEECFD] text-xs sm:text-sm 2xl:text-[18px] placeholder:text-sm font-normal placeholder:font-normal border-[#CBC7FA] border focus-visible:outline-none placeholder:text-[#EEECFD] h-[52px]"
                 placeholder="Email address"

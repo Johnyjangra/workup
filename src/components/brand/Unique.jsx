@@ -6,7 +6,7 @@ import { UniqueArrow } from "../common/Icons";
 const Unique = () => {
   return (
     <>
-      <div className="uniqueBg md:py-20 py-[70px] rounded-[10px] relative overflow-hidden lg:mt-0 md:mt-20 mt-5">
+      <div className="uniqueBg md:py-20 py-[70px] rounded-[10px] relative overflow-hidden lg:mt-0 md:mt-10 mt-5">
         <img
           src={uniqueLayerText}
           alt="uniqueLayerText"
@@ -46,7 +46,7 @@ const Unique = () => {
               </p>
               <form className="mt-9 border input_border_gradient bg-white rounded-full overflow-hidden flex justify-between pe-2 py-2 max-w-[335px] 2xl:max-w-[360px] h-[52px] items-center ps-4">
                 <input
-                  type="text"
+                  type="email"
                   required
                   className="bg-white ff_inter sm:text-sm text-[13px] 2xl:text-[18px] text-[#666666] font-normal py-2 ps-4 focus-visible:outline-none placeholder:text-[#666666]"
                   placeholder="Enter email to join waitlist"
