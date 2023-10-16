@@ -25,7 +25,7 @@ const BrandHero = () => {
     }
   };
   return (
-    <div className="bg-[url('./assets/webp/BrandHeroBg.webp')] bg-no-repeat bg-cover relative">
+    <div className="bg-[url('./assets/webp/BrandHeroBg.webp')] bg-no-repeat bg-cover relative sm:min-h-[455px]">
       <img
         src={dots}
         alt="dots"
