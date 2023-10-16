@@ -56,9 +56,9 @@ const BrandHero = () => {
                 }
                 value={typicalform.name}
               />
-              <p className="mb-0 text-rose-500 font-medium h-[24px]">
+              <p className="mb-0 text-rose-500 font-medium pointer-events-none  h-[24px] ms-[16px]">
                 {error && typicalform.name === ""
-                  ? "Full Name is required"
+                  ? "Name is required"
                   : error && typicalform.name === false}
               </p>
             </div>
@@ -78,7 +78,7 @@ const BrandHero = () => {
                 }
                 value={typicalform.email}
               />
-              <p className="mb-0 text-rose-500 font-medium h-[24px]">
+              <p className="mb-0 text-rose-500 font-medium pointer-events-none h-[24px] ms-[16px]">
                 {error && typicalform.email === "" ? (
                   "Email is required"
                 ) : error && regex.test(typicalform.email) === false ? (
