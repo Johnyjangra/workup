@@ -17,7 +17,7 @@ const CardsData = () => {
               alt="dashboard-img"
             />
           </div>
-          <div className="md:w-5/12 text-start">
+          <div className="md:w-5/12 text-start" data-aos="fade-left" data-aos-duration="1500">
             <h3 className="ff_outfit text-[20px] sm:text-lg font-semibold leading-normal text-[#111223] pt-4 sm:pt-5 pt-md-0">
               Cards
             </h3>

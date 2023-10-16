@@ -42,7 +42,7 @@ const Unique = () => {
                 className="absolute pointer-events-none"
               />
             </div>
-            <div className="lg:w-6/12 w-full sm:ps-3 lg:mt-0 mt-16 relative z-10">
+            <div className="lg:w-6/12 w-full sm:ps-3 lg:mt-0 mt-16 relative z-10" data-aos="fade-left" data-aos-duration="1500">
               <p className=" text-white ff_outfit text-lg 2xl:text-[26px] font-medium tracking-[-0.24px] leading-[106%] relative after:contents-[''] after:absolute after:w-[116px] after:start-0 after:h-[4px]  after:rounded-md after:bg-white after:top-[-36%]">
                 What are WorkUp's
               </p>

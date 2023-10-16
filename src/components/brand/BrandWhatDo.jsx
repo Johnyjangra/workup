@@ -31,7 +31,7 @@ const BrandWhatDo = () => {
                 className="absolute top-[-30px] start-[-36px]"
               />
             </div>
-            <div className="lg:w-6/12 w-full flex lg:justify-end lg:mt-0 mt-10">
+            <div className="lg:w-6/12 w-full flex lg:justify-end lg:mt-0 mt-10"data-aos="fade-left" data-aos-duration="1500">
               <div className="mb-0">
                 <p className="ff_outfit font-medium lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] text-Black leading-normal relative after:contents-[''] after:absolute after:w-[202px] after:start-0 after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] mb-0">
                   What does WorkUp do?

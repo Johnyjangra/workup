@@ -26,7 +26,7 @@ const Working = () => {
                 alt="workin-graff"
               />
             </div>
-            <div className="lg:w-5/12 relative pt-5 lg:pt-0">
+            <div className="lg:w-5/12 relative pt-5 lg:pt-0" data-aos="fade-left" data-aos-duration="1500">
               <img
                 className="absolute top-[45%] translate-y-[-50%] hidden lg:block  lg:start-[-11%] xl:start-[-10%]"
                 src={semicircle_group}

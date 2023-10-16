@@ -17,7 +17,7 @@ const BrandAbout = () => {
         </p>
         <div className="container xl:max-w-[1140px] 3xl:max-w-[1320px] mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap items-center justify-between lg:flex-row flex-col-reverse">
-            <div className="lg:w-6/12 w-full lg:mt-0 mt-5">
+            <div className="lg:w-6/12 w-full lg:mt-0 mt-5"data-aos="fade-right" data-aos-duration="1500">
               <p className="ff_outfit font-medium lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] text-Black leading-normal relative after:contents-[''] after:absolute after:w-[132px] after:start-0 after:h-[4px]  after:rounded-md after:bg-blue after:top-[-6%] mb-0">
                 About Us
               </p>

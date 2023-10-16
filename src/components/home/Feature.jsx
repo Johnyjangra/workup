@@ -16,7 +16,7 @@ const Feature = () => {
           <span className="absolute pointer-events-none right-[21.5%] h-[50px] w-[31px] bottom-[-5%] hidden xl:block"><FeatureDots/></span>
             {FeatureData.map((MyData, i) => {
               return (
-                <div
+                <div 
                   className={`${
                     i === 0
                       ? "max-[639.98px]:w-[80%] xl:col-[1/2] xl:row-[1/2] md:row-[1/2] md:col-[1/2]"

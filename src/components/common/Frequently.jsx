@@ -25,12 +25,14 @@ const Frequently = () => {
   const path = useLocation().pathname;
   return (
     <>
-      <div className=" lg:pt-[116px] py-12 sm:py-[70px] lg:pb-[97px] relative" id="faqs">
+      <div
+        className=" lg:pt-[116px] py-12 sm:py-[70px] lg:pb-[97px] relative"
+        id="faqs"
+      >
         {path === "/" ? (
-          <span
-            className="absolute pointer-events-none right-0 top-[8%] hidden lg:block"
-           
-          ><AwsomeRightImg/></span>
+          <span className="absolute pointer-events-none right-0 top-[8%] hidden lg:block">
+            <AwsomeRightImg />
+          </span>
         ) : (
           ""
         )}
@@ -50,6 +52,9 @@ const Frequently = () => {
             <div className="lg:w-6/12 lg:min-h-[656px] lg:pt-[50px] sm:mb-12 lg:mb-0">
               <Fragment>
                 <Accordion
+                data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1000"
                   className="border-b-[1px] border-[#EBEBEB] border-solid"
                   open={open === 1}
                   icon={<Icon id={1} open={open} />}
@@ -79,6 +84,9 @@ const Frequently = () => {
                   </AccordionBody>
                 </Accordion>
                 <Accordion
+                 data-aos="fade-up"
+                 data-aos-easing="linear"
+                 data-aos-duration="1200"
                   className="border-b-[1px] border-[#EBEBEB] border-solid"
                   open={open === 2}
                   icon={<Icon id={2} open={open} />}
@@ -109,6 +117,9 @@ const Frequently = () => {
                   </AccordionBody>
                 </Accordion>
                 <Accordion
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1400"
                   className="border-b-[1px] border-[#EBEBEB] border-solid"
                   open={open === 3}
                   icon={<Icon id={3} open={open} />}
@@ -140,6 +151,9 @@ const Frequently = () => {
                   </AccordionBody>
                 </Accordion>
                 <Accordion
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="1600"
                   className="border-b-[1px] border-[#EBEBEB] border-solid"
                   open={open === 4}
                   icon={<Icon id={4} open={open} />}
@@ -170,6 +184,9 @@ const Frequently = () => {
                   </AccordionBody>
                 </Accordion>
                 <Accordion
+                   data-aos="fade-up"
+                   data-aos-easing="linear"
+                   data-aos-duration="1800"
                   className="border-b-[1px] border-[#EBEBEB] border-solid"
                   open={open === 5}
                   icon={<Icon id={5} open={open} />}
@@ -201,6 +218,9 @@ const Frequently = () => {
                   </AccordionBody>
                 </Accordion>
                 <Accordion
+                   data-aos="fade-up"
+                   data-aos-easing="linear"
+                   data-aos-duration="2000"
                   className="border-b-[1px] border-[#EBEBEB] border-solid"
                   open={open === 6}
                   icon={<Icon id={6} open={open} />}
