@@ -79,9 +79,9 @@ const ProblemSolving = () => {
             <Slider {...settings} ref={first}>
               {ProblemSolvingData.map((ProblemData, i) => {
                 return (
-                  <div className="lg:py-6 px-3">
+                  <div className="lg:py-6 px-3"  key={i}>
                     <div
-                      key={i}
+                     
                       className="px-[29px] py-[38px]  card_bg min-h-[319px] sm:min-h-[317px] lg:min-h-[290px] bg-white rounded-xl border border-solid border-[#E5E5E5]"
                     >
                       <span>{ProblemData.icon}</span>

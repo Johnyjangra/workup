@@ -34,7 +34,7 @@ const Working = () => {
               />
               {WorkingData.map((MyData, i) => {
                 return (
-                  <div className="mb-4 border-b-[2px] xl:w-[500px] border-[#e5e5e5]  rounded-xl hover:border-transparent">
+                  <div key={i} className="mb-4 border-b-[2px] xl:w-[500px] border-[#e5e5e5]  rounded-xl hover:border-transparent">
                     <div className="flex bg-white px-4 sm:px-[22px] py-3 xl:py-4 rounded-xl hover:box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.05); border border-transparent border-rgb(rgba(0, 0, 0, 0.10)) border-solid hover:shadow-lg border-b-[2px] transition duration-300">
                       <span>{MyData.icon}</span>
                       <div className="sm:ps-5 ps-3">

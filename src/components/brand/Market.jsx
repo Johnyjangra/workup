@@ -25,7 +25,7 @@ const Market = () => {
               </div>
             </div>
             <div className="xl:w-[30%] md:w-6/12 w-full flex justify-center">
-              <div className="bg-no-repeat bg-[url('./assets/svg/MarketCircle.svg')] bg-[100%_100%] sm:py-[5rem] py-16 px-20 bg-center bg-contain">
+              <div className="bg-no-repeat bg-[url('./assets/svg/MarketCircle.svg')] sm:py-[5rem] py-16 px-20 bg-center bg-contain">
                 <p className="ff_outfit lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] text-black font-medium max-w-[200px] leading-[135%] text-center] text-center">
                   How big is{" "}
                   <span className="sm:whitespace-normal whitespace-nowrap sm:flex block">

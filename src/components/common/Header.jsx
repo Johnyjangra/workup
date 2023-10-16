@@ -95,8 +95,6 @@ const Header = () => {
                       ) : (
                         <ToggleIconWhite />
                       )}
-
-                      {/* {activeNavOverlay ? <CrossIcon /> : <ToggleIcon />} */}
                     </div>
                   </div>
                 </div>
