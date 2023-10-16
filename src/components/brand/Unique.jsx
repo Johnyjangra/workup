@@ -61,12 +61,12 @@ const Unique = () => {
                 payments and transfers.
               </p>
               <form
-                className="mt-9 border input_border_gradient bg-white rounded-full overflow-hidden flex justify-between pe-2 py-2 max-w-[335px] 2xl:max-w-[360px] h-[52px] items-center ps-4"
+                className="mt-9 border input_border_gradient bg-white rounded-full overflow-hidden flex justify-between px-2 py-2 max-w-[335px] 2xl:max-w-[360px] h-[52px] items-center"
                 onSubmit={(e) => OnsubmitHandler(e)}
               >
                 <input
                   type="email"
-                  className="bg-white ff_inter sm:text-sm text-[13px] 2xl:text-[18px] text-[#666666] font-normal py-2 ps-4 focus-visible:outline-none placeholder:text-[#666666]"
+                  className="bg-white ff_inter sm:text-sm text-[13px] 2xl:text-[18px] text-[#666666] font-normal py-2 ps-3 focus-visible:outline-none placeholder:text-[#666666]"
                   placeholder="Enter email to join waitlist"
                   onChange={(e) =>
                     setTypicalForm({
