@@ -1,16 +1,16 @@
 import React from "react";
-import circle from "../../assets/png/dashboard-rgb-circle.png";
 import dashboard from "../../assets/webp/dahboart-img.webp";
+import { DashboardImgTopCircle } from "../common/Icons";
 const CardsData = () => {
   return (
     <>
         <div className="flex flex-wrap items-center justify-center md:justify-between">
           <div className="md:w-6/12 w-11/12 sm:w-10/12 pt-3 sm:pt-0 relative">
-            <img
+            <span
               className="absolute top-[-10%] hidden md:block w-[30%] left-[-10%]"
-              src={circle}
-              alt="rgb-circle"
-            />
+            >
+              <DashboardImgTopCircle/>
+            </span>
             <img
               className="drop-shadow-lg w-full xl:h-[447px] xl:w-[570px]"
               src={dashboard}
