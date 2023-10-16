@@ -5,14 +5,7 @@ import ChatRoom from "./views/ChatRoom";
 import Founder from "./views/Founder";
 import Brand from "./views/Brand";
 import BackToTop from "./components/common/BackToTopButton";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 function App() {
-  useEffect(() => {
-    AOS.init({ once: true, disable: "mobile" });
-    AOS.refresh();
-  }, []);
   return (
     <>
       <BrowserRouter>

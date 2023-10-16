@@ -16,7 +16,7 @@ const OurMisson = () => {
                 alt="about-mission"
               />
             </div>
-            <div className="lg:w-5/12 lg:pe-[30px]" data-aos="fade-left" data-aos-duration="1500">
+            <div className="lg:w-5/12 lg:pe-[30px]">
               <h2 className="ff_railway text-lightBlack lg:text-xl 2xl:text-[44px] md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-normal mb-0 lg:mb-[14px] inline-block pt-8 lg:pt-0
               "><span className="relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-20%] before:content-[''] before:start-0">Our Miss</span>ion</h2>
               <p  className="ff_inter text-xs sm:text-sm text-black opacity-70 2xl:text-base font-normal mb-0 leading-[160%]">

@@ -19,7 +19,7 @@ const Solution = () => {
         ><FeatureDots/></span>
         <div className="container 2xl:max-w-[1320px] xl:max-w-[1140px]  mx-auto px-5 xl:px-0">
           <div className="flex flex-wrap justify-center flex-col-reverse lg:flex-row lg:justify-between items-center">
-            <div data-aos="fade-right" data-aos-duration="1500" className="lg:w-5/12 relative">
+            <div className="lg:w-5/12 relative">
               <img className="absolute hidden lg:block  lg:top-[-50%] xl:top-[-85%] lg:start-0 xl:start-[-10%]" src={top_dots} alt="dots-group" />
               <h2 className="ff_railway 2xl:text-[44px] text-lightBlack lg:text-xl md:text-[36px] sm:text-[34px] text-[30px] font-medium leading-normal mb-0 lg:mb-[14px] inline-block pt-8 lg:pt-0 relative before:absolute before:h-1 before:w-full before:rounded before:bg-[#2ABAE9]  lg:before:top-[-3%] before:content-[''] before:start-0">
                 Solution
