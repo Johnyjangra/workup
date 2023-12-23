@@ -10,6 +10,7 @@ import Footer from '../components/common/Footer'
 import Frequently from '../components/common/Frequently'
 import Dashboard from '../components/home/Dashboard'
 import Header from '../components/common/Header'
+import News2 from '../components/home/News2'
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
       <Header />
       <Feature />
       <OurMisson />
+      <News2/>
       <Solution />
       <div className="pb-8 lg:pb-[110px] pt-[26px] xl:pt-0">
         <OurWaitList />
